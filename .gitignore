@@ -1,0 +1,4 @@
+/dist
+Makefile
+._*
+.DS_Store

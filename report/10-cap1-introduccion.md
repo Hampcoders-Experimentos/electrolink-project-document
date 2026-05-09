@@ -1,0 +1,304 @@
+# Capítulo I: Introducción
+En este capítulo el equipo presenta el contexto general del proyecto que se trabajará durante el ciclo, incluyendo la descripción de la startup, los problemas identificados y la solución propuesta. En adición, se especifica el proceso de Lean UX utilizado para la validación del producto y segmentos objetivos.
+
+## 1.1. Startup Profile
+En esta sección el equipo describe el perfil de la startup, el propósito y el perfil de los integrantes.
+
+### 1.1.1. Descripción de la Startup
+En Hampcoders creemos en crear tecnología que realmente tenga impacto. Usamos herramientas open-source para desarrollar soluciones digitales pensadas en problemas reales del día a día. Desde el inicio tuvimos claro que no se trata solo de programar, sino de ayudar a las personas y a los emprendedores a trabajar mejor, simplificando sus procesos y dándoles herramientas útiles, prácticas y sin complicaciones.
+
+Misión: Democratizar la tecnología open-source para resolver los problemas reales de personas y emprendedores.
+
+Visión: Ser el motor tecnológico detrás de la próxima generación de emprendedores exitosos, impulsados por el código abierto.
+
+### 1.1.2. Perfiles de Integrantes del equipo
+
+<!-- Imitar esto-->
+\begin{minipage}{0.3\textwidth}
+\includegraphics[width=\linewidth]{assets/img/cap1/team/ethan.png}
+\end{minipage}
+\hfill
+\begin{minipage}{0.65\textwidth}
+
+\textbf{Ethan Matias Aliaga Aguirre} \\
+Código: U202318323  
+
+Soy Ethan Matias Aliaga Aguirre, estudiante de 7mo ciclo de Ingeniería de Software en la UPC, sede San Miguel. Me caracterizo por mi compromiso, responsabilidad, habilidad para trabajar en equipo y comunicación. Mis conocimientos incluyen arquitectura de software y desarrollo de APIs. Además, tengo experiencia en el uso de herramientas como Photoshop, Filmora y Vegas Studio, lo que me permite aportar con soluciones creativas y técnicas en mis proyectos. Estoy comprometido con mi crecimiento personal y profesional, siempre buscando aprender y mejorar en cada oportunidad que se presente.
+\end{minipage}
+
+\vspace{1cm}
+
+---
+
+\begin{minipage}{0.3\textwidth}
+\includegraphics[width=\linewidth]{assets/img/cap1/team/alessandra.png}
+\end{minipage}
+\hfill
+\begin{minipage}{0.65\textwidth}
+
+\textbf{Alessandra Nicole Becerra Tejeda} \\
+Código: U202318947  
+
+Mi nombre es Alessandra Becerra, tengo 19 años y actualmente curso el séptimo ciclo de la carrera de Ingeniería de Software. Me considero una persona comprometida, proactiva y con gran disposición para aprender nuevas tecnologías. Asimismo, me gusta trabajar en equipo y fomentar una buena relación con mis compañeros para alcanzar resultados de calidad. Por ello, en este proyecto me comprometo a cumplir con mis responsabilidades de manera eficiente, aportar ideas que contribuyan al desarrollo del equipo y finalizar las tareas asignadas dentro de los plazos establecidos.
+\end{minipage}
+
+\vspace{1cm}
+
+\begin{minipage}{0.3\textwidth}
+\includegraphics[width=\linewidth]{assets/img/cap1/team/mateo.jpeg}
+\end{minipage}
+\hfill
+\begin{minipage}{0.65\textwidth}
+
+\textbf{Ethan Matias Aliaga Aguirre} \\
+Código: U202318323  
+
+Soy José Mateo Cabanillas Meza, estudiante de 7mo ciclo de Ingeniería de Software en la UPC. Me caracterizo por mi capacidad de organización, pensamiento analítico y trabajo colaborativo. Tengo conocimientos en metodologías ágiles como Lean UX y en el desarrollo de soluciones centradas en el usuario, lo que me permite contribuir en la estructuración y validación de ideas dentro de un proyecto.
+\end{minipage}
+
+\vspace{1cm}
+
+---
+
+\begin{minipage}{0.3\textwidth}
+\includegraphics[width=\linewidth]{assets/img/cap1/team/italo.jpeg}
+\end{minipage}
+\hfill
+\begin{minipage}{0.65\textwidth}
+
+\textbf{Italo Ludwing Sanchez Manrique} \\
+Código: U202316967  
+
+Mi nombre es Italo Ludwing Sanchez Manrique, soy estudiante de Ingeniería de Software en la UPC, tengo 21 años y actualmente curso el tercer ciclo académico. Destaco por mi perseverancia, tolerancia y compromiso con mis metas. En este proyecto, mi objetivo es buscar soluciones que beneficien al grupo, ya que tengo experiencia en trabajar de forma proactiva y colaborativa. Además, poseo sólidos conocimientos en lenguajes de programación como Java y C++.
+\end{minipage}
+
+\vspace{1cm}
+
+---
+
+\begin{minipage}{0.3\textwidth}
+\includegraphics[width=\linewidth]{assets/img/cap1/team/cesar.png}
+\end{minipage}
+\hfill
+\begin{minipage}{0.65\textwidth}
+
+\textbf{César Augusto Arostegui Alzamora} \\
+**Código:** U202114548
+
+Soy César Augusto, estudiante de Ingeniería de Software. Actualmente tengo 21 años. Mi lenguaje de programación más utilizado y favorito es TypeScript. Actualmente me encuentro desarrollando habilidades en áreas como DevOps y frameworks de desarrollo móvil.
+\end{minipage}
+
+\vspace{1cm}
+
+---
+
+\newpage
+
+## 1.2. Solution Profile 
+
+En esta sección el equipo describe el perfil de la solución, inluyendo el análisis mediante la metodología Lean UX
+
+### 1.2.1 Nombre del producto
+
+Después de la pandemia, muchas cosas cambiaron en cómo vivimos y manejamos nuestros espacios. Hoy en día, tanto en casas como en negocios, dependemos mucho más de la electricidad, pero la mayoría de personas no tiene claro cuánto consume, si hay fallas en su instalación o cuándo algo podría salir mal. Normalmente, los problemas eléctricos se detectan recién cuando ya ocurrió una falla. 
+
+Al mismo tiempo, muchos técnicos eléctricos trabajan de forma independiente y les cuesta conseguir clientes de manera constante, teniendo ingresos inestables y poco organizados. Por otro lado, empresas y administradores de edificios buscan reducir costos eléctricos, pero no cuentan con herramientas simples que les permitan entender y optimizar su consumo.
+
+ElectroLink es una plataforma que conecta a personas y empresas con técnicos eléctricos confiables, permitiendo monitorear el consumo eléctrico en tiempo real mediante dispositivos inteligentes. Esto ayuda a detectar problemas antes de que se conviertan en fallas, facilitando un mantenimiento más preventivo que reactivo.
+
+### 1.2.2 Antecedentes y problemática
+
+Para detallar los antecedentes de la solución y presentar correctamente la descripción de la problemática, se ha utilizado la herramienta 5 'W' s y 2 'H' s.
+
+\begin{longtable}{|p{6cm}|p{9cm}|}
+\hline
+\textbf{Pregunta} & \textbf{Respuesta} \\
+\hline
+
+¿Qué (What) 
+\
+
+¿Cuál es el problema?
+& Muchas personas y empresas no tienen visibilidad sobre su consumo eléctrico ni el estado de sus instalaciones, lo que hace que los problemas se detecten recién cuando ocurre una falla. Además, encontrar técnicos confiables y disponibles no siempre es sencillo. \\
+\hline
+
+¿Quién (Who) 
+\
+
+¿Quiénes son los beneficiarios?
+& Propietarios de viviendas, pequeños negocios, empresas y administradores de edificios que necesitan gestionar su consumo eléctrico, así como técnicos eléctricos independientes que buscan más oportunidades de trabajo y mejor organización. \\
+\hline
+
+¿Cuándo (When) 
+\
+
+¿Cuándo se origina el problema?
+& El problema aparece cuando ocurre una falla eléctrica inesperada o cuando los usuarios intentan entender o reducir su consumo sin contar con información clara o herramientas adecuadas. \\
+\hline
+
+¿Por qué (Why)
+\
+
+¿Por qué se origina el problema?
+& Se origina por la falta de herramientas accesibles para monitorear el consumo en tiempo real, la ausencia de mantenimiento preventivo y la desconexión entre los usuarios y técnicos eléctricos confiables. \\
+\hline
+
+¿Dónde (Where)
+\
+
+¿Dónde ocurre el problema?
+& Ocurre en hogares, locales comerciales y edificios, principalmente en entornos urbanos donde el consumo eléctrico es constante y crítico para las actividades diarias. \\
+\hline
+
+¿Cómo (How)
+\
+
+¿Cómo se origina el problema?
+& Se da porque la mayoría de sistemas eléctricos no cuentan con monitoreo continuo, lo que impide detectar anomalías a tiempo. A esto se suma la falta de plataformas que integren diagnóstico, contacto con técnicos y seguimiento del servicio en un solo lugar. \\
+\hline
+
+¿Cuánto (How much)
+\
+
+¿Cuánto dinero está implicado?
+& Los problemas eléctricos pueden generar gastos imprevistos en reparaciones, así como pérdidas económicas por interrupciones en negocios o consumo ineficiente de energía. Diversos estudios señalan que el mantenimiento correctivo suele implicar mayores costos debido a reparaciones de emergencia y tiempos de inactividad, mientras que el mantenimiento preventivo permite reducir estos gastos al anticipar fallas y planificar intervenciones. \cite{maintenance_costs} \\
+\hline
+
+\end{longtable}
+
+### 1.2.3 Lean UX Process 
+
+En esta sección el equipo aplica la metodología Lean UX para definir el problema, las suposiciones y las hipotesis.
+
+#### 1.2.3.1 Lean UX Problem Statement
+\
+
+**Problem Statement #1**
+
+Las PyMEs y propietarios de viviendas enfrentan dificultades para gestionar y comprender su consumo eléctrico de manera detallada, lo que genera costos impredecibles, fallas inesperadas en equipos críticos y riesgos en la continuidad de sus operaciones.
+
+En muchos casos, no cuentan con personal técnico especializado, por lo que dependen de intervenciones reactivas cuando ocurre una avería, incrementando el tiempo de inactividad y las pérdidas económicas.
+
+En este contexto, nuestra solución propone una plataforma basada en IoT que permita monitorear en tiempo real el consumo energético por circuito, detectar anomalías como sobrecargas o consumos inusuales y generar alertas preventivas.
+
+Esta problemática impacta directamente en la estabilidad financiera y operativa de las PyMEs, ya que no pueden anticiparse a fallas ni optimizar su uso energético de manera eficiente.
+
+Ante este desafío surge la pregunta:
+
+¿Cómo podemos utilizar tecnologías IoT para brindar a las PyMEs visibilidad, control y prevención sobre su consumo eléctrico, reduciendo costos y asegurando la continuidad operativa?
+
+
+**Problem Statement #2**
+
+Los electricistas independientes enfrentan dificultades para generar ingresos constantes y diferenciarse en un mercado altamente competitivo, lo que los obliga a depender de reparaciones técnicas y diagnósticos presenciales poco eficientes.
+
+Además, la falta de acceso a información previa sobre el estado eléctrico de las instalaciones limita su capacidad de realizar diagnósticos precisos, generando pérdida de tiempo, visitas innecesarias y menor confianza por parte del cliente.
+
+En este contexto, nuestra solución propone una plataforma basada en IoT que, mediante la recolección y análisis de datos en tiempo real desde dispositivos instalados en PyMEs, permita a los electricistas monitorear remotamente, anticipar fallas y realizar diagnósticos antes de intervenir físicamente.
+
+Esta problemática afecta su crecimiento profesional, ya que limita su capacidad de ofrecer servicios de mayor valor como mantenimiento preventivo y gestión energética basada en datos.
+
+Ante este desafío surge la pregunta:
+
+¿Cómo podemos aprovechar los datos generados por dispositivos IoT para permitir a los electricistas ofrecer servicios predictivos, mejorar su eficiencia operativa y generar ingresos sostenibles?
+
+#### 1.2.3.2 Lean UX Assumptions
+
+#### Business Outcomes:
+\
+**Creemos que nuestros usuarios necesitan** una solución que les permita monitorear y entender su consumo eléctrico en tiempo real, además de prevenir fallas antes de que ocurran, ya que actualmente solo reaccionan cuando el problema ya es crítico.
+
+**Estas necesidades se pueden resolver mediante** el desarrollo de una plataforma que integre monitoreo IoT con una red de técnicos eléctricos verificados, permitiendo detectar anomalías, generar alertas y facilitar la gestión de servicios eléctricos de forma proactiva y eficiente.
+
+**Nuestros clientes iniciales son** propietarios de viviendas, pequeñas y medianas empresas, y administradores de edificios que buscan mejorar la seguridad y eficiencia de sus instalaciones eléctricas, así como técnicos eléctricos que desean acceder a una demanda constante y organizada de servicios.
+
+**El valor #1 que los clientes quiere de nuestro servicio** es tener visibilidad y control sobre su sistema eléctrico para evitar fallas inesperadas, reducir riesgos y tomar decisiones informadas basadas en datos reales.
+
+**El cliente también puede obtener estos beneficios adicionales** como reducción de costos por mantenimiento correctivo, alertas tempranas ante anomalías, optimización del consumo energético, acceso a técnicos certificados y seguimiento en tiempo real de los servicios realizados.
+
+**Vamos a adquirir la mayoría de los clientes a través de** estrategias de marketing digital, alianzas con empresas del sector eléctrico, campañas educativas sobre eficiencia energética y demostraciones del valor del monitoreo preventivo en hogares y negocios.
+
+**Haremos dinero a través de** un modelo de suscripciones para propietarios y empresas basado en el acceso a funcionalidades premium de monitoreo y analítica, así como servicios asociados a la instalación y mantenimiento de dispositivos IoT.
+
+**Nuestra competencia de mercado serán** plataformas que conectan clientes con técnicos como marketplaces tradicionales, así como soluciones de monitoreo energético independientes que no integran servicios técnicos ni gestión operativa.
+
+**Los venceremos debido a** nuestro enfoque integral que combina monitoreo en tiempo real, análisis de datos y conexión directa con técnicos certificados, permitiendo no solo detectar problemas sino también solucionarlos de forma eficiente dentro de la misma plataforma.
+
+**Nuestro mayor riesgo de producto es** que los usuarios no perciban el valor del monitoreo preventivo o no estén dispuestos a adoptar dispositivos IoT en sus instalaciones eléctricas.
+
+**Resolveremos esto a través de** pruebas piloto, planes iniciales accesibles, demostraciones del ahorro generado y educación del usuario sobre los beneficios del mantenimiento predictivo frente al correctivo.
+
+**Qué otras suposiciones tenemos que, de probarse falsas, pueden causar que nuestro proyecto fracase:**
+
+- Creemos que los usuarios estarán dispuestos a instalar dispositivos IoT en sus propiedades para obtener beneficios a largo plazo.
+
+- Creemos que los técnicos adoptarán la plataforma como su principal canal de trabajo.
+
+- Creemos que los usuarios valorarán la prevención por encima de la reacción ante fallas.
+
+- Creemos que las empresas estarán interesadas en invertir en soluciones de eficiencia energética basadas en datos.
+
+#### User Outcomes:
+
+1. ¿Quién será el usuario?
+    - Propietarios de viviendas
+    - Dueños de PYMES y empresas
+    - Técnicos eléctricos certificados
+
+2. ¿Dónde encaja nuestro producto en su trabajo o vida?
+    - Para propietarios y empresas, el sistema se integra en la gestión diaria de sus instalaciones eléctricas, permitiéndoles monitorear consumo, recibir alertas y tomar decisiones informadas.
+    - Para técnicos, se convierte en una herramienta de trabajo que les proporciona contexto previo, organización de servicios y acceso a clientes.
+
+3. ¿Qué problemas busca resolver nuestro producto?
+    - Falta de visibilidad del consumo eléctrico
+    - Detección tardía de fallas eléctricas
+    - Costos elevados por mantenimiento correctivo
+    - Dificultad para gestionar servicios eléctricos de manera eficiente
+    - Falta de acceso a demanda constante por parte de técnicos
+
+4. ¿Cuándo y cómo es usado nuestro producto?
+
+    Cuándo:
+    - De forma continua para monitoreo
+    - Cuando se detecta una anomalía
+    - Al solicitar o gestionar un servicio eléctrico
+    
+    Cómo:
+    - A través de una aplicación web o móvil
+    - Visualizando dashboards de consumo
+    - Recibiendo alertas automáticas
+    - Gestionando solicitudes de servicio
+
+5. ¿Qué características son importantes?
+    - Monitoreo en tiempo real del consumo eléctrico
+    - Detección de anomalías y alertas automáticas
+    - Dashboard de analítica y consumo
+    - Asignación automática de técnicos
+    - Historial de servicios y mantenimiento
+    - Interfaz clara e intuitiva
+
+6. ¿Cómo debe comportarse y verse nuestro producto?
+    - Interfaz simple, clara y orientada a datos
+    - Visualización intuitiva del consumo eléctrico
+    - Respuesta rápida ante eventos críticos
+    - Experiencia fluida tanto en web como en móvil
+    - Diferenciación de interfaces según tipo de usuario
+
+#### 1.2.3.3 Lean UX Hypothesis
+\
+Transformamos los supuestos anteriores en declaraciones de prueba para definir un contexto más acorde a nuestros usuarios.
+
+- **Hipótesis 1: Sobre el Monitoreo Preventivo**.
+**Creemos que** la implementación de sensores IoT reducirá las reparaciones de emergencia costosas para los usuarios.
+**Sabremos que** estamos [bien] **cuando veamos** los siguientes comentarios del mercado: un aumento del 40% en solicitudes de mantenimiento preventivo programado antes de que ocurra una falla crítica en un periodo de 6 meses.
+
+- **Hipótesis 2: Sobre la Confianza en Técnicos**.
+**Creemos que** mostrar las certificaciones oficiales y reseñas verificadas de los técnicos incrementará la tasa de contratación en la plataforma.
+**Sabremos que** hemos tenido éxito **cuando veamos** un aumento del 25% en la tasa de conversión de usuarios que revisan perfiles técnicos y proceden a reservar el servicio.
+
+- **Hipótesis 3: Sobre el Valor para el Partner (Técnico)**.
+**Creemos que** los técnicos preferirán ElectroLink porque los trabajos incluyen un pre-diagnóstico del sensor IoT que les ahorra tiempo.
+**Sabremos que** esto es cierto **cuando veamos** que el 60% de los técnicos registrados aceptan trabajos pre-diagnosticados en menos de 15 minutos.
+
+
+### 1.2.3. Segmentos objetivo

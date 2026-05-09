@@ -1,0 +1,56 @@
+input-files:
+  - report/00-caratula.md
+  - report/01-registro-versiones.md
+  - report/02-collaboration-insights.md
+  - report/04-student-outcome.md
+  - report/10-cap1-introduccion.md
+  - report/20-cap2-req-elicitation-analysis.md
+  - report/30-cap3-req-specification.md
+  - report/40-cap4-product-design.md
+  - report/50-cap5-product-implementation.md
+  - report/60-cap6-product-verification-validation.md
+  - report/70-cap7-devops-practices.md
+  - report/90-conclusiones.md
+  - report/91-bibliografia.md
+  #- report/99-anexos.md
+
+output-file: dist/upc-pre-202610-si732-12289-hampcoders-report-tp1.pdf
+
+pdf-engine: lualatex
+toc: false
+toc-depth: 4
+number-sections: false
+file-scope: true
+
+resource-path:
+  - "."
+  - "assets/img"
+  - "assets/img/cap1"
+  - "assets/img/cap2"
+  - "assets/img/cap3"
+  - "assets/img/cap4"
+  - "assets/img/general"
+
+variables:
+  geometry: [left=0.8in, right=0.8in, top=1in, bottom=1in]
+  mainfont: "Arial"
+  fontsize: 10pt
+  colorlinks: true
+  linkcolor: "blue"
+  lang: "es"
+  logo: "assets/img/general/upc-logo.png"
+  titlepage: true
+  titlepage-color: "FFFFFF"
+  header-includes:
+    - \usepackage{graphicx}
+    - \usepackage{longtable}
+    - \usepackage{array}
+    - \usepackage{booktabs}
+    - \usepackage{tabularx}
+    - \usepackage{etoolbox}
+    - \setlength{\tabcolsep}{4pt}
+    - \renewcommand{\arraystretch}{1.3}
+    - \AtBeginEnvironment{tabular}{\small}
+    - \AtBeginEnvironment{tabularx}{\small}
+    - \AtBeginEnvironment{longtable}{\small}
+    
