@@ -301,4 +301,117 @@ Transformamos los supuestos anteriores en declaraciones de prueba para definir u
 **Sabremos que** esto es cierto **cuando veamos** que el 60% de los técnicos registrados aceptan trabajos pre-diagnosticados en menos de 15 minutos.
 
 
-### 1.2.3. Segmentos objetivo
+## 1.3 Segmentos objetivo
+En esta sección, el equipo define los segmentos objetivos para la solución Electrolink.
+\
+
+#### Segmento objetivo #1: Propietarios Individuales
+\
+
+**Descripción:**
+Personas naturales dueñas de viviendas, departamentos o pequeños locales comerciales que requieren servicios eléctricos y monitoreo básico.
+
+**Aspectos demográficos:**
+\
+- Sexo: Masculino y femenino  
+- Edades: Entre 25 y 60 años  
+- Nivel socioeconómico: Medio a medio-alto  
+
+**Aspectos geográficos:**
+\
+- Zonas urbanas en ciudades medianas y grandes  
+- Residen en casas, departamentos o pequeños negocios  
+
+**Aspectos psicográficos:**
+\
+- No poseen conocimientos técnicos eléctricos  
+- Buscan soluciones rápidas, confiables y accesibles  
+- Valoran la transparencia en precios y servicios  
+- Interesados en mantenimiento preventivo sin complejidad técnica  
+- Abiertos a usar tecnología si es simple (apps, alertas, monitoreo básico)  
+
+**Necesidades clave:**
+\
+- Contactar técnicos confiables  
+- Diagnóstico rápido de problemas eléctricos  
+- Monitoreo básico de consumo eléctrico  
+- Alertas ante fallas o anomalías  
+
+
+---
+
+#### Segmento objetivo #2: Empresas y Administradores de Edificios
+\
+
+**Descripción:**
+Organizaciones o responsables de infraestructura (oficinas, edificios comerciales o industriales) que requieren monitoreo continuo y optimización energética.
+
+**Aspectos demográficos:**
+\
+- Representantes: Administradores, jefes de operaciones, facility managers  
+- Edad: Entre 30 y 60 años  
+- Nivel socioeconómico: Medio-alto a alto (presupuesto empresarial)  
+
+**Aspectos geográficos:**
+\
+- Zonas urbanas, industriales o corporativas  
+- Presencia en ciudades en expansión o polos económicos  
+
+**Aspectos psicográficos:**
+\
+- Enfocados en eficiencia operativa y reducción de costos  
+- Orientados a decisiones basadas en datos  
+- Buscan automatización y monitoreo continuo  
+- Priorizan la continuidad operativa y prevención de fallas  
+- Dispuestos a invertir en soluciones tecnológicas (IoT + SaaS)  
+
+**Necesidades clave:**
+\
+- Monitoreo en tiempo real de múltiples circuitos  
+- Analítica avanzada de consumo eléctrico  
+- Alertas críticas y respuesta inmediata ante fallas  
+- Reportes para toma de decisiones  
+- Gestión de dispositivos IoT instalados  
+- Planes de suscripción escalables  
+
+
+---
+
+#### Segmento objetivo #3: Técnicos Eléctricos (Certificados y No Certificados)
+\
+
+**Descripción:**
+Electricistas independientes o pequeñas empresas que brindan servicios eléctricos y utilizan la plataforma para conseguir clientes y gestionar su trabajo.
+
+**Aspectos demográficos:**
+\
+- Sexo: Masculino y femenino  
+- Edades: Entre 25 y 55 años  
+- Nivel socioeconómico: Medio a medio-alto  
+
+**Aspectos geográficos:**
+\
+- Zonas urbanas, semiurbanas e industriales  
+- Operan en áreas con alta demanda de servicios eléctricos  
+
+**Aspectos psicográficos:**
+\
+- Buscan generación constante de ingresos  
+- Interesados en digitalizar su trabajo  
+- Valoran la automatización de asignaciones  
+- Quieren reducir tiempo en negociación con clientes  
+- Orientados al crecimiento profesional  
+
+**Subsegmento clave: Técnicos Certificados IoT**
+\
+- Capacitados para instalación y mantenimiento de dispositivos IoT  
+- Acceden a servicios de mayor valor (instalaciones, mantenimiento avanzado)  
+- Tienen mayor confianza dentro de la plataforma  
+
+**Necesidades clave:**
+\
+- Captación automática de clientes  
+- Gestión de agenda y servicios  
+- Herramientas para administrar trabajos e inventario  
+- Acceso a servicios premium (instalación IoT)  
+- Reputación y validación dentro de la plataforma
