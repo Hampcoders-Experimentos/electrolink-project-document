@@ -43,11 +43,13 @@ variables:
   titlepage-color: "FFFFFF"
   header-includes:
     - \usepackage{graphicx}
+    - \usepackage{url}
     - \usepackage{longtable}
     - \usepackage{array}
     - \usepackage{booktabs}
     - \usepackage{tabularx}
     - \usepackage{etoolbox}
+    - \usepackage{float}
     - \setlength{\tabcolsep}{4pt}
     - \renewcommand{\arraystretch}{1.3}
     - \AtBeginEnvironment{tabular}{\small}
