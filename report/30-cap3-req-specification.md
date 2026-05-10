@@ -1,5 +1,17 @@
 # Capítulo III: Requirements Specification
 ## 3.1. To-Be Scenario Mapping.
+En esta sección, el equipo define los principales escenarios en los que los user personas interactúan con el sistema.
+
+- Segmento 1: Dueños de Hogares o Departamentos
+\
+![Segmento 1](assets/img/cap3/to-be-homeowner.png)
+
+---
+
+- Segmento 2: Tecnicos Electricistas.
+\
+![Segmento 2](assets/img/cap3/to-be-tecnico.png)
+
 
 ## 3.2. User Stories.
 En esta sección, el equipo de Hampcoders define las user stories para la plataforma Electrolink basandose en el formato 'Como', 'Quiero' y 'Para'. Asimismo, definieron los criterios de aceptación utilizando el formato Gherkin con el fin de facilitar futuras pruebas.
@@ -2434,4 +2446,15 @@ Y retorna error apropiado al llamador.
 \end{table}
 
 ## 3.3. Product Backlog.
+
 ## 3.4. Impact Mapping
+En esta sección, el equipo presenta el Impact Mapping del proyecto, identificando cómo los objetivos del negocio se relacionan con los actores involucrados, los impactos esperados en su comportamiento y las funcionalidades necesarias para alcanzar dichos objetivos.
+
+- Dueños de Hogares
+![Segmento 1](assets/img/cap3/impact-map-homeowner.png)
+
+- Tecnicos Electricistas
+![Segmento 2](assets/img/cap3/impact-map-tecnico.png)
+
+- Administradores de Edificios
+![Segmento 3](assets/img/cap3/impact-map-business.png)

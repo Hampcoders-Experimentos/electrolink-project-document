@@ -305,7 +305,7 @@ Transformamos los supuestos anteriores en declaraciones de prueba para definir u
 
 Tras realizar el proceso de Lean UX, el equipo de Hampcoders define el siguiente Lean UX Canvas representando los problemas a resolver identificados, los supuestos, las hipotesis y los segmentos objetivos.
 
-![Lean UX Canvas](assets/img/cap1/lean-ux-canvas.png)
+![Lean UX Canvas](assets/img/cap1/lean-ux-canvas.png){ width=80% }
 
 ## 1.3 Segmentos objetivo
 En esta sección, el equipo define los segmentos objetivos para la solución Electrolink.
@@ -421,3 +421,5 @@ Electricistas independientes o pequeñas empresas que brindan servicios eléctri
 - Herramientas para administrar trabajos e inventario  
 - Acceso a servicios premium (instalación IoT)  
 - Reputación y validación dentro de la plataforma
+
+\newpage
