@@ -300,6 +300,12 @@ Transformamos los supuestos anteriores en declaraciones de prueba para definir u
 **Creemos que** los técnicos preferirán ElectroLink porque los trabajos incluyen un pre-diagnóstico del sensor IoT que les ahorra tiempo.
 **Sabremos que** esto es cierto **cuando veamos** que el 60% de los técnicos registrados aceptan trabajos pre-diagnosticados en menos de 15 minutos.
 
+#### 1.2.3.4 Lean UX Canvas
+\
+
+Tras realizar el proceso de Lean UX, el equipo de Hampcoders define el siguiente Lean UX Canvas representando los problemas a resolver identificados, los supuestos, las hipotesis y los segmentos objetivos.
+
+![Lean UX Canvas](assets/img/cap1/lean-ux-canvas.png)
 
 ## 1.3 Segmentos objetivo
 En esta sección, el equipo define los segmentos objetivos para la solución Electrolink.
