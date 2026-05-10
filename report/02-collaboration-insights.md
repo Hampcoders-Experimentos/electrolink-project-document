@@ -2,8 +2,8 @@
 ## Project Report Collaboration Insights  
 
 **Enlace de la organización del proyecto**
-- [Organización GitHub: Hampcoders-Fundamentos](https://github.com/Hampcoders-Fundamentos)
-- [Repositorio GitHub: Hampcoders-Fundamentos-documento](https://github.com/Hampcoders-Fundamentos/project-document.git)
+- [Organización GitHub: Hampcoders-Experimentos](https://github.com/Hampcoders-Fundamentos)
+- [Repositorio GitHub: Hampcoders-Experimentos-documento](https://github.com/Hampcoders-Fundamentos/project-document.git)
   
 **Insights del AV1**
 
