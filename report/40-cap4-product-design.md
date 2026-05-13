@@ -44,12 +44,12 @@ En conjunto, esta paleta respalda los valores de ElectroLink: precisión, accesi
 
 De manera que el contenido de nuestro sitio web se vea organizado y sea mostrado de manera adecuada, implementamos el patrón F. El objetivo del patrón F en un sitio web es reflejar la forma natural en la que los usuarios escanean el contenido, empezando por la parte superior izquierda y moviéndose en forma de "F" hacia abajo. Este diseño resalta la información clave en las primeras líneas y en el lateral izquierdo, donde la vista se concentra más. Mejora la usabilidad al alinear la estructura con el comportamiento visual del usuario, facilitando la lectura rápida y efectiva. Se utiliza para mejorar la experiencia del usuario y destacar contenido relevante.
 
-### 4.3. Landing Page UI Design
+## 4.3. Landing Page UI Design
 En esta sección, el equipo de Hampcoders presenta el Diseño de Interfaz de Usuario del sitio web de negocio
 
 ### 4.3.1. Landing Page Wireframe. 
 
-### Sección "Cómo Funcion?" y "Resolvemos Problemas Reales" 
+#### Sección "Cómo Funcion?" y "Resolvemos Problemas Reales" 
 
 <hr>
 
@@ -57,7 +57,7 @@ En esta sección, el equipo de Hampcoders presenta el Diseño de Interfaz de Usu
 
 <hr>
 
-### Sección de "Testimonios" y "Por qué usar Electrolink?" 
+#### Sección de "Testimonios" y "Por qué usar Electrolink?" 
 
 <hr>
 
@@ -65,7 +65,7 @@ En esta sección, el equipo de Hampcoders presenta el Diseño de Interfaz de Usu
 
 <hr>
 
-### Sección de "Sobre Nosotros" 
+#### Sección de "Sobre Nosotros" 
 
 <hr>
 
@@ -73,7 +73,7 @@ En esta sección, el equipo de Hampcoders presenta el Diseño de Interfaz de Usu
 
 <hr>
 
-### Sección de "Contacto" 
+#### Sección de "Contacto" 
 
 <hr>
 
@@ -81,7 +81,7 @@ En esta sección, el equipo de Hampcoders presenta el Diseño de Interfaz de Usu
 
 <hr>
 
-#### 4.3.2. Landing Page Mock-up
+### 4.3.2. Landing Page Mock-up
 
 #### Sección "Cómo Funcion?" y "Resolvemos Problemas Reales" **
 
