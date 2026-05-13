@@ -47,57 +47,33 @@ De manera que el contenido de nuestro sitio web se vea organizado y sea mostrado
 ## 4.3. Landing Page UI Design
 En esta sección, el equipo de Hampcoders presenta el Diseño de Interfaz de Usuario del sitio web de negocio
 
-### 4.3.1. Landing Page Wireframe. 
+### 4.3.1. Landing Page Wireframe
 
-#### Sección "Cómo Funcion?" y "Resolvemos Problemas Reales" 
-
-<hr>
+#### Sección "Cómo Funciona?" y "Resolvemos Problemas Reales"
 
 ![Sección1](assets/img/cap4/landing/landingpage-seccion1.png)
 
-<hr>
-
-#### Sección de "Testimonios" y "Por qué usar Electrolink?" 
-
-<hr>
+#### Sección de "Testimonios" y "Por qué usar Electrolink?"
 
 ![Sección2](assets/img/cap4/landing/landingpage-seccion2.png)
 
-<hr>
-
-#### Sección de "Sobre Nosotros" 
-
-<hr>
+#### Sección de "Sobre Nosotros"
 
 ![Sección3](assets/img/cap4/landing/landingpage-seccion3.png)
 
-<hr>
-
-#### Sección de "Contacto" 
-
-<hr>
+#### Sección de "Contacto"
 
 ![Sección4](assets/img/cap4/landing/landingpage-seccion4.png)
 
-<hr>
-
 ### 4.3.2. Landing Page Mock-up
 
-#### Sección "Cómo Funcion?" y "Resolvemos Problemas Reales" **
-
-<hr>
+#### Sección "Cómo Funciona?" y "Resolvemos Problemas Reales"
 
 ![LandingMockup1](assets/img/cap4/landing/landingpagemockup-1.png)
 
-<hr>
-
-#### Sección de "Testimonios" y "Por qué usar Electrolink?" **
-
-<hr>
+#### Sección de "Testimonios" y "Por qué usar Electrolink?"
 
 ![LandingMockup2](assets/img/cap4/landing/landingpagemockup-2.png)
-
-<hr>
 
 ## 4.6. Domain-Driven Software Architecture
 
