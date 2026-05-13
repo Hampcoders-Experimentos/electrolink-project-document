@@ -30,15 +30,17 @@ En conjunto, esta paleta respalda los valores de ElectroLink: precisión, accesi
 
 #### Paleta de Colores – ElectroLink
 
-| Color               | Uso                                            | Código Hex |
-| ------------------- | ---------------------------------------------- | ---------- |
-| Azul grisáceo suave | Fondo de secciones, tarjetas, menús laterales  | `#E8EEF7`  |
-| Gris cálido         | Texto secundario, bordes suaves, fondos suaves | `#A9B1BA`  |
-| Celeste claro       | Hover, botones secundarios, íconos de ayuda    | `#B5D5F5`  |
-| Amarillo pastel     | Elementos destacados suaves, fondos de aviso   | `#FFE492`  |
-| Grafito profundo    | Texto principal, íconos oscuros                | `#2E3A59`  |
-| Verde éxito         | Confirmaciones y acciones exitosas             | `#10B981`  |
-| Rojo error          | Alertas críticas y errores                     | `#EF4444`  |
+#### Paleta de Colores – ElectroLink
+
+| Muestra | Color | Uso | Código Hex |
+|---|---|---|---|
+| <span style="display:inline-block;width:40px;height:20px;background:#E8EEF7;border:1px solid #ccc;"></span> | Azul grisáceo suave | Fondo de secciones, tarjetas, menús laterales | `#E8EEF7` |
+| <span style="display:inline-block;width:40px;height:20px;background:#A9B1BA;border:1px solid #ccc;"></span> | Gris cálido | Texto secundario, bordes suaves, fondos suaves | `#A9B1BA` |
+| <span style="display:inline-block;width:40px;height:20px;background:#B5D5F5;border:1px solid #ccc;"></span> | Celeste claro | Hover, botones secundarios, íconos de ayuda | `#B5D5F5` |
+| <span style="display:inline-block;width:40px;height:20px;background:#FFE492;border:1px solid #ccc;"></span> | Amarillo pastel | Elementos destacados suaves, fondos de aviso | `#FFE492` |
+| <span style="display:inline-block;width:40px;height:20px;background:#2E3A59;border:1px solid #ccc;"></span> | Grafito profundo | Texto principal, íconos oscuros | `#2E3A59` |
+| <span style="display:inline-block;width:40px;height:20px;background:#10B981;border:1px solid #ccc;"></span> | Verde éxito | Confirmaciones y acciones exitosas | `#10B981` |
+| <span style="display:inline-block;width:40px;height:20px;background:#EF4444;border:1px solid #ccc;"></span> | Rojo error | Alertas críticas y errores | `#EF4444` |
 
 ### 4.1.2. Web Style Guidelines
 
@@ -61,29 +63,29 @@ En esta sección, el equipo de Hampcoders presenta el Diseño de Interfaz de Usu
 
 ### 4.3.1. Landing Page Wireframe
 
-#### Sección "Cómo Funciona?" y "Resolvemos Problemas Reales"
+Sección "Cómo Funciona?" y "Resolvemos Problemas Reales"
 
 ![Sección1](assets/img/cap4/landing/landingpage-seccion1.png)
 
-#### Sección de "Testimonios" y "Por qué usar Electrolink?"
+Sección de "Testimonios" y "Por qué usar Electrolink?"
 
 ![Sección2](assets/img/cap4/landing/landingpage-seccion2.png)
 
-#### Sección de "Sobre Nosotros"
+Sección de "Sobre Nosotros"
 
 ![Sección3](assets/img/cap4/landing/landingpage-seccion3.png)
 
-#### Sección de "Contacto"
+Sección de "Contacto"
 
 ![Sección4](assets/img/cap4/landing/landingpage-seccion4.png)
 
 ### 4.3.2. Landing Page Mock-up
 
-#### Sección "Cómo Funciona?" y "Resolvemos Problemas Reales"
+Sección "Cómo Funciona?" y "Resolvemos Problemas Reales"
 
 ![LandingMockup1](assets/img/cap4/landing/landingpagemockup-1.png)
 
-#### Sección de "Testimonios" y "Por qué usar Electrolink?"
+Sección de "Testimonios" y "Por qué usar Electrolink?"
 
 ![LandingMockup2](assets/img/cap4/landing/landingpagemockup-2.png)
 
