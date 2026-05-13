@@ -2,3 +2,5 @@
 Makefile
 ._*
 .DS_Store
+.vscode
+debug.tex
