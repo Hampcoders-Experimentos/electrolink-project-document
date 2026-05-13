@@ -1,17 +1,62 @@
-# Capítulo IV: Product Design 
+# Capítulo IV: Product Design
+
+## 4.1. Style Guidelines
+
+### 4.1.1. General Style Guidelines
+
+#### Branding:
+
+El logo de ElectroLink representa la esencia de la plataforma como un puente moderno y confiable entre soluciones eléctricas y quienes las necesitan. El enchufe central simboliza el rubro eléctrico y la conexión energética, mientras que el contorno en forma de techo alude a hogares y oficinas, principales escenarios donde se brindan los servicios. Las líneas internas sugieren flujo de energía y conectividad digital, reforzando el enfoque tecnológico. La paleta de colores —grafito profundo, azul grisáceo suave, celeste claro y amarillo pastel— transmite confianza, claridad, accesibilidad e innovación. Todo esto, junto con una tipografía limpia y moderna, refuerza la identidad de ElectroLink como una herramienta accesible, profesional y orientada a resolver problemas reales.
+
+#### Variantes de Logo:
+
+**Logo Original**
+
+**Logo sin Letras**
+
+**Colores Invertidos**
+
+#### Typography:
+
+La tipografía de nuestra marca tiene un estilo moderno y ordenado, va de la mano con la imagen de nuestra marca y lo que nosotros, como startup, queremos transmitir. Se usará un lenguaje casual y sencillo, con la finalidad de que el público se sienta cómodo usando nuestra plataforma. La tipografía debe ser clara y legible, utilizando la fuente "Abel", que se mantendrá consistente en toda la plataforma. Los títulos y subtítulos usarán una fuente ligeramente más grande que el cuerpo del texto para mejorar la jerarquía visual. En general, se debe usar un tamaño que garantice que todo el texto sea fácilmente legible tanto en pantallas pequeñas como grandes.
+
+#### Colors:
+
+La paleta de colores elegida para la web de ElectroLink fue diseñada para mantener una identidad visual moderna, tecnológica y profesional alineada con la arquitectura frontend implementada en Vue 3, PrimeVue y Leaflet. El grafito profundo establece una presencia sólida y elegante para textos principales e íconos, transmitiendo estabilidad y confianza en la plataforma. El azul grisáceo suave se utiliza como base visual en fondos, tarjetas y menús laterales, creando una interfaz limpia y cómoda para la navegación prolongada.
+
+El celeste claro aporta dinamismo y accesibilidad en botones secundarios, estados hover y elementos interactivos, reforzando la experiencia de usuario moderna y amigable. Por otro lado, el amarillo pastel funciona como color de énfasis para destacar alertas suaves, avisos importantes y llamadas de atención sin resultar agresivo visualmente. Finalmente, los colores de apoyo para estados del sistema, como verde para acciones exitosas y rojo para errores o advertencias críticas, mejoran la claridad visual y la retroalimentación de las interacciones dentro de la plataforma.
+
+En conjunto, esta paleta respalda los valores de ElectroLink: precisión, accesibilidad, innovación tecnológica y conexión eficiente entre propietarios y técnicos eléctricos.
+
+#### Paleta de Colores – ElectroLink
+
+| Color               | Uso                                            | Código Hex |
+| ------------------- | ---------------------------------------------- | ---------- |
+| Azul grisáceo suave | Fondo de secciones, tarjetas, menús laterales  | `#E8EEF7`  |
+| Gris cálido         | Texto secundario, bordes suaves, fondos suaves | `#A9B1BA`  |
+| Celeste claro       | Hover, botones secundarios, íconos de ayuda    | `#B5D5F5`  |
+| Amarillo pastel     | Elementos destacados suaves, fondos de aviso   | `#FFE492`  |
+| Grafito profundo    | Texto principal, íconos oscuros                | `#2E3A59`  |
+| Verde éxito         | Confirmaciones y acciones exitosas             | `#10B981`  |
+| Rojo error          | Alertas críticas y errores                     | `#EF4444`  |
+
+### 4.1.2. Web Style Guidelines
+
+De manera que el contenido de nuestro sitio web se vea organizado y sea mostrado de manera adecuada, implementamos el patrón F. El objetivo del patrón F en un sitio web es reflejar la forma natural en la que los usuarios escanean el contenido, empezando por la parte superior izquierda y moviéndose en forma de "F" hacia abajo. Este diseño resalta la información clave en las primeras líneas y en el lateral izquierdo, donde la vista se concentra más. Mejora la usabilidad al alinear la estructura con el comportamiento visual del usuario, facilitando la lectura rápida y efectiva. Se utiliza para mejorar la experiencia del usuario y destacar contenido relevante.
+
 ## 4.6. Domain-Driven Software Architecture
 
 ### 4.6.1. Software Architecture Context Diagrams
 En esta sección, el equipo incluye los diagramas de contexto
 
-
+\
 ![Context Diagrmas](assets/img/general/Context-Diagrams.png)
 
 
 ### 4.6.2. Software Architecture Container Diagrams
 En esta sección, el equipo incluye los diagramas de contenedores
 
-
+\
 ![Container Diagrmas](assets/img/general/Container-Diagrams.png)
 
 
