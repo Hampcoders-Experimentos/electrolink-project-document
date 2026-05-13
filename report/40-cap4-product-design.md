@@ -32,15 +32,17 @@ En conjunto, esta paleta respalda los valores de ElectroLink: precisión, accesi
 
 #### Paleta de Colores – ElectroLink
 
+#### Paleta de Colores – ElectroLink
+
 | Muestra | Color | Uso | Código Hex |
 |---|---|---|---|
-| <span style="display:inline-block;width:40px;height:20px;background:#E8EEF7;border:1px solid #E8EEF7;"></span> | Azul grisáceo suave | Fondo de secciones, tarjetas, menús laterales | `#E8EEF7` |
-| <span style="display:inline-block;width:40px;height:20px;background:#A9B1BA;border:1px solid #A9B1BA;"></span> | Gris cálido | Texto secundario, bordes suaves, fondos suaves | `#A9B1BA` |
-| <span style="display:inline-block;width:40px;height:20px;background:#B5D5F5;border:1px solid #B5D5F5;"></span> | Celeste claro | Hover, botones secundarios, íconos de ayuda | `#B5D5F5` |
-| <span style="display:inline-block;width:40px;height:20px;background:#FFE492;border:1px solid #FFE492;"></span> | Amarillo pastel | Elementos destacados suaves, fondos de aviso | `#FFE492` |
-| <span style="display:inline-block;width:40px;height:20px;background:#2E3A59;border:1px solid #2E3A59;"></span> | Grafito profundo | Texto principal, íconos oscuros | `#2E3A59` |
-| <span style="display:inline-block;width:40px;height:20px;background:#10B981;border:1px solid #10B981;"></span> | Verde éxito | Confirmaciones y acciones exitosas | `#10B981` |
-| <span style="display:inline-block;width:40px;height:20px;background:#EF4444;border:1px solid #EF4444;"></span> | Rojo error | Alertas críticas y errores | `#EF4444` |
+| <img src="assets/img/cap4/colors/E8EEF7.png" width="45" height="20"/> | Azul grisáceo suave | Fondo de secciones, tarjetas, menús laterales | `#E8EEF7` |
+| <img src="assets/img/cap4/colors/A9B1BA.png" width="45" height="20"/> | Gris cálido | Texto secundario, bordes suaves, fondos suaves | `#A9B1BA` |
+| <img src="assets/img/cap4/colors/B5D5F5.png" width="45" height="20"/> | Celeste claro | Hover, botones secundarios, íconos de ayuda | `#B5D5F5` |
+| <img src="assets/img/cap4/colors/FFE492.png" width="45" height="20"/> | Amarillo pastel | Elementos destacados suaves, fondos de aviso | `#FFE492` |
+| <img src="assets/img/cap4/colors/2E3A59.png" width="45" height="20"/> | Grafito profundo | Texto principal, íconos oscuros | `#2E3A59` |
+| <img src="assets/img/cap4/colors/10B981.png" width="45" height="20"/> | Verde éxito | Confirmaciones y acciones exitosas | `#10B981` |
+| <img src="assets/img/cap4/colors/EF4444.png" width="45" height="20"/> | Rojo error | Alertas críticas y errores | `#EF4444` |
 
 ### 4.1.2. Web Style Guidelines
 
