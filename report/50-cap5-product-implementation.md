@@ -87,8 +87,8 @@ En el proyecto ElectroLink se utilizan diversas herramientas para soportar las a
 
 El proyecto ElectroLink utiliza GitHub como sistema de control de versiones.
 
-- Landing Page: https://github.com/HampCoders/Landing-Page
-- Frontend Web Application: https://github.com/HampCoders/ElectrolinkFrontend 
+- Landing Page: https://github.com/HampCoders-Experimentos/electrolink-landing-page
+- Frontend Web Application: https://github.com/Hampcoders-Experimentos/electrolink-frontend
 - Web Services (Backend): https://github.com/Hampcoders-Experimentos/electrolink-backend-api 
 
 > Nota: El repositorio de backend incluye pruebas unitarias y de integración.
