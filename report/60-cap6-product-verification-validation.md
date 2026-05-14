@@ -177,7 +177,10 @@ En esta sección se presentan las pruebas de integración realizadas para valida
 
 Para estas pruebas de integración se utilizaron herramientas como Karate v2, que permite realizar pruebas de API de manera eficiente y con una sintaxis sencilla. A continuación, se muestran algunos ejemplos de las pruebas de integración realizadas para el proceso de autenticación y autorización en el sistema.
 
-Captura de pantalla con todas las pruebas de integración para el proceso de autenticación y autorización, incluyendo la creación de usuarios, asignación de roles y verificación de permisos.
+Captura de pantalla con todas las pruebas de integración en Karate, mostrando la estructura de las carpetas y los archivos correspondientes a cada endpoint probado.
+
+![Captura de carpetas de las pruebas de integración](assets/img/cap6/integration-tests/folders.png)
+
 
 Captura de resultados de las pruebas de integración, mostrando el porcentaje de pruebas exitosas y fallidas para el proceso de autenticación con Karate.
 
