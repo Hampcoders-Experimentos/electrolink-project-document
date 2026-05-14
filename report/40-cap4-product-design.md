@@ -224,26 +224,37 @@ El propósito de los wireframes es establecer la **estructura base de la aplicac
 
 ---
 Los wireframes son una guía esencial para la implementación efectiva de la plataforma ElectroLink, alineando las necesidades de los usuarios con un diseño funcional, ordenado y accesible para todos.
+---
 
-Vista de Iniciar Sesion
-![Wireframe Inicio Sesión](assets/img/cap4/wireframes/signInWireframe.png)
+### Vista de Iniciar Sesión
 
-<hr>
+![Wireframe Inicio Sesión](assets/img/cap4/wireframes/signInWireframe.png){ width=80% }
 
-Vista de Crear Cuenta
-![Wireframe Inicio Sesión](assets/img/cap4/wireframes/signUnWireframe.png)
+---
 
-<hr>
+### Vista de Crear Cuenta
 
-Vista de un dashboard del Tecnico
-![Wireframe Inicio Sesión](assets/img/cap4/wireframes/AnalyticsDashboardWireframe.png)
+![Wireframe Crear Cuenta](assets/img/cap4/wireframes/signUnWireframe.png){ width=80% }
 
-<hr>
+---
 
-Vista de sección de suscripciones y pagos
-![Wireframe Inicio Sesión](assets/img/cap4/wireframes/SubscriptionsWireframe.png)
+### Vista del Dashboard del Técnico
 
-<hr>
+![Wireframe Dashboard Técnico](assets/img/cap4/wireframes/AnalyticsDashboardWireframe.png){ width=80% }
+
+---
+
+### Vista de la sección de suscripciones y pagos
+
+![Wireframe Suscripciones](assets/img/cap4/wireframes/SubscriptionsWireframe.png){ width=80% }
+
+---
+
+### Vista de sección de suscripciones y pagos
+
+![Wireframe Suscripciones](assets/img/cap4/wireframes/SubscriptionsWireframe.png)
+
+---
 
 #### 4.4.2. Web Applications Wireflow Diagrams
 En esta sección, el equipo de Hampcoders define los wireflows diagrams para la aplicación Web
