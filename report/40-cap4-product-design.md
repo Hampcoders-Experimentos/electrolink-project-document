@@ -292,11 +292,16 @@ En esta sección, el equipo de Hampcoders define los wireflows diagrams para la 
 En esta sección se presenta la propuesta de User Flows del sistema ElectroLink, diseñados para representar las rutas de interacción que los usuarios siguen dentro de la plataforma. Cada flujo corresponde a un User Goal específico, basado en los perfiles de User Persona definidos en el alcance del proyecto.
 
 ### User Flow diagrams para el Usuario se registre dentro de la plataforma
+
 ![User Flow Registro Usuario](assets/img/cap4/userflow/userflow.png){ width=85% }
+
+\
 
 ### User Flow diagrams para el Usuario acceda desde la pagina principal a la vista de Perfil
 
 ![User Flow Registro Usuario](assets/img/cap4/userflow/userflow2.png){ width=85% }
+
+\
 
 
 [https://lucid.app/lucidchart/8ee80146-16b3-411f-9bfe-9e59585a2c0a/edit?viewport_loc=-9951%2C-1203%2C4182%2C4527%2C0_0&invitationId=inv_2095c3c9-49b0-4c53-a88a-6b8229449ac7](https://lucid.app/lucidchart/8ee80146-16b3-411f-9bfe-9e59585a2c0a/edit?viewport_loc=-9951%2C-1203%2C4182%2C4527%2C0_0&invitationId=inv_2095c3c9-49b0-4c53-a88a-6b8229449ac7)  
