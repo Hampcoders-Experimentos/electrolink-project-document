@@ -245,6 +245,25 @@ Con estas pruebas de integración se busca asegurar que los distintos componente
 
 ![cucumber E4](assets/img/cap6/cucumber-us/cucumber-EP4.png)
 
+##### Behaivor-Driven Development correspondientes a la epica numero 5
+
+![cucumber E5](assets/img/cap6/cucumber-us/cucumber-EP5.png)
+
+##### Behaivor-Driven Development correspondientes a la epica numero 6
+
+![cucumber E6](assets/img/cap6/cucumber-us/cucumber-EP6.png)
+
+
+##### Behaivor-Driven Development correspondientes a la epica numero 7
+
+![cucumber E7](assets/img/cap6/cucumber-us/cucumber-EP7.png)
+
+
+##### Behaivor-Driven Development correspondientes a la epica numero 8
+
+![cucumber E8](assets/img/cap6/cucumber-us/cucumber-EP5.png)
+
+
 
 ## 6.2. Static testing & Verification
 ### 6.2.1. Static Code Analysis
