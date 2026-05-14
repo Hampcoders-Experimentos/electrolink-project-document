@@ -7,6 +7,8 @@ La suite de pruebas constituye la estructura empleada para realizar el proceso d
 
 #### Test Unitarios del Bounded Context de Analytics
 
+\vspace{1em}
+
 En esta imagen se puede visualizar las pruebas unitarias del queryservice del bounded context de analytics.
 
 ![Analytics unit test 1](assets/img/cap6/unittest/analytics/analytics-queryservice-ut.png)
@@ -14,6 +16,8 @@ En esta imagen se puede visualizar las pruebas unitarias del queryservice del bo
 Este es el servicio principal del contexto. Las pruebas verifican que las tres analíticas principales generen las matemáticas, agrupaciones y recuentos de manera correcta.
 
 #### Test Unitarios del Bounded Context de Assets
+
+\vspace{1em}
 
 Pruebas para el servicio de componentes (`ComponentCommandServiceImpl`).
 
@@ -32,6 +36,8 @@ Pruebas para el inventario de los técnicos (`TechnicianInventoryCommandServiceI
 ![Assets unit test 4](assets/img/cap6/unittest/assets/assets-tecincommand-ut.png)
 
 #### Test Unitarios del Bounded Context de Iam
+
+\vspace{1em}
 
 Pruebas para el servicio de comandos de roles (`RoleCommandServiceImpl`).
 
@@ -54,6 +60,8 @@ Pruebas para los manejadores de eventos al iniciar la aplicación.
 ![Iam unit test 5](assets/img/cap6/unittest/iam/iam-event-ut.png)
 
 #### Test Unitarios del Bounded Context de Monitoring
+
+\vspace{1em}
 
 Pruebas para la creación y actualización de calificaciones (ratings).
 
@@ -93,6 +101,8 @@ pruebas para StockDeductionOnServiceCompletedHandler
 
 #### Test Unitarios del Bounded Context de Profiles
 
+\vspace{1em}
+
 Pruebas para el servicio de comandos de perfiles (`ProfileCommandServiceImpl`). Este servicio maneja la persistencia y la validación de la información de los usuarios (ya sean `HomeOwner` o `Technician`).
 
 ![Profiles unit test 1](assets/img/cap6/unittest/profiles/profiles-profilecommand-ut.png)
@@ -102,6 +112,8 @@ Pruebas para el servicio de consultas de perfiles (`ProfileQueryServiceImpl`).
 ![Profiles unit test 2](assets/img/cap6/unittest/profiles/profiles-profilequery-ut.png)
 
 #### Test Unitarios del Bounded Context de Service Delivery Process
+
+\vspace{1em}
 
 Pruebas para la creación, actualización y gestión de las solicitudes de servicio realizadas por el cliente.
 
@@ -131,3 +143,30 @@ Pruebas para los Outbound Services.
 
 ![sdp unit test 7](assets/img/cap6/unittest/sdp/sdp-eps-ut.png)
 
+#### Test Unitarios del Bounded Context de Subscription
+
+\vspace{1em}
+
+Pruebas para garantizar que la creación de planes (Basic, Premium, etc.) asigne correctamente los precios y nombres, y se persista en la base de datos sin duplicados.
+
+![Subscription unit test 1](assets/img/cap6/unittest/subscription/sub-plancommand-ut.png)
+
+Pruebas sobre la gestión de suscripciones de los usuarios, incluyendo verificaciones de renovaciones y creaciones iniciales.
+
+![Subscription unit test 2](assets/img/cap6/unittest/subscription/sub-subcommand-ut.png)
+
+Verifica la funcionalidad de búsqueda de un plan mediante su ID o su tipo.
+
+![Subscription unit test 3](assets/img/cap6/unittest/subscription/sub-planquery-ut.png)
+
+Pruebas enfocadas en las consultas de suscripciones activas y capacidades de los usuarios.
+
+![Subscription unit test 4](assets/img/cap6/unittest/subscription/sub-subquery-ut.png)
+
+Prueba unitaria para el inicializador de base de datos de los planes por defecto.
+
+![Subscription unit test 5](assets/img/cap6/unittest/subscription/sub-planseed-ut.png)
+
+Prueba unitaria para los eventos de dominio de la suscripción.
+
+![Subscription unit test 6](assets/img/cap6/unittest/subscription/sub-subevent-ut.png)
