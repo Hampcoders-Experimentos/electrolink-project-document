@@ -141,27 +141,24 @@ En esta sección, el equipo de Hampcoders presenta el Diseño de Interfaz de Usu
 ### 4.3.1. Landing Page Wireframe
 
 ### Sección "Cómo Funciona?" y "Resolvemos Problemas Reales"
-<hr>
 
 ![Sección1](assets/img/cap4/landing/landingpage-seccion1.png)
 
 <hr>
 
 ### Sección de "Testimonios" y "Por qué usar Electrolink?"
-<hr>
+
 ![Sección2](assets/img/cap4/landing/landingpage-seccion2.png)
 
 <hr>
 
 ### Sección de "Sobre Nosotros"
-<hr>
 
 ![Sección3](assets/img/cap4/landing/landingpage-seccion3.png)
 
 <hr>
 
 ### Sección de "Contacto"
-<hr>
 
 ![Sección4](assets/img/cap4/landing/landingpage-seccion4.png)
 
@@ -170,14 +167,12 @@ En esta sección, el equipo de Hampcoders presenta el Diseño de Interfaz de Usu
 ### 4.3.2. Landing Page Mock-up
 
 #### Sección "Cómo Funciona?" y "Resolvemos Problemas Reales"
-<hr>
 
 ![LandingMockup1](assets/img/cap4/landing/landingpagemockup-1.png)
 
 <hr>
 
 #### Sección de "Testimonios" y "Por qué usar Electrolink?"
-<hr>
 
 ![LandingMockup2](assets/img/cap4/landing/landingpagemockup-2.png)
 
