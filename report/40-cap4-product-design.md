@@ -32,6 +32,8 @@ En conjunto, esta paleta respalda los valores de ElectroLink: precisión, accesi
 
 #### Paleta de Colores – ElectroLink
 
+![Colors Palette](assets/img/cap4/styleguidelines/colorspalette.png){ width=300px}
+
 | Muestra | Color | Uso | Código Hex |
 |---|---|---|---|
 | <img src="assets/img/cap4/colors/E8EEF7.png" width="45" height="20"/> | Azul grisáceo suave | Fondo de secciones, tarjetas, menús laterales | `#E8EEF7` |
