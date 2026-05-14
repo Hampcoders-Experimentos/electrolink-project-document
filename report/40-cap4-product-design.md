@@ -20,7 +20,7 @@ El logo de ElectroLink representa la esencia de la plataforma como un puente mod
 
 La tipografía de nuestra marca tiene un estilo moderno y ordenado, va de la mano con la imagen de nuestra marca y lo que nosotros, como startup, queremos transmitir. Se usará un lenguaje casual y sencillo, con la finalidad de que el público se sienta cómodo usando nuestra plataforma. La tipografía debe ser clara y legible, utilizando la fuente "Public Sans", que se mantendrá consistente en toda la plataforma. Los títulos y subtítulos usarán una fuente ligeramente más grande que el cuerpo del texto para mejorar la jerarquía visual. En general, se debe usar un tamaño que garantice que todo el texto sea fácilmente legible tanto en pantallas pequeñas como grandes.
 
-![Typography](assets/img/cap4/styleguidelines/typography.png){ width=250px }
+![Typography](assets/img/cap4/styleguidelines/typography.png){ width=300px}
 
 #### Colors:
 
@@ -29,10 +29,6 @@ La paleta de colores elegida para la web de ElectroLink fue diseñada para mante
 El celeste claro aporta dinamismo y accesibilidad en botones secundarios, estados hover y elementos interactivos, reforzando la experiencia de usuario moderna y amigable. Por otro lado, el amarillo pastel funciona como color de énfasis para destacar alertas suaves, avisos importantes y llamadas de atención sin resultar agresivo visualmente. Finalmente, los colores de apoyo para estados del sistema, como verde para acciones exitosas y rojo para errores o advertencias críticas, mejoran la claridad visual y la retroalimentación de las interacciones dentro de la plataforma.
 
 En conjunto, esta paleta respalda los valores de ElectroLink: precisión, accesibilidad, innovación tecnológica y conexión eficiente entre propietarios y técnicos eléctricos.
-
-#### Paleta de Colores – ElectroLink
-
-#### Paleta de Colores – ElectroLink
 
 #### Paleta de Colores – ElectroLink
 
