@@ -254,7 +254,13 @@ Con estas pruebas de integración se busca asegurar que los distintos componente
 
 ![cucumber E7](assets/img/cap6/cucumber-us/cucumber-EP7.png)
 
+### Repositorios de la pruebas unitarias e integrales para el proyecto
 
+El proyecto ElectroLink utiliza GitHub como sistema de control de versiones.
+
+- Cucumber: https://github.com/HampCoders-Experimentos/electrolink-cucumber
+- Karate: https://github.com/Hampcoders-Experimentos/electrolink-karate
+- Web Services (Backend con pruebas unitarias): https://github.com/Hampcoders-Experimentos/electrolink-backend-api
 
 ## 6.2. Static testing & Verification
 ### 6.2.1. Static Code Analysis
