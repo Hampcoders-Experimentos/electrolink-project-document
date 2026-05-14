@@ -141,25 +141,25 @@ En esta sección, el equipo de Hampcoders presenta el Diseño de Interfaz de Usu
 ### 4.3.1. Landing Page Wireframe
 ### Sección "¿Cómo Funciona?" y "Resolvemos Problemas Reales"
 
-![Sección Landing 1](assets/img/cap4/landing/landingpage-seccion1.png){ width=85% }
+![Sección Landing 1](assets/img/cap4/landing/landingpage-seccion1.png){ width=70% }
 
 \newpage
 
 ### Sección de "Testimonios" y "¿Por qué usar Electrolink?"
 
-![Sección Landing 2](assets/img/cap4/landing/landingpage-seccion2.png){ width=85% }
+![Sección Landing 2](assets/img/cap4/landing/landingpage-seccion2.png){ width=70% }
 
 \newpage
 
 ### Sección "Sobre Nosotros"
 
-![Sección Landing 3](assets/img/cap4/landing/landingpage-seccion3.png){ width=85% }
+![Sección Landing 3](assets/img/cap4/landing/landingpage-seccion3.png){ width=70% }
 
 \newpage
 
 ### Sección de "Contacto"
 
-![Sección Landing 4](assets/img/cap4/landing/landingpage-seccion4.png){ width=85% }
+![Sección Landing 4](assets/img/cap4/landing/landingpage-seccion4.png){ width=70% }
 
 \newpage
 
@@ -167,13 +167,13 @@ En esta sección, el equipo de Hampcoders presenta el Diseño de Interfaz de Usu
 
 #### Sección "¿Cómo Funciona?" y "Resolvemos Problemas Reales"
 
-![Landing Mockup 1](assets/img/cap4/landing/landingpagemockup-1.png){ width=85% }
+![Landing Mockup 1](assets/img/cap4/landing/landingpagemockup-1.png){ width=70% }
 
 \newpage
 
 #### Sección de "Testimonios" y "¿Por qué usar Electrolink?"
 
-![Landing Mockup 2](assets/img/cap4/landing/landingpagemockup-2.png){ width=85% }
+![Landing Mockup 2](assets/img/cap4/landing/landingpagemockup-2.png){ width=70% }
 
 ## 4.4. Web Applications UX/UI Design
 En esta sección, el equipo de Hampcoders presenta el Diseño de Interfaz de Usuario de la aplicación Front-End
