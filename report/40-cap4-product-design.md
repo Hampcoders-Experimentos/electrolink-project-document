@@ -151,7 +151,7 @@ Subscription Billing Bounded Context Diagram
 
 #### 4.7.1. Class Diagrams
 
-![Class Diagrams](assets/img/general/class-diagram.png)
+![Class Diagrams](assets/img/general/database.png)
 
 <hr>
 
@@ -316,5 +316,10 @@ Subscription Billing Bounded Context Diagram
 
 
 ### 4.8. Database Design
+
+### 4.8.1. Database Diagram
+
+![Database](assets/img/general/class-diagram.png)
+
 
 \newpage
