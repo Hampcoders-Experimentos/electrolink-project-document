@@ -287,21 +287,21 @@ En esta sección, el equipo de Hampcoders define los wireflows diagrams para la 
 
 \newpage
 
-### Mockup del Dashboard del Proveedor técnico
+### Mockup del Dashboard del Usuario
 
-![Mockup Dashboard](assets/img/cap4/mockups/dashboardMockup.png){ width=85% }
+![Mockup Dashboard Home Owner](assets/img/cap4/mockups/dashboardownerMockup.png){ width=85% }
 
 \newpage
 
 ### Mockup de Suscripciones y Pagos
 
-![Mockup Suscripciones](assets/img/cap4/mockups/subscriptionMockup.png){ width=85% }
+![Mockup Suscripciones](assets/img/cap4/mockups/subscriptionsMockup.png){ width=85% }
 
 \newpage
 
 ### Mockup de Diseño de Servicio
 
-![Mockup Diseño de Servicio](assets/img/cap4/mockups/serviceDesignMockup.png){ width=85% }
+![Mockup Diseño de Servicio](assets/img/cap4/mockups/servicerequestMockup.png){ width=85% }
 
 \newpage
 
