@@ -265,7 +265,7 @@ En esta sección, el equipo de Hampcoders define los wireflows diagrams para la 
 
 ### Vista de la sección de añadir propiedad
 
-![Wireflow Búsqueda Proveedor](assets/img/cap4/wireframes/wireflowlpropiedad.png){ width=85% }
+![Wireflow Búsqueda Proveedor](assets/img/cap4/wireframes/wireflowpropiedad.png){ width=85% }
 
 \newpage
 
@@ -334,6 +334,10 @@ En esta sección se presenta la propuesta de User Flows del sistema ElectroLink,
 
 Esta sección presenta los prototipos de interfaz de usuario , los cuales incluyen simulaciones de interacción y navegación. Las decisiones de
 interacción se fundamentan en criterios clave, como la facilidad de uso, la accesibilidad y la optimización para distintos dispositivos.
+
+![Prototype](assets/img/cap4/mockups/prototype.png){ width=85% }
+
+\newpage
 
 [https://www.figma.com/proto/gtumIjnhLJ1rDqlntXsJJS/Electrolink-EXP?node-id=4-5&t=VaQk4h0RNODs3pVx-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=4%3A5](https://www.figma.com/proto/gtumIjnhLJ1rDqlntXsJJS/Electrolink-EXP?node-id=4-5&t=VaQk4h0RNODs3pVx-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=4%3A5)
 
