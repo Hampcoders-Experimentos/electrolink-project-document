@@ -36,13 +36,13 @@ En conjunto, esta paleta respalda los valores de ElectroLink: precisión, accesi
 
 | Muestra | Color | Uso | Código Hex |
 |---|---|---|---|
-| <img src="assets/img/cap4/colors/E8EEF7.png" width="45" height="20"/> | Azul grisáceo suave | Fondo de secciones, tarjetas, menús laterales | `#E8EEF7` |
-| <img src="assets/img/cap4/colors/A9B1BA.png" width="45" height="20"/> | Gris cálido | Texto secundario, bordes suaves, fondos suaves | `#A9B1BA` |
-| <img src="assets/img/cap4/colors/B5D5F5.png" width="45" height="20"/> | Celeste claro | Hover, botones secundarios, íconos de ayuda | `#B5D5F5` |
-| <img src="assets/img/cap4/colors/FFE492.png" width="45" height="20"/> | Amarillo pastel | Elementos destacados suaves, fondos de aviso | `#FFE492` |
-| <img src="assets/img/cap4/colors/2E3A59.png" width="45" height="20"/> | Grafito profundo | Texto principal, íconos oscuros | `#2E3A59` |
-| <img src="assets/img/cap4/colors/10B981.png" width="45" height="20"/> | Verde éxito | Confirmaciones y acciones exitosas | `#10B981` |
-| <img src="assets/img/cap4/colors/EF4444.png" width="45" height="20"/> | Rojo error | Alertas críticas y errores | `#EF4444` |
+| \includegraphics[width=1.2cm,height=0.5cm]{assets/img/cap4/colors/E8EEF7.png} | Azul grisáceo suave | Fondo de secciones, tarjetas, menús laterales | `#E8EEF7` |
+| \includegraphics[width=1.2cm,height=0.5cm]{assets/img/cap4/colors/A9B1BA.png} | Gris cálido | Texto secundario, bordes suaves, fondos suaves | `#A9B1BA` |
+| \includegraphics[width=1.2cm,height=0.5cm]{assets/img/cap4/colors/B5D5F5.png} | Celeste claro | Hover, botones secundarios, íconos de ayuda | `#B5D5F5` |
+| \includegraphics[width=1.2cm,height=0.5cm]{assets/img/cap4/colors/FFE492.png} | Amarillo pastel | Elementos destacados suaves, fondos de aviso | `#FFE492` |
+| \includegraphics[width=1.2cm,height=0.5cm]{assets/img/cap4/colors/2E3A59.png} | Grafito profundo | Texto principal, íconos oscuros | `#2E3A59` |
+| \includegraphics[width=1.2cm,height=0.5cm]{assets/img/cap4/colors/10B981.png} | Verde éxito | Confirmaciones y acciones exitosas | `#10B981` |
+| \includegraphics[width=1.2cm,height=0.5cm]{assets/img/cap4/colors/EF4444.png} | Rojo error | Alertas críticas y errores | `#EF4444` |
 
 ### 4.1.2. Web Style Guidelines
 
