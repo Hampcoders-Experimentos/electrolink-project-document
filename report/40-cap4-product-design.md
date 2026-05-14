@@ -228,35 +228,25 @@ Los wireframes son una guía esencial para la implementación efectiva de la pla
 
 ## Vista de Iniciar Sesión
 
-<div align="center">
-<img src="assets/img/cap4/wireframes/signInWireframe.png" width="80%">
-</div>
+![Wireframe Inicio Sesión](assets/img/cap4/wireframes/signInWireframe.png){ width=85% }
 
-\vspace{1em}
+\newpage
 
 ## Vista de Crear Cuenta
 
-<div align="center">
-<img src="assets/img/cap4/wireframes/signUnWireframe.png" width="80%">
-</div>
+![Wireframe Crear Cuenta](assets/img/cap4/wireframes/signUnWireframe.png){ width=85% }
 
-\vspace{1em}
+\newpage
 
 ## Vista del Dashboard del Técnico
 
-<div align="center">
-<img src="assets/img/cap4/wireframes/AnalyticsDashboardWireframe.png" width="80%">
-</div>
+![Wireframe Dashboard Técnico](assets/img/cap4/wireframes/AnalyticsDashboardWireframe.png){ width=85% }
 
-\vspace{1em}
+\newpage
 
 ## Vista de la sección de suscripciones y pagos
 
-<div align="center">
-<img src="assets/img/cap4/wireframes/SubscriptionsWireframe.png" width="80%">
-</div>
-
-\vspace{1em}
+![Wireframe Suscripciones](assets/img/cap4/wireframes/SubscriptionsWireframe.png){ width=85% }
 
 #### 4.4.2. Web Applications Wireflow Diagrams
 En esta sección, el equipo de Hampcoders define los wireflows diagrams para la aplicación Web
