@@ -125,7 +125,8 @@ El proceso de selección de entrevistados se llevó a cabo mediante una combinac
 - **Link:** https://www.youtube.com/watch?v=nTeFYzyawYk
 - **Inicia en:** 0:06  
 - **Duración:** 6:35
-  
+
+\
 ![Entrevista: Mari Vallejos](assets/img/cap2/entrevistas/entrevista1-segmento1.png)
 
 **Resumen:**  
@@ -142,6 +143,8 @@ Mari es una propietaria de hogar urbano que ha experimentado problemas eléctric
 - **Link:** https://www.youtube.com/watch?v=_z8UNTi_cmA
 - **Inicia en:** 0:01  
 - **Duración:** 9:54
+
+\
 ![Entrevista: Francesco Maldivo](assets/img/cap2/entrevistas/entrevista1-segmento2.png)
 
 **Resumen:**  
@@ -154,6 +157,8 @@ Francesco es dueño de una empresa de servicios de limpieza con varias oficinas.
 - **Link:** https://www.youtube.com/watch?v=m8Q_n7i_xEk
 - **Inicia en:** 0:01  
 - **Duración:** 6:16
+
+\
 ![Entrevista: Brian Cerna](assets/img/cap2/entrevistas/entrevista2-segmento2.png)
 
 **Resumen:**
@@ -169,6 +174,8 @@ El entrevistado Brian es dueño de una empresa de servicios de limpieza con vari
 - **Link:** https://youtu.be/I_ISRdC6mHI
 - **Inicia en:** 0:01  
 - **Duración:** 4:52  
+
+\
 ![Entrevista: Juan Lucas](assets/img/cap2/entrevistas/entrevista1-segmento3.png)
 
 **Resumen:**  
@@ -194,23 +201,27 @@ Los proveedores de servicios eléctricos certificados, representados por entrevi
 
 
 ### Análisis de Hallazgos
-
+\
 ![Análisis de Hallazgos 1](assets/img/cap2/entrevistas/entrevistas-analisis1.png)
 
 Los entrevistados del segmento de propietarios de hogares urbanos expresan una necesidad clara de contar con una plataforma confiable que les permita acceder a servicios eléctricos certificados y de calidad. La falta de conocimiento técnico y la dependencia de recomendaciones informales generan ansiedad y frustración cuando surgen problemas eléctricos. La oportunidad clave para este segmento es educar a los usuarios sobre la importancia del mantenimiento preventivo y cómo una plataforma como **ElectroLink** puede ayudarles a evitar problemas futuros, además de proporcionarles una experiencia de contratación más segura y eficiente.
 
+\
 ![Análisis de Hallazgos 2](assets/img/cap2/entrevistas/entrevistas-analisis2.png)
 
 Los dueños empresas y administradores de edificios enfrentan desafíos relacionados con la gestión de instalaciones eléctricas en sus negocios. Aunque las fallas eléctricas no son frecuentes, tienen un impacto significativo en la productividad y la atención al cliente. La oportunidad clave para este segmento es proporcionarles una solución que les permita gestionar sus necesidades eléctricas de manera más eficiente, reduciendo tiempos de respuesta y mejorando la experiencia del cliente, lo que a su vez puede ofrecerles una ventaja competitiva en el mercado.
 
+\
 ![Análisis de Hallazgos 3](assets/img/cap2/entrevistas/entrevistas-analisis3.png)
  
 Los proveedores de servicios eléctricos certificados enfrentan desafíos significativos para competir con técnicos informales. La falta de canales para mostrar su experiencia, reseñas o certificaciones dificulta su capacidad para atraer clientes. La oportunidad clave para este segmento es proporcionarles una plataforma que les permita destacar su profesionalismo y certificaciones, lo que no solo les ayudaría a atraer más clientes sino también a construir una reputación sólida en el mercado, diferenciándose claramente de los técnicos informales.
 
+\
 ![Análisis de Hallazgos 4](assets/img/cap2/entrevistas/entrevistas-analisis4.png)
 
 La mayoría de los entrevistados expresaron una fuerte preferencia por servicios que cumplan con normativas legales y ofrezcan garantía, lo que destaca la importancia de la confianza y la seguridad en el mercado de servicios eléctricos. Este hallazgo subraya la necesidad de que **ElectroLink** se enfoque en garantizar que todos los proveedores en su plataforma estén certificados y cumplan con las normativas vigentes, lo que no solo aumentará la confianza de los usuarios sino también diferenciará a ElectroLink de competidores informales.
 
+\
 ![Análisis de Hallazgos 5](assets/img/cap2/entrevistas/entrevistas-analisis5.png)
 
 La mayoría de los entrevistados mostraron interés en una plataforma que ofrezca proveedores certificados, reseñas reales y filtros por experiencia, horario, costo y calificaciones para facilitar su uso. Este hallazgo indica que existe una demanda clara por una solución digital que brinde transparencia y opciones personalizadas a los usuarios, lo que representa una oportunidad significativa para **ElectroLink** para posicionarse como la plataforma líder en servicios técnicos eléctricos confiables y especializados en el mercado peruano.
@@ -226,20 +237,20 @@ En esta sección se aplican diversas técnicas de investigación de usuarios par
 En base a las entrevistas realizadas, se han identificado tres segmentos principales de usuarios para ElectroLink, cada uno con características, necesidades y comportamientos distintos. A continuación, se presentan las **User Personas** correspondientes a cada segmento:
 
 **Segmento #1**
-
+\
 ![User Persona 1](assets/img/cap2/user-personas/user-persona1.png)
 
 **Descripción:** Olivia Pérez — Propietaria de hogar urbano. Busca soluciones rápidas y confiables ante fallas eléctricas; prioriza técnicos certificados y la trazabilidad del servicio. Presenta ansiedad ante problemas técnicos y valora recordatorios y opciones de mantenimiento preventivo.
 
 
 **Segmento #2**
-
+\
 ![User Persona 2](assets/img/cap2/user-personas/user-persona2.png)
 
 **Descripción:** Eduardo González — Dueño de PYME u oficina. Necesita minimizar tiempos de inactividad y centralizar facturación y reportes de cumplimiento. Valora un `SME Dashboard` con alertas, reportes técnicos y gestión multi-sede para mantener la continuidad operativa.
 
 **Segmento #3**
-
+\
 ![User Persona 3](assets/img/cap2/user-personas/user-persona3.png)
 
 **Descripción:** Alejandro López — Técnico certificado. Busca visibilidad y clientes recurrentes; necesita mostrar certificaciones y reseñas para competir frente a técnicos informales. Valora herramientas para gestionar pedidos, recetas de servicio y generar comprobantes de cumplimiento.
@@ -297,6 +308,8 @@ Estableciendo estos user task matrix, se puede identificar claramente cuáles so
 
 El siguiente User Journey Mapping sintetiza el recorrido del usuario de ElectroLink a lo largo de cinco momentos clave: necesidad de mantenimiento, búsqueda de proveedor, solicitud de cotizaciones y propuestas, contratación y supervisión, y registro de historial. En conjunto, el mapa refleja cómo cambian sus metas, su proceso y su experiencia emocional conforme avanza por cada etapa.
 
+\
+
 ![User Journey Mapping](assets/img/cap2/user-journey-mapping/user-journey-mapping.png)
 
 Como se observa, el viaje inicia con la detección de una necesidad de mantenimiento, donde predomina la incertidumbre sobre la urgencia y la solución. Luego, en la búsqueda de proveedores, aparecen la vigilancia y las dudas sobre el profesionalismo. En la etapa de cotizaciones y propuestas, el usuario enfrenta una mayor carga de decisión por la sobrecarga de opciones y la repetición de procesos. Durante la contratación y supervisión, la fricción se concentra en la calidad del servicio y en la falta de validación objetiva. Finalmente, en el registro de historial, el foco pasa a la trazabilidad y el orden a largo plazo.
@@ -307,15 +320,21 @@ A continuación, se presentan los empathy maps de los tres segmentos de usuarios
 
 **1. Propietarios individuales:** En este segmento predominan la preocupación, la desconfianza y la necesidad de resolver una falla sin complicaciones. Suelen pensar en el riesgo de que el problema empeore, sienten ansiedad ante la falta de control técnico y actúan buscando una solución rápida por canales informales. Este empathy map evidencia que necesitan claridad, orientación y una forma confiable de identificar técnicos verificados, además de apoyo preventivo para evitar que el problema vuelva a repetirse.
 
+\
+
 ![Empathy Mapping - Propietarios individuales](assets/img/cap2/empathy-mapping/empathy-mapping-1.png)
 
 
 **2. Empresas y Administradores de Edificios:** En este segmento el foco está en la continuidad operativa, el cumplimiento normativo y la reducción de interrupciones. Piensan en el impacto que una falla puede generar en la productividad, sienten presión por responder rápido y suelen actuar buscando alternativas que no comprometan su operación. El empathy map muestra que necesitan proveedores confiables, reportes claros y una gestión más ordenada del mantenimiento para tomar decisiones con menor incertidumbre.
 
+\
+
 ![Empathy Mapping - Empresas y Administradores de Edificios](assets/img/cap2/empathy-mapping/empathy-mapping-2.png)
 
 
 **3. Técnicos Eléctricos (Certificados y No Certificados):** En este segmento aparecen la necesidad de visibilidad, la frustración por competir con técnicos informales y el interés por construir reputación profesional. Piensan en cómo diferenciarse, sienten que su trabajo no siempre es reconocido y actúan buscando más exposición o mejores canales para captar clientes. Este empathy map deja claro que requieren una plataforma que fortalezca su credibilidad, muestre certificaciones y facilite la gestión de oportunidades y pedidos.
+
+\
 
 ![Empathy Mapping - Técnicos Eléctricos](assets/img/cap2/empathy-mapping/empathy-mapping-3.png)
 
@@ -326,15 +345,21 @@ Continuando con los mapas de escenario as-is, se presentan los recorridos actual
 
 **1. Propietarios individuales:** En el escenario actual, el usuario detecta una falla, intenta entender si es urgente, busca recomendaciones y termina coordinando el servicio por canales informales. El punto de dolor principal está en la falta de información confiable, la dificultad para comparar opciones y la ausencia de seguimiento posterior. Este mapa evidencia la oportunidad de ordenar la búsqueda, reducir la ansiedad y registrar el historial del servicio para que la experiencia sea más segura y trazable.
 
+\
+
 ![As-is Scenario Mapping - Propietarios individuales](assets/img/cap2/as-is-scenario-mapping/as-is-scenario-mapping1.png)
 
 
 **2. Empresas y Administradores de Edificios:** En el escenario actual, este segmento suele reaccionar cuando la falla ya afecta la operación, coordina proveedores de forma dispersa y depende de evidencia manual para hacer seguimiento. Sus puntos de dolor están en la falta de centralización, la baja trazabilidad documental y el tiempo perdido comparando alternativas que no siempre cumplen con sus requerimientos. El mapa muestra la necesidad de una gestión más estructurada, con historial, validación y control de mantenimiento.
 
+\
+
 ![As-is Scenario Mapping - Empresas y Administradores de Edificios](assets/img/cap2/as-is-scenario-mapping/as-is-scenario-mapping2.png)
 
 
 **3. Técnicos Eléctricos (Certificados y No Certificados):** En el escenario actual, el técnico depende de contactos informales, redes sociales o recomendaciones para conseguir clientes, coordina cada pedido por separado y muchas veces no deja evidencia clara de su trabajo. El dolor principal está en la baja visibilidad, la competencia desleal y la falta de un flujo ordenado para mostrar certificaciones, cotizar y documentar el servicio. Este mapa expone la oportunidad de profesionalizar su proceso comercial y darle mayor trazabilidad a su trabajo.
+
+\
 
 ![As-is Scenario Mapping - Técnicos Eléctricos](assets/img/cap2/as-is-scenario-mapping/as-is-scenario-mapping3.png)
 
