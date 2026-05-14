@@ -177,11 +177,10 @@ En esta sección se presentan las pruebas de integración realizadas para valida
 
 Para estas pruebas de integración se utilizaron herramientas como Karate v2, que permite realizar pruebas de API de manera eficiente y con una sintaxis sencilla. A continuación, se muestran algunos ejemplos de las pruebas de integración realizadas para el proceso de autenticación y autorización en el sistema.
 
-Captura de pantalla con todas las pruebas de integración para el proceso de autenticación y autorización, incluyendo la creación de usuarios, asignación de roles y verificación de permisos.
+Captura de pantalla con todas las pruebas de integración en Karate, mostrando la estructura de las carpetas y los archivos correspondientes a cada endpoint probado.
 
-Captura de resultados de las pruebas de integración, mostrando el porcentaje de pruebas exitosas y fallidas para el proceso de autenticación con Karate.
+![Captura de carpetas de las pruebas de integración](assets/img/cap6/integration-tests/folders.png)
 
-![Integration Global](assets/img/cap6/integration-tests/authentication-0.png)
 
 #### Pruebas de integración para el endpoint "Authentication"
 
@@ -224,6 +223,44 @@ Captura de pantalla detallada de una prueba de integración específica para la 
 
 Con estas pruebas de integración se busca asegurar que los distintos componentes del sistema interactúan correctamente entre sí y que los endpoints expuestos por la API funcionan según lo esperado, garantizando así una experiencia de usuario fluida y sin errores.
 
+### 6.1.3 Core Behavior-Driven Development
+
+##### Behaivor-Driven Development correspondientes a la epica numero 1
+
+![cucumber E1](assets/img/cap6/cucumber-us/cucumber-EP1.png)
+
+##### Behaivor-Driven Development correspondientes a la epica numero 2
+
+![cucumber E2](assets/img/cap6/cucumber-us/cucumber-EP2.png)
+
+##### Behaivor-Driven Development correspondientes a la epica numero 3
+
+![cucumber E3](assets/img/cap6/cucumber-us/cucumber-EP3.png)
+
+##### Behaivor-Driven Development correspondientes a la epica numero 4
+
+![cucumber E4](assets/img/cap6/cucumber-us/cucumber-EP4.png)
+
+##### Behaivor-Driven Development correspondientes a la epica numero 5
+
+![cucumber E5](assets/img/cap6/cucumber-us/cucumber-EP5.png)
+
+##### Behaivor-Driven Development correspondientes a la epica numero 6
+
+![cucumber E6](assets/img/cap6/cucumber-us/cucumber-EP6.png)
+
+
+##### Behaivor-Driven Development correspondientes a la epica numero 7
+
+![cucumber E7](assets/img/cap6/cucumber-us/cucumber-EP7.png)
+
+### Repositorios de la pruebas unitarias e integrales para el proyecto
+
+El proyecto ElectroLink utiliza GitHub como sistema de control de versiones.
+
+- Cucumber: https://github.com/HampCoders-Experimentos/electrolink-cucumber
+- Karate: https://github.com/Hampcoders-Experimentos/electrolink-karate
+- Web Services (Backend con pruebas unitarias): https://github.com/Hampcoders-Experimentos/electrolink-backend-api
 
 ## 6.2. Static testing & Verification
 ### 6.2.1. Static Code Analysis
