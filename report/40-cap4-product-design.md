@@ -32,7 +32,7 @@ En conjunto, esta paleta respalda los valores de ElectroLink: precisión, accesi
 
 #### Paleta de Colores – ElectroLink
 
-![Colors Palette](assets/img/cap4/styleguidelines/colorspalette.png){ width=300px}
+![Colors Palette](assets/img/cap4/styleguidelines/colorspalette.png){ width=400px}
 
 | Muestra | Color | Uso | Código Hex |
 |---|---|---|---|
