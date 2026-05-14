@@ -227,6 +227,38 @@ Captura de pantalla detallada de una prueba de integración específica para la 
 
 Con estas pruebas de integración se busca asegurar que los distintos componentes del sistema interactúan correctamente entre sí y que los endpoints expuestos por la API funcionan según lo esperado, garantizando así una experiencia de usuario fluida y sin errores.
 
+### 6.1.3 Core Behavior-Driven Development
+
+##### Behaivor-Driven Development correspondientes a la epica numero 1
+
+![cucumber E1](assets/img/cap6/cucumber-us/cucumber-EP1.png)
+
+##### Behaivor-Driven Development correspondientes a la epica numero 2
+
+![cucumber E2](assets/img/cap6/cucumber-us/cucumber-EP2.png)
+
+##### Behaivor-Driven Development correspondientes a la epica numero 3
+
+![cucumber E3](assets/img/cap6/cucumber-us/cucumber-EP3.png)
+
+##### Behaivor-Driven Development correspondientes a la epica numero 4
+
+![cucumber E4](assets/img/cap6/cucumber-us/cucumber-EP4.png)
+
+##### Behaivor-Driven Development correspondientes a la epica numero 5
+
+![cucumber E5](assets/img/cap6/cucumber-us/cucumber-EP5.png)
+
+##### Behaivor-Driven Development correspondientes a la epica numero 6
+
+![cucumber E6](assets/img/cap6/cucumber-us/cucumber-EP6.png)
+
+
+##### Behaivor-Driven Development correspondientes a la epica numero 7
+
+![cucumber E7](assets/img/cap6/cucumber-us/cucumber-EP7.png)
+
+
 
 ## 6.2. Static testing & Verification
 ### 6.2.1. Static Code Analysis
