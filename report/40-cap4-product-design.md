@@ -234,7 +234,7 @@ Los wireframes son una guía esencial para la implementación efectiva de la pla
 
 ## Vista de Crear Cuenta
 
-![Wireframe Crear Cuenta](assets/img/cap4/wireframes/signUnWireframe.png){ width=85% }
+![Wireframe Crear Cuenta](assets/img/cap4/wireframes/signUpWireframe.png){ width=85% }
 
 \newpage
 
@@ -252,6 +252,40 @@ Los wireframes son una guía esencial para la implementación efectiva de la pla
 En esta sección, el equipo de Hampcoders define los wireflows diagrams para la aplicación Web
 
 #### 4.4.3. Web Applications Mock-ups
+
+## Mockup de Inicio de Sesión
+
+![Mockup Inicio Sesión](assets/img/cap4/mockups/signInMockup.png){ width=85% }
+
+\newpage
+
+## Mockup de Registro de Usuario
+
+![Mockup Registro](assets/img/cap4/mockups/signUpMockup.png){ width=85% }
+
+\newpage
+
+## Mockup del Dashboard del Técnico
+
+![Mockup Dashboard](assets/img/cap4/mockups/dashboardMockup.png){ width=85% }
+
+\newpage
+
+## Mockup de Suscripciones y Pagos
+
+![Mockup Suscripciones](assets/img/cap4/mockups/subscriptionMockup.png){ width=85% }
+
+\newpage
+
+## Mockup de Diseño de Servicio
+
+![Mockup Diseño de Servicio](assets/img/cap4/mockups/serviceDesignMockup.png){ width=85% }
+
+\newpage
+
+## Mockup del Portafolio de Propiedades
+
+![Mockup Portafolio](assets/img/cap4/mockups/propertyPortfolioMockup.png){ width=85% }
 
 
 #### 4.4.4. Web Applications User Flow Diagrams
