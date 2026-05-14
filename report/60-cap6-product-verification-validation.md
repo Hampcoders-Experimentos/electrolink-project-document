@@ -182,10 +182,6 @@ Captura de pantalla con todas las pruebas de integración en Karate, mostrando l
 ![Captura de carpetas de las pruebas de integración](assets/img/cap6/integration-tests/folders.png)
 
 
-Captura de resultados de las pruebas de integración, mostrando el porcentaje de pruebas exitosas y fallidas para el proceso de autenticación con Karate.
-
-![Integration Global](assets/img/cap6/integration-tests/authentication-0.png)
-
 #### Pruebas de integración para el endpoint "Authentication"
 
 Captura de pantalla detallada de una prueba de integración específica para la autenticación, mostrando la solicitud HTTP, la respuesta recibida y las aserciones realizadas para validar el correcto funcionamiento del endpoint de authentication.
