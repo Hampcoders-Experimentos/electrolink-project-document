@@ -103,13 +103,31 @@ Pruebas para el servicio de consultas de perfiles (`ProfileQueryServiceImpl`).
 
 #### Test Unitarios del Bounded Context de Service Delivery Process
 
+Pruebas para la creación, actualización y gestión de las solicitudes de servicio realizadas por el cliente.
 
 ![Sdp unit test 1](assets/img/cap6/unittest/sdp/sdp-requestcommand-ut.png)
 
+Pruebas para la creación y actualización de los horarios de disponibilidad del técnico.
+
 ![Sdp unit test 2](assets/img/cap6/unittest/sdp/sdp-schedulecommand-ut.png)
+
+Pruebas para gestionar la entidad del servicio base.
 
 ![sdp unit test 3](assets/img/cap6/unittest/sdp/sdp-servicecommand-ut.png)
 
+Verifica las búsquedas de solicitudes por distintos parámetros.
+
 ![Sdp unit test 4](assets/img/cap6/unittest/sdp/sdp-requestquery-ut.png)
 
+Asegura que el cronograma y la disponibilidad del técnico se puedan consultar correctamente.
+
 ![Sdp unit test 5](assets/img/cap6/unittest/sdp/sdp-schedulequery-ut.png)
+
+Verifica las consultas de los catálogos y especificaciones de los servicios.
+
+![sdp unit test 6](assets/img/cap6/unittest/sdp/sdp-servicequery-ut.png)
+
+Pruebas para los Outbound Services.
+
+![sdp unit test 7](assets/img/cap6/unittest/sdp/sdp-eps-ut.png)
+
