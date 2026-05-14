@@ -255,6 +255,21 @@ En esta sección, el equipo de Hampcoders define los wireflows diagrams para la 
 
 ![Wireflow Registro Proveedor](assets/img/cap4/wireframes/wireflowregistro.png){ width=85% }
 
+\newpage
+
+### Vista de la sección de búsqueda de proveedores
+
+![Wireflow Búsqueda Proveedor](assets/img/cap4/wireframes/wireflowlocalizacion.png){ width=85% }
+
+\newpage
+
+### Vista de la sección de añadir propiedad
+
+![Wireflow Búsqueda Proveedor](assets/img/cap4/wireframes/wireflowpropiedad.png){ width=85% }
+
+\newpage
+
+
 [https://lucid.app/lucidchart/30f4fbe6-f0ef-44da-88e3-46020aca7a0f/edit?view_items=AAr.UGv3QC3F&page=0_0&invitationId=inv_420b895d-1a79-4a72-baab-d4f42e8e3f6f](https://lucid.app/lucidchart/30f4fbe6-f0ef-44da-88e3-46020aca7a0f/edit?view_items=AAr.UGv3QC3F&page=0_0&invitationId=inv_420b895d-1a79-4a72-baab-d4f42e8e3f6f)
 
 
@@ -272,21 +287,21 @@ En esta sección, el equipo de Hampcoders define los wireflows diagrams para la 
 
 \newpage
 
-### Mockup del Dashboard del Proveedor técnico
+### Mockup del Dashboard del Usuario
 
-![Mockup Dashboard](assets/img/cap4/mockups/dashboardMockup.png){ width=85% }
+![Mockup Dashboard Home Owner](assets/img/cap4/mockups/dashboardownerMockup.png){ width=85% }
 
 \newpage
 
 ### Mockup de Suscripciones y Pagos
 
-![Mockup Suscripciones](assets/img/cap4/mockups/subscriptionMockup.png){ width=85% }
+![Mockup Suscripciones](assets/img/cap4/mockups/subscriptionsMockup.png){ width=85% }
 
 \newpage
 
 ### Mockup de Diseño de Servicio
 
-![Mockup Diseño de Servicio](assets/img/cap4/mockups/serviceDesignMockup.png){ width=85% }
+![Mockup Diseño de Servicio](assets/img/cap4/mockups/servicerequestMockup.png){ width=85% }
 
 \newpage
 
@@ -319,6 +334,13 @@ En esta sección se presenta la propuesta de User Flows del sistema ElectroLink,
 
 Esta sección presenta los prototipos de interfaz de usuario , los cuales incluyen simulaciones de interacción y navegación. Las decisiones de
 interacción se fundamentan en criterios clave, como la facilidad de uso, la accesibilidad y la optimización para distintos dispositivos.
+
+![Prototype](assets/img/cap4/mockups/prototype.png){ width=85% }
+
+\newpage
+
+[https://www.figma.com/proto/gtumIjnhLJ1rDqlntXsJJS/Electrolink-EXP?node-id=4-5&t=VaQk4h0RNODs3pVx-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=4%3A5](https://www.figma.com/proto/gtumIjnhLJ1rDqlntXsJJS/Electrolink-EXP?node-id=4-5&t=VaQk4h0RNODs3pVx-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=4%3A5)
+
 
 ## 4.6. Domain-Driven Software Architecture
 
