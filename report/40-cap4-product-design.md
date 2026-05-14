@@ -186,7 +186,7 @@ En esta sección, el equipo de Hampcoders presenta el Diseño de Interfaz de Usu
 ## 4.4. Web Applications UX/UI Design
 En esta sección, el equipo de Hampcoders presenta el Diseño de Interfaz de Usuario de la aplicación Front-End
 
-#### 4.4.1. Web Applications Wireframes
+### 4.4.1. Web Applications Wireframes
 
 En esta sección se presentan los **wireframes de la aplicación web de ElectroLink**, los cuales permiten visualizar cómo será la estructura y disposición de los elementos en la interfaz. Estos bocetos funcionales aseguran una experiencia fluida, clara e inclusiva para los diferentes segmentos de usuarios, como propietarios de hogares, pequeños empresarios y proveedores técnicos, incluyendo además personas con ansiedad social, TEA, o discapacidades físicas.
 
