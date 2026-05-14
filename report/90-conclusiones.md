@@ -2,30 +2,56 @@
 
 ## Conclusiones
 
-El desarrollo del proyecto Glottia se sustentó inicialmente en la aplicación rigurosa de metodologías centradas en el usuario, tales como Lean UX, entrevistas en profundidad, Customer Journey Mapping (As-Is) e Impact Mapping. Estas herramientas permitieron identificar de manera precisa las necesidades, frustraciones y expectativas de los segmentos objetivo, asegurando que la propuesta de solución se construya sobre evidencia empírica y no sobre supuestos, fortaleciendo así la validez del enfoque planteado.
+El desarrollo del proyecto ElectroLink se sustentó inicialmente en la aplicación rigurosa de metodologías centradas en el usuario, tales como Lean UX, entrevistas en profundidad, Customer Journey Mapping (As-Is) e Impact Mapping. Estas herramientas permitieron identificar de manera precisa las necesidades, frustraciones y expectativas de los segmentos objetivo, asegurando que la propuesta de solución se construya sobre evidencia empírica y no sobre supuestos, fortaleciendo así la validez del enfoque planteado.
 
-En la etapa correspondiente al TB2, el proyecto evolucionó hacia un enfoque arquitectónico estructurado, incorporando principios y prácticas avanzadas de diseño de software. Se aplicaron patrones arquitectónicos como Domain-Driven Design (DDD), lo que permitió delimitar claramente los bounded contexts y organizar el dominio del problema de manera coherente, facilitando la comprensión, mantenibilidad y escalabilidad del sistema.
+En la etapa de diseño arquitectónico, el proyecto evolucionó hacia un enfoque estructurado, incorporando principios y prácticas avanzadas de diseño de software. Se aplicaron patrones arquitectónicos como Domain-Driven Design (DDD), permitiendo delimitar claramente los bounded contexts (Analytics, Assets, IAM, Monitoring, Profiles, Service Delivery Process y Subscription) y organizar el dominio del problema de manera coherente. Asimismo, se empleó el método Attribute-Driven Design (ADD) para guiar la toma de decisiones arquitectónicas en función de los drivers del sistema, tales como atributos de calidad, restricciones y requerimientos funcionales.
 
-Asimismo, se empleó el método Attribute-Driven Design (ADD) para guiar la toma de decisiones arquitectónicas en función de los drivers del sistema, tales como atributos de calidad, restricciones y requerimientos funcionales. Este enfoque permitió estructurar iteraciones arquitectónicas, definir responsabilidades, establecer interfaces y justificar decisiones técnicas de manera sistemática, fortaleciendo la solidez del diseño propuesto.
+El diseño arquitectónico se complementó con la definición de estilos, patrones, diagramas de contexto, vistas arquitectónicas (C4 y UML) y modelos de datos tanto relacionales como no relacionales. La incorporación de tácticas arquitectónicas orientadas a atributos de calidad como rendimiento, seguridad, disponibilidad y modificabilidad permitió traducir estos atributos en criterios medibles y verificables, mejorando la calidad del diseño.
 
-El diseño arquitectónico se complementó con la definición de estilos y patrones, la elaboración de diagramas de contexto, vistas arquitectónicas (C4 y UML) y modelos de datos tanto relacionales como no relacionales. Esto permitió representar de manera integral la estructura del sistema, garantizando la alineación entre la arquitectura lógica, la persistencia de datos y las necesidades del negocio.
+Transversalmente, el proyecto ha implementado un **framework de verificación y validación integral** que garantiza la calidad técnica del software en múltiples niveles. La suite de pruebas abarca pruebas unitarias (JUnit 6, Mockito) para validar la lógica de negocio de cada bounded context, pruebas de integración (Karate con sintaxis BDD) para verificar la correcta interacción entre componentes y endpoints del API REST, así como Behavior-Driven Development (Cucumber/Gherkin) para asegurar la alineación entre desarrollo e requisitos del negocio. Esta estrategia de testing multinivel, junto con análisis estático de código (SonarQube, CheckStyle) y revisiones de código asistidas por pares en GitHub, establece un flujo de calidad continua que captura defectos de manera temprana.
 
-Adicionalmente, la incorporación de tácticas arquitectónicas orientadas a atributos de calidad como rendimiento, seguridad, disponibilidad y modificabilidad evidenció una preocupación por asegurar el correcto comportamiento del sistema en escenarios reales. La definición de quality attribute scenarios permitió traducir estos atributos en criterios medibles y verificables, mejorando la calidad del diseño.
+Paralelamente, se ha implementado un **pipeline de Integración Continua y Entrega Continua (CI/CD)** robusto mediante GitHub Actions y Jenkins. Este pipeline automatiza las etapas críticas: checkout del código, análisis estático, compilación, ejecución de suites de pruebas, containerización con Docker, despliegue a staging y validación pre-producción. La práctica de Continuous Delivery introduce un punto de aprobación manual controlado por Product Owners antes del despliegue final a producción (Render para backend, Firebase para frontend), balanceando la automatización con la supervisión humana necesaria para mitigar riesgos en ambientes productivos.
 
-El proyecto demuestra una evolución significativa desde la comprensión del problema hasta la construcción de una arquitectura de software fundamentada en buenas prácticas de ingeniería. La integración de metodologías UX con enfoques arquitectónicos avanzados permitió desarrollar una solución coherente, viable y preparada para su implementación, consolidando una base sólida para el desarrollo futuro del sistema.
+El proyecto demuestra una evolución significativa desde la comprensión del problema, pasando por la arquitectura fundamentada en DDD y ADD, hasta la implementación de prácticas DevOps maduras que aseguran la entrega confiable, repetible y de alta calidad. La integración de metodologías UX-céntricas con enfoques arquitectónicos avanzados y prácticas de verificación continua ha permitido desarrollar una solución coherente, viable y producción-lista, consolidando una base sólida para el crecimiento futuro del sistema.
 
-Finalmente, Glottia no solo responde a una problemática real del mercado, sino que también establece una arquitectura escalable, mantenible y alineada a estándares modernos de desarrollo de software, lo que incrementa significativamente su potencial de impacto tecnológico, social y económico.
+ElectroLink no solo responde a una problemática real del mercado, sino que también establece una arquitectura escalable, mantenible, verificable y alineada a estándares modernos de ingeniería de software y DevOps practices, incrementando significativamente su potencial de impacto tecnológico, social y económico.
 
 ## Recomendaciones
 
-Se recomienda continuar con la validación de la solución mediante la interacción constante con usuarios reales, integrando ciclos iterativos de retroalimentación que permitan ajustar tanto las funcionalidades como las decisiones arquitectónicas en función de la experiencia de uso.
+### Validación Continua con Usuarios y Stakeholders
 
-Asimismo, es fundamental profundizar en la implementación técnica de la arquitectura propuesta, especialmente en la materialización de los bounded contexts definidos mediante DDD y en la correcta implementación de los patrones y tácticas arquitectónicas identificadas, asegurando la coherencia entre el diseño teórico y su ejecución práctica.
+Se recomienda continuar con la validación de la solución mediante la interacción constante con usuarios reales, integrando ciclos iterativos de retroalimentación en ambientes de staging y producción. Esto permitirá ajustar tanto las funcionalidades como la arquitectura en función de la experiencia de uso. Asimismo, se sugiere involucrar a Product Owners en el proceso de aprobación de deployments a producción, aprovechando la etapa manual de CD ya implementada como punto de revisión de requisitos de negocio.
 
-Se sugiere también fortalecer el análisis de atributos de calidad mediante la ejecución de pruebas específicas (por ejemplo, pruebas de rendimiento, seguridad y disponibilidad), con el fin de validar que las tácticas implementadas cumplen con los escenarios definidos y los niveles de servicio esperados.
+### Profundización en Implementación Arquitectónica
 
-De igual manera, se recomienda mantener el uso del enfoque ADD en futuras iteraciones del proyecto, permitiendo una evolución controlada de la arquitectura conforme el sistema crezca en complejidad, asegurando que las decisiones de diseño continúen alineadas con los drivers arquitectónicos.
+Es fundamental continuar con la materialización sistemática de la arquitectura propuesta, especialmente en la ejecución correcta de los patrones y bounded contexts definidos mediante DDD. Se recomienda mantener la coherencia entre el diseño teórico y su implementación práctica, documentando mediante Architecture Decision Records (ADRs) las decisiones arquitectónicas críticas realizadas. Esto facilitará la evolución controlada del sistema conforme crezca en complejidad.
 
-Adicionalmente, resulta conveniente ampliar la documentación arquitectónica, incorporando decisiones de diseño (Architecture Decision Records - ADRs) que permitan justificar y registrar los cambios realizados, facilitando la mantenibilidad y comprensión del sistema a largo plazo.
+### Optimización de la Suite de Testing
 
-Finalmente, se recomienda continuar aplicando metodologías ágiles y enfoques centrados en el usuario como eje transversal del proyecto, integrándolos con prácticas sólidas de arquitectura de software, lo que permitirá desarrollar una solución adaptable, escalable y alineada a las necesidades dinámicas del mercado.
+Se sugiere reforzar la cobertura de pruebas unitarias e integración, manteniendo un objetivo de cobertura mínimo del 80% en todos los bounded contexts. Adicionalmente, se recomienda expandir los escenarios BDD (Cucumber/Gherkin) para cubrir flujos de negocio complejos y casos de error, asegurando que los requisitos del negocio se traduzcan explícitamente en comportamiento verificable del sistema. Es importante revisar periódicamente los resultados de SonarQube e implementar mejoras en calidad de código y seguridad identificadas.
+
+### Fortalecimiento del Pipeline CI/CD
+
+Se recomienda mantener y evolucionar el pipeline de CI/CD implementado mediante GitHub Actions y Jenkins:
+
+- **Monitoreo y Alertas:** Implementar dashboards y alertas en tiempo real para fallos en el pipeline, permitiendo detección y resolución rápida de problemas de integración.
+- **Optimización de Tiempos:** Analizar y optimizar los tiempos de ejecución de pruebas y builds para mantener feedback rápido a los desarrolladores.
+- **Rollback Automatizado:** Documentar y practicar procedimientos de rollback manual en producción, manteniendo la capacidad de recuperación ante incidentes críticos.
+- **Trazabilidad:** Enriquecer los logs y auditoría del pipeline para rastrear cambios, approvals y deployments, facilitando investigaciones post-incident.
+
+### Validación de Atributos de Calidad
+
+Se recomienda ejecutar pruebas específicas y sistemáticas para validar que las tácticas arquitectónicas implementadas cumplen con los atributos de calidad definidos:
+
+- **Rendimiento:** Pruebas de carga y stress en staging, validando que la arquitectura soporta los volúmenes esperados.
+- **Seguridad:** Análisis de vulnerabilidades (SAST/DAST) y pruebas de penetración focalizadas en endpoints críticos (autenticación, datos sensibles).
+- **Disponibilidad:** Simulación de fallos de componentes y pruebas de recuperación ante desastres.
+- **Modificabilidad:** Evaluar la facilidad de añadir nuevos bounded contexts y features sin impacto regresivo en el sistema.
+
+### Escalabilidad Operacional
+
+Se sugiere documentar y socializar en el equipo las prácticas de DevOps implementadas, incluyendo procedimientos de deployment, monitoreo, rollback y troubleshooting. Considerar la creación de runbooks y manuales operacionales que faciliten la transferencia de conocimiento y la autonomía del equipo en ambientes productivos. Asimismo, se recomienda establecer métricas de confiabilidad (MTBF, MTTR) y definir SLOs específicos para el sistema.
+
+### Integración Continuada de Mejora
+
+Se enfatiza mantener el uso de metodologías ágiles y enfoques centrados en el usuario como eje transversal del proyecto, integrándolos sistemáticamente con prácticas sólidas de arquitectura de software (DDD, ADD) y DevOps (CI/CD, testing automatizado). Esto permitirá desarrollar una solución adaptable, escalable y alineada a las necesidades dinámicas del mercado, mientras se garantiza la calidad técnica y la confiabilidad operacional del sistema en producción.
