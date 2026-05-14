@@ -20,7 +20,10 @@ El logo de ElectroLink representa la esencia de la plataforma como un puente mod
 
 La tipografía de nuestra marca tiene un estilo moderno y ordenado, va de la mano con la imagen de nuestra marca y lo que nosotros, como startup, queremos transmitir. Se usará un lenguaje casual y sencillo, con la finalidad de que el público se sienta cómodo usando nuestra plataforma. La tipografía debe ser clara y legible, utilizando la fuente "Public Sans", que se mantendrá consistente en toda la plataforma. Los títulos y subtítulos usarán una fuente ligeramente más grande que el cuerpo del texto para mejorar la jerarquía visual. En general, se debe usar un tamaño que garantice que todo el texto sea fácilmente legible tanto en pantallas pequeñas como grandes.
 
+::: {style="text-align: left;"}
 ![Typography](assets/img/cap4/styleguidelines/typography.png){ width=250px }
+:::
+
 
 #### Colors:
 
