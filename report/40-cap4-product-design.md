@@ -139,44 +139,41 @@ Los sistemas de navegación de ElectroLink han sido diseñados para guiar de for
 En esta sección, el equipo de Hampcoders presenta el Diseño de Interfaz de Usuario del sitio web de negocio
 
 ### 4.3.1. Landing Page Wireframe
+### Sección "¿Cómo Funciona?" y "Resolvemos Problemas Reales"
 
-### Sección "Cómo Funciona?" y "Resolvemos Problemas Reales"
+![Sección Landing 1](assets/img/cap4/landing/landingpage-seccion1.png){ width=85% }
 
-![Sección1](assets/img/cap4/landing/landingpage-seccion1.png)
+\newpage
 
-<hr>
+### Sección de "Testimonios" y "¿Por qué usar Electrolink?"
 
-### Sección de "Testimonios" y "Por qué usar Electrolink?"
+![Sección Landing 2](assets/img/cap4/landing/landingpage-seccion2.png){ width=85% }
 
-![Sección2](assets/img/cap4/landing/landingpage-seccion2.png)
+\newpage
 
-<hr>
+### Sección "Sobre Nosotros"
 
-### Sección de "Sobre Nosotros"
+![Sección Landing 3](assets/img/cap4/landing/landingpage-seccion3.png){ width=85% }
 
-![Sección3](assets/img/cap4/landing/landingpage-seccion3.png)
-
-<hr>
+\newpage
 
 ### Sección de "Contacto"
 
-![Sección4](assets/img/cap4/landing/landingpage-seccion4.png)
+![Sección Landing 4](assets/img/cap4/landing/landingpage-seccion4.png){ width=85% }
 
-<hr>
+\newpage
 
 ### 4.3.2. Landing Page Mock-up
 
-#### Sección "Cómo Funciona?" y "Resolvemos Problemas Reales"
+#### Sección "¿Cómo Funciona?" y "Resolvemos Problemas Reales"
 
-![LandingMockup1](assets/img/cap4/landing/landingpagemockup-1.png)
+![Landing Mockup 1](assets/img/cap4/landing/landingpagemockup-1.png){ width=85% }
 
-<hr>
+\newpage
 
-#### Sección de "Testimonios" y "Por qué usar Electrolink?"
+#### Sección de "Testimonios" y "¿Por qué usar Electrolink?"
 
-![LandingMockup2](assets/img/cap4/landing/landingpagemockup-2.png)
-
-<hr>
+![Landing Mockup 2](assets/img/cap4/landing/landingpagemockup-2.png){ width=85% }
 
 ## 4.4. Web Applications UX/UI Design
 En esta sección, el equipo de Hampcoders presenta el Diseño de Interfaz de Usuario de la aplicación Front-End
@@ -295,13 +292,14 @@ En esta sección se presenta la propuesta de User Flows del sistema ElectroLink,
 
 ![User Flow Registro Usuario](assets/img/cap4/userflow/userflow.png){ width=85% }
 
-\
+\newpage
+
 
 ### User Flow diagrams para el Usuario acceda desde la pagina principal a la vista de Perfil
 
 ![User Flow Registro Usuario](assets/img/cap4/userflow/userflow2.png){ width=85% }
 
-\
+\newpage
 
 
 [https://lucid.app/lucidchart/8ee80146-16b3-411f-9bfe-9e59585a2c0a/edit?viewport_loc=-9951%2C-1203%2C4182%2C4527%2C0_0&invitationId=inv_2095c3c9-49b0-4c53-a88a-6b8229449ac7](https://lucid.app/lucidchart/8ee80146-16b3-411f-9bfe-9e59585a2c0a/edit?viewport_loc=-9951%2C-1203%2C4182%2C4527%2C0_0&invitationId=inv_2095c3c9-49b0-4c53-a88a-6b8229449ac7)  
