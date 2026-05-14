@@ -18,7 +18,9 @@ El logo de ElectroLink representa la esencia de la plataforma como un puente mod
 
 #### Typography:
 
-La tipografía de nuestra marca tiene un estilo moderno y ordenado, va de la mano con la imagen de nuestra marca y lo que nosotros, como startup, queremos transmitir. Se usará un lenguaje casual y sencillo, con la finalidad de que el público se sienta cómodo usando nuestra plataforma. La tipografía debe ser clara y legible, utilizando la fuente "Abel", que se mantendrá consistente en toda la plataforma. Los títulos y subtítulos usarán una fuente ligeramente más grande que el cuerpo del texto para mejorar la jerarquía visual. En general, se debe usar un tamaño que garantice que todo el texto sea fácilmente legible tanto en pantallas pequeñas como grandes.
+La tipografía de nuestra marca tiene un estilo moderno y ordenado, va de la mano con la imagen de nuestra marca y lo que nosotros, como startup, queremos transmitir. Se usará un lenguaje casual y sencillo, con la finalidad de que el público se sienta cómodo usando nuestra plataforma. La tipografía debe ser clara y legible, utilizando la fuente "Public Sans", que se mantendrá consistente en toda la plataforma. Los títulos y subtítulos usarán una fuente ligeramente más grande que el cuerpo del texto para mejorar la jerarquía visual. En general, se debe usar un tamaño que garantice que todo el texto sea fácilmente legible tanto en pantallas pequeñas como grandes.
+
+![Typography](assets/img/cap4/styleguidelines/typography.png){ width=300px}
 
 #### Colors:
 
@@ -30,9 +32,7 @@ En conjunto, esta paleta respalda los valores de ElectroLink: precisión, accesi
 
 #### Paleta de Colores – ElectroLink
 
-#### Paleta de Colores – ElectroLink
-
-#### Paleta de Colores – ElectroLink
+![Colors Palette](assets/img/cap4/styleguidelines/colorspalette.png){ width=400px}
 
 | Muestra | Color | Uso | Código Hex |
 |---|---|---|---|
@@ -58,38 +58,193 @@ Asimismo, cada proveedor tendrá un perfil verificado con información detallada
 
 Para representar la estructura de los usuario se han realizado diagramas para la explicación de la funcionalidades de la aplicación y el recorrido del usuario en la misma.
 
-![Organization Systems](assets/img/cap4/Organization-Systems.png)
+![Organization Systems](assets/img/cap4/organizationsystems/Organization-Systems.png)
+
+#### 4.2.2. Labeling Systems
+
+| Sección                                     | Etiqueta                        | Descripción                                                                 |
+|--------------------------------------------|----------------------------------|-----------------------------------------------------------------------------|
+| **Menú de inicio**                          | Inicio                           | Página principal con visión general de la plataforma y acceso rápido a secciones. |
+|                                             | Cómo funciona                    | Explicación clara y visual del funcionamiento del sistema paso a paso.     |
+|                                             | Testimonios                      | Opiniones y experiencias reales de usuarios satisfechos.                   |
+|                                             | Contacto                         | Formulario y canales disponibles para consultas, soporte o sugerencias.    |
+|                                             |                                  |                                                                            |
+| **Botones de ingreso y salida               | Iniciar Sesión                   | Botón donde los usuarios podrán iniciar sesión con su cuenta.              |
+|   de la plataforma**                        | Iniciar Sesión con Google        | Botón que permite a los usuarios iniciar sesión con su cuenta de Google.   |
+|                                             | Iniciar Sesión con Facebook      | Botón que permite a los usuarios iniciar sesión con su cuenta de Facebook. |
+|                                             | Registrarse                      | Botón donde los usuarios podrán crearse una cuenta en la plataforma.       |
+|                                             | Dashboard                        | Botón que dirige a la interfaz del usuario seleccionado.                   |
+|                                             | Cerrar Sesión                    | Botón que permite al usuario empezar una conversación con el asistente virtual. |
+|                                             |                                  |                                                                            |
+| **Sección menú del propietario**            | Historial de servicios           | Visualiza el registro de mantenimientos y reparaciones realizadas.         |
+|                                             | Inventario de electrodomésticos  | Consulta la lista de equipos registrados y su consumo energético.          |
+|                                             | Buscar proveedores               | Encuentra técnicos y proveedores certificados.                             |
+|                                             | Detectar problema                | Analiza factores para identificar fallas o excesos de consumo.             |
+|                                             | Monitorear energía               | Seguimiento del consumo eléctrico mensual y estado de componentes.         |
+|                                             | Inventario de electrodomésticos (Subir) | Añade nuevos dispositivos con sus características de consumo.       |
+|                                             | Suscripción                      | Gestión del plan actual y beneficios exclusivos.                           |
+|                                             | Mi perfil                        | Edición de información personal, preferencias y datos de contacto.         |
+|                                             |                                  |                                                                            |
+| **Menú de proveedores y técnicos**          | Gestión y Agenda de Citas        | Organiza, programa y visualiza citas con clientes.                         |
+|                                             | Gestión de Servicios Ofrecidos   | Administra los servicios disponibles y sus detalles.                       |
+|                                             | Historial de Servicios           | Registro completo de todos los servicios realizados.                       |
+|                                             | Panel de Métricas y Rendimiento  | Estadísticas clave sobre actividad y eficiencia del proveedor.             |
+|                                             | Inventario y Catálogo de Productos (En caso aplique) | Gestiona stock y presenta productos disponibles.       |
+|                                             | Subscripción                     | Visualiza y gestiona el plan de suscripción y beneficios.                  |
+|                                             | Mi Perfil                        | Edita y actualiza la información personal y profesional.                   |
+
+#### 4.2.3. SEO Tags and Meta Tags
+
+**Landing Page Title:** ElectroLink - Tu conexión segura a la electricidad
+
+**Description:** ElectroLink es una plataforma enfocada en conectar a proveedores de componentes o servicios eléctricos con clientes que necesitan asesoramiento o asistencia para realizar mantenimientos preventivos en sus hogares u oficinas.
+
+**Meta Keywords:** seguridad, ahorro eléctrico, mantenimiento, asesoramiento.
+
+**ElectroLink Meta Author:** ElectroLink
+
+**Meta Description:** facilitar la conexión entre clientes que necesitan servicios eléctricos confiables y proveedores calificados.
+
+**Title:** ElectroLink
+
+**Description:** Buscar conectar a dueños de hogares urbanos con proveedores técnicos eléctricos certificados, garantizando servicios seguros y eficientes dentro de los parámetros legales mediante una plataforma intuitiva y fácil de usar.
+
+**Meta Keywords:** seguridad, ahorro eléctrico, mantenimiento, asesoramiento.
+
+**Meta Author:** ElectroLink
+
+#### 4.2.4. Searching Systems
+
+ElectroLink cuenta con un sistema de búsqueda avanzada que permite a los usuarios encontrar servicios y productos eléctricos de forma eficiente, a través de múltiples filtros:
+
+| **Filtro**                         | **Descripción**                                                                                                                                          |
+|-----------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Tipo de Servicio**              | Permite al usuario buscar proveedores en función del tipo de servicio requerido (instalación, mantenimiento preventivo, reparación, auditoría eléctrica, etc.). |
+| **Ubicación / Zona**              | Filtro geográfico que ayuda a encontrar proveedores o técnicos disponibles en una zona específica o cercana al domicilio/oficina del usuario.              |
+| **Disponibilidad de Agenda**      | Permite filtrar proveedores según fechas y horarios disponibles para programar una cita.                                                                 |
+| **Certificación del Proveedor**   | Muestra solo técnicos o empresas que cuentan con certificaciones válidas y actualizadas en el área eléctrica.                                             |
+| **Rango de Precio**               | Filtra servicios o productos según el presupuesto disponible del usuario, desde opciones económicas hasta servicios premium.                             |
+| **Proveedores con Mejores Reseñas** | Filtro para mostrar técnicos con mayores calificaciones o comentarios positivos según otros usuarios.                                                   |
+| **Categoría de Producto Eléctrico** | Ayuda a encontrar productos específicos en el inventario (bombillas, disyuntores, medidores, enchufes, etc.).                                           |
+| **Historial de Consumo Energético** | Permite visualizar patrones de consumo eléctrico mensual o anual filtrando por fecha o dispositivos.                                                   |
+| **Planes de Suscripción**         | Filtra y compara distintos planes de suscripción según los beneficios ofrecidos (monitoreo, asesoría, prioridad en atención, etc.).                       |
+
+#### 4.2.5. Navigation Systems
+
+Los sistemas de navegación de ElectroLink han sido diseñados para guiar de forma intuitiva a los usuarios a través del Landing Page y la aplicación, facilitando la exploración del contenido y el acceso a las funcionalidades clave. La estructura sigue una lógica clara que permite a cada tipo de usuario (hogar, oficina, proveedor) encontrar rápidamente lo que necesita mediante menús jerárquicos, enlaces destacados y botones de acción visibles.
+
+![NavigationSystem](assets/img/cap4/organizationsystems/navigationsystems.png)
 
 ## 4.3. Landing Page UI Design
 En esta sección, el equipo de Hampcoders presenta el Diseño de Interfaz de Usuario del sitio web de negocio
 
 ### 4.3.1. Landing Page Wireframe
 
-Sección "Cómo Funciona?" y "Resolvemos Problemas Reales"
+### Sección "Cómo Funciona?" y "Resolvemos Problemas Reales"
+<hr>
 
 ![Sección1](assets/img/cap4/landing/landingpage-seccion1.png)
 
-Sección de "Testimonios" y "Por qué usar Electrolink?"
+<hr>
 
+### Sección de "Testimonios" y "Por qué usar Electrolink?"
+<hr>
 ![Sección2](assets/img/cap4/landing/landingpage-seccion2.png)
 
-Sección de "Sobre Nosotros"
+<hr>
+
+### Sección de "Sobre Nosotros"
+<hr>
 
 ![Sección3](assets/img/cap4/landing/landingpage-seccion3.png)
 
-Sección de "Contacto"
+<hr>
+
+### Sección de "Contacto"
+<hr>
 
 ![Sección4](assets/img/cap4/landing/landingpage-seccion4.png)
 
+<hr>
+
 ### 4.3.2. Landing Page Mock-up
 
-Sección "Cómo Funciona?" y "Resolvemos Problemas Reales"
+#### Sección "Cómo Funciona?" y "Resolvemos Problemas Reales"
+<hr>
 
 ![LandingMockup1](assets/img/cap4/landing/landingpagemockup-1.png)
 
-Sección de "Testimonios" y "Por qué usar Electrolink?"
+<hr>
+
+#### Sección de "Testimonios" y "Por qué usar Electrolink?"
+<hr>
 
 ![LandingMockup2](assets/img/cap4/landing/landingpagemockup-2.png)
+
+<hr>
+
+## 4.4. Web Applications UX/UI Design
+En esta sección, el equipo de Hampcoders presenta el Diseño de Interfaz de Usuario de la aplicación Front-End
+
+### 4.4.1. Web Applications Wireframes
+
+En esta sección se presentan los **wireframes de la aplicación web de ElectroLink**, los cuales permiten visualizar cómo será la estructura y disposición de los elementos en la interfaz. Estos bocetos funcionales aseguran una experiencia fluida, clara e inclusiva para los diferentes segmentos de usuarios, como propietarios de hogares, pequeños empresarios y proveedores técnicos, incluyendo además personas con ansiedad social, TEA, o discapacidades físicas.
+
+El propósito de los wireframes es establecer la **estructura base de la aplicación**, mostrando la organización de la información, la navegación y la ubicación de los elementos interactivos sin enfocarse aún en los aspectos visuales finales. Esta etapa es crucial para garantizar una **experiencia de usuario intuitiva y accesible desde el inicio del diseño**.
+
+---
+
+### Elementos clave del diseño
+
+#### Arquitectura de la información
+
+- El contenido y las funciones están organizadas para facilitar el acceso a herramientas como el historial de servicios, monitoreo de consumo energético, o gestión de citas.
+- Los wireframes incluyen pantallas clave como:
+  - Panel de control del propietario.
+  - Dashboard del proveedor técnico.
+  - Formulario para solicitar mantenimientos preventivos.
+  - Historial de dispositivos y consumo energético.
+- Se ha priorizado una **navegación simple y accesible**, permitiendo que usuarios con diversas habilidades puedan moverse con facilidad por la plataforma.
+
+#### Estructura de la interfaz
+
+- Los elementos interactivos (botones, menús, tarjetas de información) están ubicados estratégicamente para que el usuario pueda realizar tareas con pocos clics.
+- Las pantallas permiten acceso directo a secciones importantes como:
+  - Subir o editar dispositivos eléctricos.
+  - Contactar proveedores certificados.
+  - Visualizar métricas de rendimiento o consumo.
+- Se incluye también una sección de perfil adaptable y configurable, especialmente útil para personas que requieren adaptaciones visuales, físicas o cognitivas.
+
+---
+
+### Principios de diseño aplicados
+
+- **Simplicidad**: Cada interfaz está diseñada para minimizar la carga cognitiva, con estructuras limpias que priorizan las acciones más importantes para el usuario.
+- **Consistencia**: Todos los botones, iconos y menús siguen un mismo estilo visual y funcional, lo que reduce el tiempo de aprendizaje para los usuarios.
+- **Accesibilidad**: Se aplican principios de diseño inclusivo, incluyendo opciones como:
+  - Ajuste del tamaño de texto y botones.
+  - Contraste de colores adecuado.
+  - Navegación compatible con teclado y lectores de pantalla.
+  - Diseño responsive para su uso en laptops, tablets y móviles.
+
+---
+Los wireframes son una guía esencial para la implementación efectiva de la plataforma ElectroLink, alineando las necesidades de los usuarios con un diseño funcional, ordenado y accesible para todos.
+
+#### 4.4.2. Web Applications Wireflow Diagrams
+En esta sección, el equipo de Hampcoders define los wireflows diagrams para la aplicación Web
+
+#### 4.4.3. Web Applications Mock-ups
+
+
+#### 4.4.4. Web Applications User Flow Diagrams
+
+En esta sección se presenta la propuesta de User Flows del sistema ElectroLink, diseñados para representar las rutas de interacción que los usuarios siguen dentro de la plataforma. Cada flujo corresponde a un User Goal específico, basado en los perfiles de User Persona definidos en el alcance del proyecto.
+<hr>
+
+## 4.5. Web Applications Prototyping
+
+Esta sección presenta los prototipos de interfaz de usuario , los cuales incluyen simulaciones de interacción y navegación. Las decisiones de
+interacción se fundamentan en criterios clave, como la facilidad de uso, la accesibilidad y la optimización para distintos dispositivos.
 
 ## 4.6. Domain-Driven Software Architecture
 
