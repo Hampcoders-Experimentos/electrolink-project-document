@@ -26,6 +26,10 @@ Nuestra *pipeline* de CI está integrada en **GitHub Actions** y sigue un flujo 
 | **3. Build** | Compila la aplicación *backend* (Java) y genera artefactos. | Maven (`./mvnw clean install`) | **Fallo si** la compilación falla (errores de sintaxis o dependencias). |
 | **4. Unit & Integration Tests** | Ejecuta las suites de pruebas. | **JUnit 5** y **Mockito** (Unitarias), **Karate** (Integración/API) | **Fallo si** una prueba unitaria o de integración falla, deteniendo el flujo CI. |
 | **5. Containerization** | Construye la imagen de Docker para la aplicación *backend*. | **Docker** | Generación exitosa de la imagen del contenedor, lista para ser desplegada. |
+| **6. Pipeline Validation** | Se ejecuta un pipeline utilizando Jenkins para ejecutar la aplicación del Backend | **Fallo si** el despliegue a staging falla o si las pruebas de validación en staging no pasan. |
+
+
+![Ejecución del Pipeline con Jenkins](assets/img/cap7/ci/jenkins-build.png)
 
 ---
 
