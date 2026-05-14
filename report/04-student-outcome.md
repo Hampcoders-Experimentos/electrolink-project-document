@@ -2,10 +2,96 @@
 
 # Student Outcome 
 
-| Criterio específico | Acciones realizadas | Conclusiones |
-|:---|:---|:---|
-| Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software. | \textbf{Integrante 1:} Ethan Aliaga Aguirre \newline ────────────────────── \newline - AV1: En esta entrega pude actualizar conceptos relacionados a la metodología Lean UX para realizar la definición del Problem Statement, alcances y límites de nuestro proyecto. \newline - AV2: Profundicé en conceptos de arquitectura de software mediante la definición de principios arquitectónicos, estilos y patrones, así como la elaboración de diagramas de contexto y vistas basadas en viewpoints, fortaleciendo mi comprensión sobre diseño estructurado de sistemas. \newline\newline \textbf{Integrante 2:} Cesar Augusto Arostegui Alzamora \newline ────────────────────── \newline - AV1: Durante las fases iniciales, se elaboraron los diagramas To-Be Scenario Mapping, se estructuró el User Task Matrix y se ejecutó un análisis detallado y estadístico de las entrevistas. \newline - AV2: Se desarrollaron artefactos clave como los diagramas de base de datos relacional y no relacional, así como la identificación de drivers arquitectónicos y escenarios de atributos de calidad, aplicando conceptos avanzados de diseño de software. \newline ────────────────────── \newline \textbf{Integrante 3:} Italo Ludwing Sánchez Manrique \newline ────────────────────── \newline - AV1: Investigué y apliqué herramientas como User Persona, Customer Journey Map, Impact Map y análisis de competidores. \newline - AV2: Apliqué el método ADD (Attribute-Driven Design) para estructurar iteraciones arquitectónicas, definiendo responsabilidades, interfaces y decisiones de diseño, además de integrar tácticas arquitectónicas orientadas a atributos de calidad como performance, seguridad y disponibilidad. \newline ──────────────────────\newline\textbf{Integrante 4:} Alessandra Nicole Becerra Tejeda \newline ────────────────────── \newline - AV1: Participé en la elaboración de la arquitectura de información (Information Architecture), organización de contenidos y definición de componentes visuales mediante los Style Guidelines del proyecto. \newline - AV2: Contribuí en el diseño de la Web Application, así como en la estructuración de interfaces y elementos visuales enfocados en la experiencia de usuario y consistencia del sistema. \newline\newline\textbf{Integrante 5:} Ivo Machado Bracamonte \newline ───────────────────── \newline - AV1: Investigué sobre Lean UX para definir hipótesis, user persona e historias de usuario. \newline - AV2: Desarrollé las vistas de los diagrama C4 y UML para representar la arquitectura del sistema, ademas del propósito de diseño y backlog arquitectónico, consolidando la alineación entre requerimientos funcionales y decisiones arquitectónicas. | Se evidencia una evolución significativa desde el entendimiento del problema hasta la estructuración formal de una arquitectura de software sólida, integrando principios, patrones, tácticas y modelos de datos. El equipo logró aplicar conocimientos teóricos avanzados en un contexto práctico, fortaleciendo sus competencias en diseño arquitectónico orientado a atributos de calidad. |
-| Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software. | \textbf{Integrante 1:} Ethan Aliaga Aguirre \newline ─────────────────────── \newline - AV1: Sentí la necesidad de investigar conceptos para mejorar el desarrollo de entrevistas. \newline - AV2: Fue necesario profundizar en arquitectura de software, especialmente en estilos arquitectónicos, tácticas y modelado de vistas, evidenciando la importancia del aprendizaje continuo en etapas de diseño. \newline ──────────────────────\newline\textbf{Integrante 2:} Cesar Augusto Arostegui Alzamora \newline ─────────────────────── \newline - AV1: Se investigaron temas fuera del ámbito técnico como modelos de negocio y comportamiento del usuario. \newline - AV2: Se requirió aprender sobre escenarios de atributos de calidad, drivers arquitectónicos y su impacto en decisiones de diseño, ampliando el enfoque hacia una visión más estratégica del software. \newline ───────────────────────\newline\textbf{Integrante 3:} Italo Ludwing Sánchez Manrique \newline ─────────────────────── \newline - AV1: Identifiqué la necesidad de adquirir conocimientos en metodologías UX y análisis de usuarios. \newline - AV2: Reconocí la importancia de dominar enfoques como ADD, diseño basado en atributos de calidad y modelado arquitectónico, lo que implicó un aprendizaje continuo en arquitectura de software moderna. \newline ───────────────────────\textbf{Integrante 4:} Alessandra Nicole Becerra Tejeda \newline ──────────────────────── \newline - AV1: Investigué principios de diseño UI/UX y organización de información para desarrollar los apartados de Information Architecture y Style Guidelines del proyecto. \newline - AV2: Profundicé en conceptos relacionados con diseño de aplicaciones web, experiencia de usuario y consistencia visual, aplicando estos conocimientos en la elaboración de la Web Application Design. \newline ───────────────────────\textbf{Integrante 5:} Ivo Machado Bracamonte \newline ─────────────────────── \newline - AV1: Aprendí a identificar necesidades de usuarios para definir requerimientos. \newline - AV2: Fue necesario investigar sobre patrones de diseño, restricciones arquitectónicas y representación de arquitectura mediante C4 y UML, reforzando la necesidad de actualización constante. | Se demuestra una comprensión sólida de que el desarrollo de soluciones de software de calidad requiere un aprendizaje continuo y multidisciplinario, especialmente en áreas como arquitectura, diseño basado en atributos de calidad y toma de decisiones técnicas. El equipo evidencia una evolución hacia un enfoque más estratégico, analítico y profesional en la construcción de sistemas complejos. |
+\begin{table}[H]
+\centering
+\small
+\renewcommand{\arraystretch}{1.4}
+
+\begin{tabular}{|p{4.5cm}|p{8cm}|p{4.5cm}|}
+\hline
+
+\textbf{Criterio específico} &
+\textbf{Acciones realizadas} &
+\textbf{Conclusiones}
+\\ \hline
+
+\textbf{4.c.1 Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software}
+&
+\textbf{Alessandra Becerra}
+
+\textbf{TB1:} Participó en la implementación de pruebas unitarias y pruebas de integración para validar el correcto funcionamiento de endpoints y reglas de negocio.
+
+\textbf{TP:} Aplicó buenas prácticas de validación y documentación de pruebas para garantizar calidad y confiabilidad del sistema.
+
+\vspace{0.2cm}
+
+\textbf{César Arostegui}
+
+\textbf{TP:} Desarrolló pruebas relacionadas con autenticación, restricciones de acceso y validación de planes del sistema.
+
+\textbf{TB2:} Aplicó criterios de seguridad y control de errores en APIs RESTful.
+
+\vspace{0.2cm}
+
+\textbf{José Mateo Cabanillas}
+
+\textbf{TP:} Implementó validaciones funcionales y pruebas E2E para solicitudes y servicios del backend.
+
+\textbf{TP:} Participó en la organización y control de calidad de endpoints y documentación técnica.
+
+\vspace{0.2cm}
+
+\textbf{Italo Ludwing Ethan Matias Aliaga Aguirre}
+
+\textbf{TP:} Configuró herramientas de análisis estático como SonarQube y CheckStyle para verificar calidad y mantenibilidad del código.
+
+\textbf{TP:} Supervisó métricas de calidad y detección de vulnerabilidades para asegurar estándares profesionales de desarrollo.
+&
+El equipo evidenció responsabilidad ética y profesional mediante la aplicación de buenas prácticas de desarrollo, testing automatizado, control de calidad y validación continua del sistema.
+
+Se priorizó la confiabilidad, mantenibilidad y seguridad de la solución backend desarrollada.
+\\ \hline
+
+\textbf{4.c.2 Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales}
+&
+\textbf{Alessandra Becerra}
+
+\textbf{TP:} Analizó la importancia de las pruebas automatizadas para garantizar estabilidad y reducir errores en sistemas orientados a usuarios finales.
+
+\textbf{TP:} Consideró el impacto de la calidad del software en la experiencia y confianza de los usuarios.
+
+\vspace{0.2cm}
+
+\textbf{César Arostegui}
+
+\textbf{TP:} Evaluó mecanismos de autenticación y restricciones de acceso para proteger información sensible del sistema.
+
+\textbf{TP:} Aplicó criterios de seguridad y validación considerando riesgos asociados al uso incorrecto de la plataforma.
+
+\vspace{0.2cm}
+
+\textbf{José Mateo Cabanillas}
+
+\textbf{TP:} Participó en la validación de endpoints y flujos funcionales orientados a optimizar procesos del sistema.
+
+\textbf{TP:} Reconoció la importancia de APIs confiables y escalables para garantizar sostenibilidad tecnológica.
+
+\vspace{0.2cm}
+
+\textbf{Italo Ludwing Ethan Matias Aliaga Aguirre}
+
+\textbf{TP:} Implementó herramientas de monitoreo y análisis estático para mejorar la calidad y mantenibilidad del software.
+
+\textbf{TP:} Evaluó métricas de calidad y seguridad considerando impacto técnico y sostenibilidad del proyecto a largo plazo.
+&
+El equipo logró emitir juicios informados relacionados con calidad, seguridad y sostenibilidad del software, comprendiendo el impacto que las decisiones técnicas tienen en la experiencia de usuario, la confiabilidad del sistema y el desarrollo responsable de soluciones tecnológicas.
+\\ \hline
+
+\end{tabular}
+
+\caption{Student Outcomes del equipo}
+\label{tab:student-outcomes}
+\end{table}
 
 \normalsize
 
