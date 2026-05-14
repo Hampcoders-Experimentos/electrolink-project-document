@@ -263,6 +263,12 @@ En esta sección, el equipo de Hampcoders define los wireflows diagrams para la 
 
 \newpage
 
+### Vista de la sección de añadir propiedad
+
+![Wireflow Búsqueda Proveedor](assets/img/cap4/wireframes/wireflowlpropiedad.png){ width=85% }
+
+\newpage
+
 
 [https://lucid.app/lucidchart/30f4fbe6-f0ef-44da-88e3-46020aca7a0f/edit?view_items=AAr.UGv3QC3F&page=0_0&invitationId=inv_420b895d-1a79-4a72-baab-d4f42e8e3f6f](https://lucid.app/lucidchart/30f4fbe6-f0ef-44da-88e3-46020aca7a0f/edit?view_items=AAr.UGv3QC3F&page=0_0&invitationId=inv_420b895d-1a79-4a72-baab-d4f42e8e3f6f)
 
@@ -328,6 +334,9 @@ En esta sección se presenta la propuesta de User Flows del sistema ElectroLink,
 
 Esta sección presenta los prototipos de interfaz de usuario , los cuales incluyen simulaciones de interacción y navegación. Las decisiones de
 interacción se fundamentan en criterios clave, como la facilidad de uso, la accesibilidad y la optimización para distintos dispositivos.
+
+[https://www.figma.com/proto/gtumIjnhLJ1rDqlntXsJJS/Electrolink-EXP?node-id=4-5&t=VaQk4h0RNODs3pVx-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=4%3A5](https://www.figma.com/proto/gtumIjnhLJ1rDqlntXsJJS/Electrolink-EXP?node-id=4-5&t=VaQk4h0RNODs3pVx-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=4%3A5)
+
 
 ## 4.6. Domain-Driven Software Architecture
 
