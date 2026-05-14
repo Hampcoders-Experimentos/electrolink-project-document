@@ -28,7 +28,7 @@ La paleta de colores elegida para la web de ElectroLink fue diseñada para mante
 
 El celeste claro aporta dinamismo y accesibilidad en botones secundarios, estados hover y elementos interactivos, reforzando la experiencia de usuario moderna y amigable. Por otro lado, el amarillo pastel funciona como color de énfasis para destacar alertas suaves, avisos importantes y llamadas de atención sin resultar agresivo visualmente. Finalmente, los colores de apoyo para estados del sistema, como verde para acciones exitosas y rojo para errores o advertencias críticas, mejoran la claridad visual y la retroalimentación de las interacciones dentro de la plataforma.
 
-En conjunto, esta paleta respalda los valores de ElectroLink: precisión, accesibilidad, innovación tecnológica y conexión eficiente entre propietarios y técnicos eléctricos.
+En conjunto, esta paleta respalda los valores de ElectroLink: precisión, accesibilidad, innovación tecnológica y conexión eficiente entre propietarios y proveedores eléctricos.
 
 #### Paleta de Colores – ElectroLink
 
@@ -50,9 +50,10 @@ De manera que el contenido de nuestro sitio web se vea organizado y sea mostrado
 
 ## 4.2. Information Architecture
 
-La arquitectura de información que se implementará en ElectroLink está diseñada para facilitar una experiencia de navegación clara, eficiente y centrada en conectar usuarios con técnicos de servicios y componentes eléctricos. Desde el menú principal, los visitantes podrán acceder rápidamente a categorías clave como "técnicos", "Servicios", "Asesoramiento", y "Mantenimientos preventivos", lo que les permitirá encontrar con facilidad las soluciones que se ajusten a sus necesidades técnicas o del hogar.
-La plataforma contará con un sistema de filtrado inteligente que permitirá a los usuarios buscar técnicos según ubicación, especialización (instalaciones, mantenimiento, venta de componentes), certificaciones legales y valoraciones de otros clientes. Además, ElectroLink ofrecerá un apartado de asesoría técnica, donde los usuarios podrán consultar artículos, guías rápidas y recomendaciones para la gestión segura de instalaciones eléctricas tanto en hogares como en negocios.
-Asimismo, cada técnico tendrá un perfil verificado con información detallada sobre sus servicios, casos anteriores, contacto directo y una sección de opiniones. También se incluirá un sistema de solicitud rápida de cotización, permitiendo a los clientes establecer una comunicación ágil y efectiva. Con esta arquitectura, ElectroLink busca no solo ordenar y categorizar la información de manera accesible, sino también fomentar la confianza, la transparencia y una red de colaboración técnica eficiente, alineada con estándares de seguridad y legalidad en el rubro eléctrico.
+La arquitectura de información que se implementará en ElectroLink está diseñada para facilitar una experiencia de navegación clara, eficiente y centrada en conectar usuarios con proveedores de servicios y componentes eléctricos. Desde el menú principal, los visitantes podrán acceder rápidamente a categorías clave como "Proveedores", "Servicios", "Asesoramiento", y "Mantenimientos preventivos", lo que les permitirá encontrar con facilidad las soluciones que se ajusten a sus necesidades técnicas o del hogar.
+La plataforma contará con un sistema de filtrado inteligente que permitirá a los usuarios buscar proveedores según ubicación, especialización (instalaciones, mantenimiento, venta de componentes), certificaciones legales y valoraciones de otros clientes. Además, ElectroLink ofrecerá un apartado de asesoría técnica, donde los usuarios podrán consultar artículos, guías rápidas y recomendaciones para la gestión segura de instalaciones eléctricas tanto en hogares como en negocios.
+Asimismo, cada proveedor tendrá un perfil verificado con información detallada sobre sus servicios, casos anteriores, contacto directo y una sección de opiniones. También se incluirá un sistema de solicitud rápida de cotización, permitiendo a los clientes establecer una comunicación ágil y efectiva. Con esta arquitectura, ElectroLink busca no solo ordenar y categorizar la información de manera accesible, sino también fomentar la confianza, la transparencia y una red de colaboración técnica eficiente, alineada con estándares de seguridad y legalidad en el rubro eléctrico.
+
 
 ### 4.2.1. Organization Systems
 
@@ -78,17 +79,17 @@ Para representar la estructura de los usuario se han realizado diagramas para la
 |                                             |                                  |                                                                            |
 | **Sección menú del propietario**            | Historial de servicios           | Visualiza el registro de mantenimientos y reparaciones realizadas.         |
 |                                             | Inventario de electrodomésticos  | Consulta la lista de equipos registrados y su consumo energético.          |
-|                                             | Buscar técnicos               | Encuentra técnicos certificados.                             |
+|                                             | Buscar proveedores               | Encuentra técnicos y proveedores certificados.                             |
 |                                             | Detectar problema                | Analiza factores para identificar fallas o excesos de consumo.             |
 |                                             | Monitorear energía               | Seguimiento del consumo eléctrico mensual y estado de componentes.         |
 |                                             | Inventario de electrodomésticos (Subir) | Añade nuevos dispositivos con sus características de consumo.       |
 |                                             | Suscripción                      | Gestión del plan actual y beneficios exclusivos.                           |
 |                                             | Mi perfil                        | Edición de información personal, preferencias y datos de contacto.         |
 |                                             |                                  |                                                                            |
-| **Menú de técnicos**          | Gestión y Agenda de Citas        | Organiza, programa y visualiza citas con clientes.                         |
+| **Menú de proveedores y técnicos**          | Gestión y Agenda de Citas        | Organiza, programa y visualiza citas con clientes.                         |
 |                                             | Gestión de Servicios Ofrecidos   | Administra los servicios disponibles y sus detalles.                       |
 |                                             | Historial de Servicios           | Registro completo de todos los servicios realizados.                       |
-|                                             | Panel de Métricas y Rendimiento  | Estadísticas clave sobre actividad y eficiencia del técnico.             |
+|                                             | Panel de Métricas y Rendimiento  | Estadísticas clave sobre actividad y eficiencia del proveedor.             |
 |                                             | Inventario y Catálogo de Productos (En caso aplique) | Gestiona stock y presenta productos disponibles.       |
 |                                             | Subscripción                     | Visualiza y gestiona el plan de suscripción y beneficios.                  |
 |                                             | Mi Perfil                        | Edita y actualiza la información personal y profesional.                   |
@@ -97,17 +98,17 @@ Para representar la estructura de los usuario se han realizado diagramas para la
 
 **Landing Page Title:** ElectroLink - Tu conexión segura a la electricidad
 
-**Description:** ElectroLink es una plataforma enfocada en conectar a técnicos con clientes que necesitan asesoramiento o asistencia para realizar mantenimientos preventivos en sus hogares u oficinas.
+**Description:** ElectroLink es una plataforma enfocada en conectar a proveedores de componentes o servicios eléctricos con clientes que necesitan asesoramiento o asistencia para realizar mantenimientos preventivos en sus hogares u oficinas.
 
 **Meta Keywords:** seguridad, ahorro eléctrico, mantenimiento, asesoramiento.
 
 **ElectroLink Meta Author:** ElectroLink
 
-**Meta Description:** facilitar la conexión entre clientes que necesitan servicios eléctricos confiables y técnicos calificados.
+**Meta Description:** facilitar la conexión entre clientes que necesitan servicios eléctricos confiables y proveedores calificados.
 
 **Title:** ElectroLink
 
-**Description:** Buscar conectar a dueños de hogares urbanos con técnicos eléctricos certificados, garantizando servicios seguros y eficientes dentro de los parámetros legales mediante una plataforma intuitiva y fácil de usar.
+**Description:** Buscar conectar a dueños de hogares urbanos con proveedores técnicos eléctricos certificados, garantizando servicios seguros y eficientes dentro de los parámetros legales mediante una plataforma intuitiva y fácil de usar.
 
 **Meta Keywords:** seguridad, ahorro eléctrico, mantenimiento, asesoramiento.
 
@@ -119,19 +120,20 @@ ElectroLink cuenta con un sistema de búsqueda avanzada que permite a los usuari
 
 | **Filtro**                         | **Descripción**                                                                                                                                          |
 |-----------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Tipo de Servicio**              | Permite al usuario buscar técnicos en función del tipo de servicio requerido (instalación, mantenimiento preventivo, reparación, auditoría eléctrica, etc.). |
-| **Ubicación / Zona**              | Filtro geográfico que ayuda a encontrar técnicos disponibles en una zona específica o cercana al domicilio/oficina del usuario.              |
-| **Disponibilidad de Agenda**      | Permite filtrar técnicos según fechas y horarios disponibles para programar una cita.                                                                 |
-| **Certificación del técnico**   | Muestra solo técnicos o empresas que cuentan con certificaciones válidas y actualizadas en el área eléctrica.                                             |
+| **Tipo de Servicio**              | Permite al usuario buscar proveedores en función del tipo de servicio requerido (instalación, mantenimiento preventivo, reparación, auditoría eléctrica, etc.). |
+| **Ubicación / Zona**              | Filtro geográfico que ayuda a encontrar proveedores o técnicos disponibles en una zona específica o cercana al domicilio/oficina del usuario.              |
+| **Disponibilidad de Agenda**      | Permite filtrar proveedores según fechas y horarios disponibles para programar una cita.                                                                 |
+| **Certificación del Proveedor**   | Muestra solo técnicos o empresas que cuentan con certificaciones válidas y actualizadas en el área eléctrica.                                             |
 | **Rango de Precio**               | Filtra servicios o productos según el presupuesto disponible del usuario, desde opciones económicas hasta servicios premium.                             |
-| **técnicos con Mejores Reseñas** | Filtro para mostrar técnicos con mayores calificaciones o comentarios positivos según otros usuarios.                                                   |
+| **Proveedores con Mejores Reseñas** | Filtro para mostrar técnicos con mayores calificaciones o comentarios positivos según otros usuarios.                                                   |
 | **Categoría de Producto Eléctrico** | Ayuda a encontrar productos específicos en el inventario (bombillas, disyuntores, medidores, enchufes, etc.).                                           |
 | **Historial de Consumo Energético** | Permite visualizar patrones de consumo eléctrico mensual o anual filtrando por fecha o dispositivos.                                                   |
 | **Planes de Suscripción**         | Filtra y compara distintos planes de suscripción según los beneficios ofrecidos (monitoreo, asesoría, prioridad en atención, etc.).                       |
 
+
 #### 4.2.5. Navigation Systems
 
-Los sistemas de navegación de ElectroLink han sido diseñados para guiar de forma intuitiva a los usuarios a través del Landing Page y la aplicación, facilitando la exploración del contenido y el acceso a las funcionalidades clave. La estructura sigue una lógica clara que permite a cada tipo de usuario (hogar, oficina, técnico) encontrar rápidamente lo que necesita mediante menús jerárquicos, enlaces destacados y botones de acción visibles.
+Los sistemas de navegación de ElectroLink han sido diseñados para guiar de forma intuitiva a los usuarios a través del Landing Page y la aplicación, facilitando la exploración del contenido y el acceso a las funcionalidades clave. La estructura sigue una lógica clara que permite a cada tipo de usuario (hogar, oficina, proveedor) encontrar rápidamente lo que necesita mediante menús jerárquicos, enlaces destacados y botones de acción visibles.
 
 ![NavigationSystem](assets/img/cap4/organizationsystems/navigationsystems.png)
 
@@ -180,7 +182,7 @@ En esta sección, el equipo de Hampcoders presenta el Diseño de Interfaz de Usu
 
 ### 4.4.1. Web Applications Wireframes
 
-En esta sección se presentan los **wireframes de la aplicación web de ElectroLink**, los cuales permiten visualizar cómo será la estructura y disposición de los elementos en la interfaz. Estos bocetos funcionales aseguran una experiencia fluida, clara e inclusiva para los diferentes segmentos de usuarios, como propietarios de hogares, pequeños empresarios y técnicos, incluyendo además personas con ansiedad social, TEA, o discapacidades físicas.
+En esta sección se presentan los **wireframes de la aplicación web de ElectroLink**, los cuales permiten visualizar cómo será la estructura y disposición de los elementos en la interfaz. Estos bocetos funcionales aseguran una experiencia fluida, clara e inclusiva para los diferentes segmentos de usuarios, como propietarios de hogares, pequeños empresarios y proveedores técnicos, incluyendo además personas con ansiedad social, TEA, o discapacidades físicas.
 
 El propósito de los wireframes es establecer la **estructura base de la aplicación**, mostrando la organización de la información, la navegación y la ubicación de los elementos interactivos sin enfocarse aún en los aspectos visuales finales. Esta etapa es crucial para garantizar una **experiencia de usuario intuitiva y accesible desde el inicio del diseño**.
 
@@ -193,7 +195,7 @@ El propósito de los wireframes es establecer la **estructura base de la aplicac
 - El contenido y las funciones están organizadas para facilitar el acceso a herramientas como el historial de servicios, monitoreo de consumo energético, o gestión de citas.
 - Los wireframes incluyen pantallas clave como:
   - Panel de control del propietario.
-  - Dashboard del técnico.
+  - Dashboard del proveedor.
   - Formulario para solicitar mantenimientos preventivos.
   - Historial de dispositivos y consumo energético.
 - Se ha priorizado una **navegación simple y accesible**, permitiendo que usuarios con diversas habilidades puedan moverse con facilidad por la plataforma.
@@ -235,7 +237,7 @@ Los wireframes son una guía esencial para la implementación efectiva de la pla
 
 \newpage
 
-### Vista del Dashboard del Técnico
+### Vista del Dashboard del Proveedor Técnico
 
 ![Wireframe Dashboard Técnico](assets/img/cap4/wireframes/AnalyticsDashboardWireframe.png){ width=85% }
 
@@ -262,7 +264,7 @@ En esta sección, el equipo de Hampcoders define los wireflows diagrams para la 
 
 \newpage
 
-### Mockup del Dashboard del Técnico
+### Mockup del Dashboard del Proveedor técnico
 
 ![Mockup Dashboard](assets/img/cap4/mockups/dashboardMockup.png){ width=85% }
 
