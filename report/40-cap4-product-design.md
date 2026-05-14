@@ -248,7 +248,15 @@ Los wireframes son una guía esencial para la implementación efectiva de la pla
 ![Wireframe Suscripciones](assets/img/cap4/wireframes/SubscriptionsWireframe.png){ width=85% }
 
 #### 4.4.2. Web Applications Wireflow Diagrams
+
 En esta sección, el equipo de Hampcoders define los wireflows diagrams para la aplicación Web
+
+### Vista de la sección de registro de proveedor
+
+![Wireflow Registro Proveedor](assets/img/cap4/wireframes/wireflowregistro.png){ width=85% }
+
+[https://lucid.app/lucidchart/30f4fbe6-f0ef-44da-88e3-46020aca7a0f/edit?view_items=AAr.UGv3QC3F&page=0_0&invitationId=inv_420b895d-1a79-4a72-baab-d4f42e8e3f6f](https://lucid.app/lucidchart/30f4fbe6-f0ef-44da-88e3-46020aca7a0f/edit?view_items=AAr.UGv3QC3F&page=0_0&invitationId=inv_420b895d-1a79-4a72-baab-d4f42e8e3f6f)
+
 
 #### 4.4.3. Web Applications Mock-ups
 
