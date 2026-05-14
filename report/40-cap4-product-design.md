@@ -255,6 +255,15 @@ En esta sección, el equipo de Hampcoders define los wireflows diagrams para la 
 
 ![Wireflow Registro Proveedor](assets/img/cap4/wireframes/wireflowregistro.png){ width=85% }
 
+\newpage
+
+### Vista de la sección de búsqueda de proveedores
+
+![Wireflow Búsqueda Proveedor](assets/img/cap4/wireframes/wireflowlocalizacion.png){ width=85% }
+
+\newpage
+
+
 [https://lucid.app/lucidchart/30f4fbe6-f0ef-44da-88e3-46020aca7a0f/edit?view_items=AAr.UGv3QC3F&page=0_0&invitationId=inv_420b895d-1a79-4a72-baab-d4f42e8e3f6f](https://lucid.app/lucidchart/30f4fbe6-f0ef-44da-88e3-46020aca7a0f/edit?view_items=AAr.UGv3QC3F&page=0_0&invitationId=inv_420b895d-1a79-4a72-baab-d4f42e8e3f6f)
 
 
