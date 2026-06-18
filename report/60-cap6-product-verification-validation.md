@@ -573,22 +573,160 @@ Evaluación Heurística de ElectroLink
 
 <div style="page-break-after: always;"></div>
 
-## 6.4 Auditoría de Experiencias de Usuario.
-
 ### 6.4.1. Auditoría realizada.
 
+En esta sección se presenta el reporte técnico de auditoría realizado para la plataforma VitalPath, un sistema web de gestión de citas y expedientes médicos. La auditoría se llevó a cabo utilizando las 10 Heurísticas de Jakob Nielsen y principios de diseño inclusivo para evaluar la usabilidad, consistencia y conformidad de la interfaz web. También se recibió una auditoría por parte de VitalPath.
+
 #### 6.4.1.1. Información del grupo auditado.
+* **Grupo Auditado:** VitalPath
+* **Plataforma Evaluada:** VitalPath – Sistema Web de Gestión de Citas y Expedientes Médicos
+* **Curso:** Diseño de Experimentos de Ingeniería de Software
+* **Objetivo de la Auditoría:** Evaluar la usabilidad, consistencia y conformidad de la interfaz web mediante las 10 Heurísticas de Jakob Nielsen y principios de diseño inclusivo.
+
+#### Tareas evaluadas
+* Flujo de inicio de sesión y recuperación de credenciales para pacientes y médicos.
+* Agendamiento de citas médicas según especialidad, disponibilidad y geolocalización.
+* Visualización e interpretación del historial clínico digital por parte del paciente.
+* Interfaz de actualización de diagnósticos y recetas para el personal médico.
+* Notificaciones de recordatorios de citas y alertas de exámenes listos.
+* Configuración de perfil, métodos de pago y gestión de seguros de salud.
+* Búsqueda y filtrado avanzado de especialistas médicos en el catálogo.
 
 #### 6.4.1.2. Cronograma de auditoría realizada.
 
+| Fecha | Actividad realizada | Responsable(s) |
+| :--- | :--- | :--- |
+| 2024-05-01 | Definición del alcance de la auditoría y mapeo de flujos críticos de VitalPath. | Equipo de Ingeniería (ElectroLink) |
+| 2024-05-02 | Ejecución de la evaluación heurística y documentación individual de hallazgos. | Equipo de Ingeniería (ElectroLink) |
+| 2024-05-03 | Consolidación de discrepancias, asignación de severidad y desarrollo de propuestas de mitigación. | Equipo de Ingeniería (ElectroLink) |
+| 2024-05-04 | Estructuración técnica del reporte, diagramación de tablas de severidad y redacción de recomendaciones. | Equipo de Ingeniería (ElectroLink) |
+| 2024-05-05 | Control de calidad del informe y verificación de alineación con estándares de diseño UI/UX. | Equipo de Ingeniería (ElectroLink) |
+| 2024-05-06 | Entrega formal del artefacto técnico de auditoría al equipo de VitalPath. | Equipo de Ingeniería (ElectroLink) |
+
 #### 6.4.1.3. Contenido de auditoría realizada.
+
+## Descripción de problemas clave
+
+### Problema #1: Ausencia de confirmación destructiva en cancelación de citas
+**Severidad:** 3  
+**Heurística violada:** Prevención de errores / Control y libertad del usuario  
+**Descripción:** Al hacer clic en el botón "Cancelar Cita" en el panel de control del paciente, la acción se ejecuta inmediatamente sin solicitar una confirmación intermedia (modal o diálogo).  
+**Recomendación:** Implementar un cuadro de diálogo de confirmación (Modal Dialog) que valide la intención del usuario antes de proceder con la eliminación o cancelación del registro.
+
+---
+
+### Problema #2: Uso exclusivo de color para indicar estados críticos en recetas médicas
+**Severidad:** 3  
+**Heurística violada:** Diseño inclusivo / Flexibilidad y eficiencia de uso  
+**Descripción:** Las alertas de medicamentos controlados expirados o pendientes se diferencian únicamente mediante un círculo rojo o verde, sin soporte de texto alternativo o patrones visuales. Esto rompe la accesibilidad para usuarios con discromatopsia (daltonismo).  
+**Recomendación:** Incorporar etiquetas de texto explícitas (ej. "Expirado", "Activo") o íconos diferenciales adjuntos al código de color.
+
+---
+
+### Problema #3: Formato de carga de archivos médicos no restrictivo
+**Severidad:** 2  
+**Heurística violada:** Prevención de errores / Ayuda para que los usuarios reconozcan, diagnostiquen y se recuperen de errores  
+**Descripción:** La sección para subir resultados de laboratorio permite seleccionar cualquier extensión de archivo. Si el usuario sube un formato no soportado (ej. .exe o .zip), el sistema falla en el backend con un error genérico 500 en lugar de restringirlo en el cliente.  
+**Recomendación:** Configurar el atributo `accept` en el input de carga de archivos para limitar a formatos `.pdf, .jpg, .png` y manejar la excepción explícitamente en la interfaz de usuario de Angular.
+
+---
+
+#### Tabla resumen de problemas detectados
+
+| # | Problema detectado | Severidad | Heurística/Principio violado |
+| :--- | :--- | :--- | :--- |
+| 1 | Ausencia de confirmación destructiva al cancelar citas médicas. | 3 | Prevención de errores / Control del usuario |
+| 2 | Uso exclusivo de color para indicar estados de vigencia en recetas. | 3 | Diseño inclusivo - Experiencias comparables |
+| 3 | El campo de carga de documentos permite archivos con extensiones inválidas. | 2 | Prevención de errores |
+| 4 | Tiempos de carga prolongados en el catálogo de médicos sin indicar estado. | 3 | Visibilidad del estado del sistema |
+| 5 | Terminología médica excesivamente técnica en el módulo de ayuda general. | 2 | Correspondencia entre el sistema y el mundo real |
+| 6 | Los filtros de búsqueda de especialistas se reinician al volver atrás. | 2 | Reconocer en lugar de recordar |
+| 7 | Falta de atajos de teclado para médicos en la transcripción de consultas. | 2 | Flexibilidad y eficiencia de uso |
+| 8 | Mensajes de error del backend (Spring Boot stacktrace) expuestos en la UI. | 3 | Ayuda a usuarios ante errores |
+| 9 | El botón de cierre de sesión tiene la misma prioridad visual que guardar cambios. | 2 | Estética y diseño minimalista / Jerarquía visual |
+| 10 | Estructura de navegación inconsistente entre el perfil del médico y del paciente. | 2 | Consistencia y estándares |
 
 ### 6.4.2. Auditoría recibida.
 
+Evaluación Heurística a la Plataforma ElectroLink
+
+**Carrera:** Ingeniería de Software  
+**Curso:** Diseño de Experimentos de Ingeniería de Software
+**Auditor:** VitalPath
+**Plataforma evaluada:** ElectroLink – Plataforma Web
+
 #### 6.4.2.1. Información del grupo auditor.
+
+#### Tareas evaluadas
+
+- Comprender el propósito del sitio al ingresar  
+- Navegar y entender la propuesta de valor tanto para propietarios como para proveedores  
+- Visualizar e interactuar con el catálogo de servicios  
+- Acceder a testimonios, valores, misión y visión de la empresa  
+- Evaluar la visual jerárquica de acciones clave (registrarse, buscar técnicos, mostrar perfil)  
+- Interacción de proveedores con sus servicios e inventario  
+- Mostrar el trabajo realizado (visibilidad a clientes)  
+- Comparar perfiles técnicos y ver reseñas  
+- Reportar un servicio finalizado (cliente y proveedor)  
+- Evaluar accesibilidad visual e inclusividad  
+
+---
+
 
 #### 6.4.2.2. Cronograma de auditoría recibida.
 
+Cronograma de auditoría realizada:
+| Fecha       | Actividad realizada                                                                              | Responsable(s)                  |
+|-------------|--------------------------------------------------------------------------------------------------|---------------------------------|
+| 2024-05-01  | Planificación de la auditoría y definición de tareas a evaluar                                   | Equipo de VitalPath             |
+| 2024-05-02  | Evaluación heurística inicial y recopilación de problemas detectados                             | Equipo de VitalPath             |
+| 2024-05-03  | Análisis detallado de problemas clave y elaboración de recomendaciones para cada uno             | Equipo de VitalPath             |
+| 2024-05-04  | Redacción del informe de auditoría con descripción de problemas, recomendaciones y tabla resumen | Equipo de VitalPath             |
+| 2024-05-05  | Revisión interna del informe y ajustes finales antes de la presentación a stakeholders           | Equipo de VitalPath             |
+| 2024-05-06  | Presentación del informe de auditoría a stakeholders y discusión de hallazgos clave              | Equipo de VitalPath             |
+| 2024-05-07  | Seguimiento de la implementación de recomendaciones y evaluación de impacto                      | Equipo de VitalPath             |
+
 #### 6.4.2.3. Contenido de auditoría recibida.
 
+## Descripción de problemas clave
+
+### Problema #2: Falta de etiquetas accesibles en íconos e imágenes  
+**Severidad:** 3  
+**Heurística violada:** Inclusive Design  
+**Descripción:** Los íconos que representan funcionalidades como “servicio garantizado”, “componentes”, “perfiles”, etc., no tienen `alt` ni descripciones para lectores de pantalla.  
+**Recomendación:** Añadir `alt`, `aria-label` o tooltips en cada ícono o imagen decorativa relevante.
+
+---
+
+### Problema #6: No se resalta lo más urgente para el proveedor  
+**Severidad:** 3  
+**Heurística violada:** Visibilidad del estado del sistema  
+**Descripción:** En el panel del proveedor, las nuevas solicitudes o acciones pendientes no están resaltadas con prioridad visual.  
+**Recomendación:** Usar badges, resaltado en rojo o secciones tipo “acciones recientes”.
+
+---
+
+### Problema #7: No hay retroalimentación visual tras acciones clave  
+**Severidad:** 3  
+**Heurística violada:** Visibilidad del estado del sistema  
+**Descripción:** Al guardar componentes, aceptar solicitudes o subir fotos, el usuario no recibe un mensaje inmediato o animación de confirmación.  
+**Recomendación:** Mostrar mensajes toast, iconos animados de éxito o loaders donde aplique.
+
 #### 6.4.2.4. Resumen de modificaciones para subsanar hallazgos.
+
+#### Tabla resumen de problemas detectados
+
+| #  | Problema detectado                                                                 | Severidad | Heurística/Principio violado                                      |
+|----|-------------------------------------------------------------------------------------|-----------|------------------------------------------------------------------|
+| 1  | Falta un botón de regreso rápido al inicio en páginas extensas                     | 2         | Control del usuario                                               |
+| 2  | Íconos e imágenes no tienen descripciones accesibles (sin `alt`)                   | 3         | Inclusive Design – Experiencias comparables                       |
+| 3  | Jerarquía visual poco clara en botones de acción principal                         | 2         | Visibilidad y jerarquía visual                                    |
+| 4  | No hay diferenciación visual clara entre botones de cliente y proveedor            | 2         | Consistencia y estándares                                         |
+| 5  | No se explicita claramente el beneficio tangible de publicar un servicio           | 2         | Reconocer en lugar de recordar                                    |
+| 6  | En vistas de gestión, no se resalta lo más urgente (como “nuevas solicitudes”)     | 3         | Visibilidad del estado del sistema                                |
+| 7  | No hay retroalimentación visual luego de acciones (ej. guardar inventario)         | 3         | Visibilidad del estado del sistema                                |
+| 8  | No hay ayudas contextuales (tooltips o descripciones) en íconos de servicios       | 2         | Ayuda y documentación                                             |
+| 9  | No se destacan los beneficios diferenciales para PYMEs respecto a clientes comunes | 2         | Reconocer en lugar de recordar / Personalización del contenido    |
+| 10 | No se ofrecen opciones de configuración accesibles (contraste, tamaños)            | 3         | Diseño inclusivo                                                  |
+| 11 | La opción “Mostrar tu trabajo” no guía claramente cómo se verá al cliente          | 2         | Correspondencia entre sistema y el mundo real                     |
+| 12 | El flujo de registro y rol no se valida con confirmación clara al usuario          | 3         | Prevención de errores / Control del usuario                       |
