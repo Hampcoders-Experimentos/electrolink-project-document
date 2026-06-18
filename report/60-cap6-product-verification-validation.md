@@ -192,10 +192,6 @@ Captura de pantalla detallada de una prueba de integración específica para la 
 
 ![Integration Test 2](assets/img/cap6/integration-tests/authentication-2.png)
 
-\
-
-![Captura de pantalla probando endpoint Authentication](assets/img/cap6/integration-tests/authentication-3.png)
-
 #### Pruebas de integración para el endpoint "Users"
 
 Captura de pantalla detallada de una prueba de integración específica para la gestión de usuarios, mostrando la creación de un nuevo usuario, la asignación de roles y la verificación de permisos a través del endpoint de users.
@@ -220,39 +216,46 @@ Captura de pantalla detallada de una prueba de integración específica para la 
 
 ![Capture de pantalla probando endpoint Photos](assets/img/cap6/integration-tests/photos-2.png)
 
+#### Resumen de todas las pruebas de integración realizadas
+
+![Resumen de todas las pruebas de integración](assets/img/cap6/integration-tests/results.png)
+
+\
 
 Con estas pruebas de integración se busca asegurar que los distintos componentes del sistema interactúan correctamente entre sí y que los endpoints expuestos por la API funcionan según lo esperado, garantizando así una experiencia de usuario fluida y sin errores.
 
 ### 6.1.3 Core Behavior-Driven Development
 
-##### Behaivor-Driven Development correspondientes a la epica numero 1
+A continuación, se presentan las pruebas de comportamiento (BDD) realizadas utilizando Cucumber para validar que el sistema cumple con los requisitos definidos en las User Stories. Estas pruebas se enfocan en verificar que las funcionalidades implementadas se comporten de acuerdo a las expectativas del usuario final.
 
-![cucumber E1](assets/img/cap6/cucumber-us/cucumber-EP1.png)
+##### Behaivor-Driven Development correspondientes a la User Story número 1
 
-##### Behaivor-Driven Development correspondientes a la epica numero 2
+![Captura de pantalla de la User Story 1](assets/img/cap6/cucumber-us/cucumber-US1.png)
 
-![cucumber E2](assets/img/cap6/cucumber-us/cucumber-EP2.png)
+##### Behaivor-Driven Development correspondientes a la User Story número 10
 
-##### Behaivor-Driven Development correspondientes a la epica numero 3
+![Captura de pantalla de la User Story 10](assets/img/cap6/cucumber-us/cucumber-US10.png)
 
-![cucumber E3](assets/img/cap6/cucumber-us/cucumber-EP3.png)
+##### Behaivor-Driven Development correspondientes a la User Story número 20
 
-##### Behaivor-Driven Development correspondientes a la epica numero 4
+![Captura de pantalla de la User Story 20](assets/img/cap6/cucumber-us/cucumber-US20.png)
 
-![cucumber E4](assets/img/cap6/cucumber-us/cucumber-EP4.png)
+##### Behaivor-Driven Development correspondientes a la User Story número 30
 
-##### Behaivor-Driven Development correspondientes a la epica numero 5
+![Captura de pantalla de la User Story 30](assets/img/cap6/cucumber-us/cucumber-US30.png)
 
-![cucumber E5](assets/img/cap6/cucumber-us/cucumber-EP5.png)
+##### Behaivor-Driven Development correspondientes a la User Story número 40
 
-##### Behaivor-Driven Development correspondientes a la epica numero 6
+![Captura de pantalla de la User Story 40](assets/img/cap6/cucumber-us/cucumber-US40.png)
 
-![cucumber E6](assets/img/cap6/cucumber-us/cucumber-EP6.png)
+##### Behaivor-Driven Development correspondientes a la User Story número 50
+
+![Captura de pantalla de la User Story 50](assets/img/cap6/cucumber-us/cucumber-US50.png)
 
 
-##### Behaivor-Driven Development correspondientes a la epica numero 7
+##### Behaivor-Driven Development correspondientes a la User Story número 60
 
-![cucumber E7](assets/img/cap6/cucumber-us/cucumber-EP7.png)
+![Captura de pantalla de la User Story 60](assets/img/cap6/cucumber-us/cucumber-US60.png)
 
 ### Repositorios de la pruebas unitarias e integrales para el proyecto
 
@@ -263,13 +266,28 @@ El proyecto ElectroLink utiliza GitHub como sistema de control de versiones.
 - Web Services (Backend con pruebas unitarias): https://github.com/Hampcoders-Experimentos/electrolink-backend-api
 
 ## 6.2. Static testing & Verification
+
+En esta sección se presentan los resultados del análisis estático de código realizado para el proyecto, así como las revisiones de código llevadas a cabo para asegurar la calidad y seguridad del software desarrollado. Dado que tenemos un stack tecnológico con el lenguaje Java y framework Spring Boot, utilizamos JUnit y Mockito para las pruebas unitarias, y Karate para las pruebas de integración. Además, se implementó SonarQube para el análisis estático de código, lo que nos permitió identificar y corregir problemas relacionados con la calidad del código, vulnerabilidades de seguridad y code smells.
+
 ### 6.2.1. Static Code Analysis
+
+En esta sección se detallan los resultados obtenidos a través del análisis estático de código utilizando SonarQube, así como las convenciones de codificación y estándares aplicados para mantener un código limpio, legible y seguro. El análisis estático nos permitió identificar áreas de mejora en términos de calidad del código, seguridad y mantenibilidad, lo que contribuyó a mejorar la robustez y confiabilidad de la aplicación.
+
 #### 6.2.1.1. Coding standard & Code conventions.
+
+Seguimos la convención de nomenclatura `camelCase` para variables, métodos y funciones, y `PascalCase` para clases e interfaces. Además, se aplican las guías de estilo de Google Java Style Guide para el código Java y Airbnb JavaScript Style Guide para el código JavaScript del frontend. Estas convenciones aseguran que el código sea legible, mantenible y consistente a lo largo de todo el proyecto.
+
+![Captura de pantalla del escaneo de Checkstyle por Google Checks](assets/img/cap6/static-testing/checkstyle-google.png)
+
+Con estos análisis estáticos, es más rápido detectar y corregir problemas de formato, estilo y convenciones, lo que contribuye a mantener un código limpio y profesional. Después con el análisis de SonarQube, se corrigieron todas las vulnerabilidades, code smells y problemas de mantenimiento detectados, lo que resultó en una mejora significativa en la calidad del código y la seguridad de la aplicación. El código ahora cumple con los estándares de calidad establecidos para el proyecto, lo que facilita su mantenimiento y evolución a largo plazo.
+
 #### 6.2.1.2 Code Quality & Code Security
-Esta es una imagen del code standard de SonarQube para nuestro proyecto. Representa el estado actual del mismo.
-\
+
+Se presenta a continuación el reporte de análisis estático realizado con SonarQube, que evalúa la calidad del código y la seguridad de la aplicación. Este análisis permite identificar vulnerabilidades, code smells y problemas de mantenimiento, asegurando que el código cumpla con los estándares de calidad.
+
 ![SonarQube](assets/img/cap6/sonarqube.png)
 
+Todos los problemas detectados por SonarQube han sido abordados y corregidos, lo que ha resultado en una mejora significativa en la calidad del código y la seguridad de la aplicación. El análisis ha permitido mantener un código limpio, seguro y fácil de mantener, alineado con las mejores prácticas de desarrollo de software.
 
 ## 6.2.2 Reviews
 

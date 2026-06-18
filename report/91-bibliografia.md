@@ -7,3 +7,13 @@ Palma, D. G. D., & Vázquez, M. E. M. (2023). Uso de aplicaciones móviles como 
 Cobos Guillén, C. G. (2023). Azuay Café: propuesta de una escuela cafetería en base de la metodología del aprender haciendo para las prácticas preprofesionales de los estudiantes de una carrera de turismo (Master's thesis, Universidad del Azuay).https://dspace.uazuay.edu.ec/handle/datos/13362/
 
 Dueñas-Mendoza, A. S., & Zaldumbide-Peralvo, D. A. Estrategias de marketing digital para cafeterías-restaurantes en Esmeraldas, Ecuador. Obtenido de, 593. https://www.academia.edu/download/117711219/2011.pdf/
+
+
+# Anexos
+
+- Organización de Github: https://github.com/HampCoders-Experimentos
+- Landing Page: https://github.com/HampCoders-Experimentos/electrolink-landing-page
+- Frontend Web Application: https://github.com/Hampcoders-Experimentos/electrolink-frontend
+- Cucumber: https://github.com/HampCoders-Experimentos/electrolink-cucumber
+- Karate: https://github.com/Hampcoders-Experimentos/electrolink-karate
+- Web Services: https://github.com/Hampcoders-Experimentos/electrolink-backend-api
