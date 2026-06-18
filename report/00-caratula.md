@@ -16,7 +16,7 @@
 
 \vspace{0.5cm}
 
-{\large NRC: 7944}\\
+{\large NRC: 12289}\\
 
 \vspace{0.5cm}
 
@@ -32,7 +32,7 @@
 
 \vspace{0.5cm}
 
-{\large Producto: Glottia}\\
+{\large Producto: Electrolink}\\
 
 \vspace{1.25cm}
 
