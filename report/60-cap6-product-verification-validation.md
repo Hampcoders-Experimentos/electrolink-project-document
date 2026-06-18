@@ -265,6 +265,8 @@ El proyecto ElectroLink utiliza GitHub como sistema de control de versiones.
 - Karate: https://github.com/Hampcoders-Experimentos/electrolink-karate
 - Web Services (Backend con pruebas unitarias): https://github.com/Hampcoders-Experimentos/electrolink-backend-api
 
+### 6.1.4. Core System Tests
+
 ## 6.2. Static testing & Verification
 
 En esta sección se presentan los resultados del análisis estático de código realizado para el proyecto, así como las revisiones de código llevadas a cabo para asegurar la calidad y seguridad del software desarrollado. Dado que tenemos un stack tecnológico con el lenguaje Java y framework Spring Boot, utilizamos JUnit y Mockito para las pruebas unitarias, y Karate para las pruebas de integración. Además, se implementó SonarQube para el análisis estático de código, lo que nos permitió identificar y corregir problemas relacionados con la calidad del código, vulnerabilidades de seguridad y code smells.
