@@ -2447,6 +2447,58 @@ Y retorna error apropiado al llamador.
 
 ## 3.3. Product Backlog.
 
+El product backlog es una lista priorizada, dinámica y evolutiva de requisitos, funcionalidades, mejoras y correcciones necesarias para el desarrollo de un producto. En esta sección, el equipo establecio el product backlog de acuerdo al peso en story points de cada historia sea tecnica o de usuario.
+
+| StoryID | Título | Descripción | Story Points (1/3/5/8) |
+|--------|--------|------------|------------------------|
+| US-08 | Ver Información del Startup | Como potencial cliente, quiero conocer información sobre la empresa desarrolladora, para evaluar su credibilidad y confiabilidad. | 1 |
+| US-09 | Conocer la Misión de la Startup | Como visitante interesado, quiero conocer la misión de la empresa, para entender sus valores y propósito. | 1 |
+| US-10 | Conocer la Visión de la Startup | Como visitante interesado, quiero conocer la visión de la empresa, para entender sus objetivos a largo plazo y su proyección de futuro. | 1 |
+| US-04 | Visualización de una Sección Principal | Como visitante de la página, quiero ver una sección principal atractiva que me presente un breve resumen de la idea del producto, para entender rápidamente de qué se trata el servicio. | 2 |
+| US-05 | Navegación sin errores | Como visitante, quiero navegar por la página web sin encontrar errores, para tener una experiencia fluida que me anime a registrarme. | 2 |
+| US-06 | Navegación mediante Encabezado | Como usuario, quiero un menú de navegación claro en el encabezado, para acceder fácilmente a las diferentes secciones de la página. | 2 |
+| US-07 | Visualización del Pie de página | Como visitante, quiero ver un pie de página organizado con accesos directos e información de contacto, para encontrar información adicional rápidamente. | 2 |
+| US-19 | Mensajes de éxito retroalimentación de registro | Como usuario, quiero recibir mensajes claros y accesibles al completar el registro sobre éxito para entender fácilmente el resultado de mis acciones. | 2 |
+| US-20 | Mensajes de error retroalimentación de registro | Como usuario, quiero recibir mensajes claros y accesibles al completar el registro sobre cualquier error a la hora de completar el formulario, para entender fácilmente el resultado de mis acciones y saber cómo proceder. | 2 |
+| US-22 | Cierre de Sesión | Como usuario autenticado, quiero cerrar mi sesión de forma segura para proteger mi cuenta cuando termine de usar la aplicación. | 2 |
+| US-01 | Visualización de Características y Beneficios | Como visitante de la landing page, quiero ver claramente las características y beneficios de la plataforma, para entender cómo puede ayudarme y decidir si registrarme. | 3 |
+| US-02 | Visualización de Testimonios | Como visitante indeciso sobre la plataforma, quiero ver testimonios de usuarios reales, para aumentar mi confianza en el servicio antes de registrarse. | 3 |
+| US-03 | Adaptabilidad a Diferentes Dispositivos | Como visitante que accede desde diferentes dispositivos, quiero que la landing page se adapte correctamente a mi pantalla, para tener una experiencia óptima independientemente del dispositivo que use. | 3 |
+| US-11 | Conocer más a fondo los servicios que ofrecen | Como visitante interesado, quiero conocer de manera más específica los servicios que ofrecen por medio de capturas de pantallas, para comprender su solución y decidir si optar por ella. | 3 |
+| US-12 | Ver planes de suscripción disponibles | Como visitante interesado, quiero ver una sección clara que me presente los planes de suscripción disponibles, separados por Planes para Técnicos y Planes para Propietarios, para comparar fácilmente sus características y precios. | 3 |
+| US-18 | Validación de datos de registro | Como usuario, quiero recibir retroalimentación inmediata sobre la validez de los datos que ingresó durante el registro para corregir errores rápidamente. | 3 |
+| US-23 | Visualización de Perfil de Propietario | Como propietario registrado, quiero visualizar mi perfil, para revisar mi información personal y preferencias almacenadas en el sistema. | 3 |
+| US-30 | Configuración de Notificaciones Personalizadas | Como usuario de la plataforma, quiero configurar mis preferencias de notificaciones (email, SMS, push) y frecuencia, para recibir información relevante sin ser saturado de mensajes. | 3 |
+| US-43 | Descripción Detallada del Problema Eléctrico | Como propietario que ya ha seleccionado un servicio, quiero añadir una descripción detallada de mi problema, para que el técnico asignado conozca el contexto específico antes de su llegada. | 3 |
+| US-45 | Cancelación de servicios programados | Como cliente, quiero cancelar un servicio programado con anticipación para evitar cargos innecesarios. | 3 |
+| US-47 | Historial de servicios contratados | Como cliente, quiero ver un historial de los servicios que he contratado anteriormente para referencia futura. | 3 |
+| US-55 | Eliminar Servicios del Catálogo | Como técnico registrado, quiero eliminar servicios que ya no ofrezco de mi catálogo, para evitar que el sistema me asigne trabajos que no puedo realizar. | 3 |
+| US-63 | Historial de Clientes Atendidos | Como Técnico, quiero acceder a un historial detallado de los clientes que he atendido, para dar seguimiento a relaciones profesionales y mejorar mi servicio basado en experiencias previas. | 3 |
+| US-68 | Exportación de datos de consumo | Como usuario, quiero exportar mis datos históricos de consumo en formatos comunes (CSV, Excel) para análisis externos. | 3 |
+| TS-01 | Registrar Propiedad | Como desarrollador, quiero crear un endpoint POST para registrar una propiedad asociada a un propietario. | 3 |
+| TS-02 | Obtener Propiedades por Propietario | Como desarrollador, quiero crear un endpoint GET para listar todas las propiedades registradas por un propietario. | 3 |
+| TS-04 | Actualizar Stock de Componente | Como desarrollador, quiero crear un endpoint PATCH para actualizar el stock de un componente del inventario del técnico. | 3 |
+| TS-12 | Obtener Evaluaciones por Técnico | Como desarrollador, quiero crear un endpoint GET para obtener las evaluaciones de un técnico. | 3 |
+| TS-22 | Endpoint de Gestión de Perfiles | Como desarrollador, necesito crear endpoints para visualizar y editar perfiles de usuario para soportar la funcionalidad de gestión de cuentas diferenciada por tipo de usuario. | 3 |
+| TS-15 | Reinicio Mensual de Contador | Como desarrollador, quiero crear una tarea programada (cron job) que se ejecute mensualmente. | 3 |
+| TS-19 | Verificación de Email | Como desarrollador, quiero crear endpoints para verificar emails de usuarios para completar el proceso de registro. | 3 |
+| TS-21 | Recuperación de Contraseña | Como desarrollador, quiero crear endpoints para recuperación de contraseña para permitir a usuarios restablecer sus credenciales. | 3 |
+| TS-22 | Endpoints de Gestión de Perfiles | Como desarrollador, quiero crear endpoints CRUD para gestión de perfiles para permitir a usuarios actualizar su información personal. | 3 |
+| US-13 | Registro de cuentas como Dueño de Hogar | Como dueño de hogar, quiero registrarme para tener una cuenta en la aplicación, para gestionar los componentes eléctricos de mi vivienda. | 5 |
+| US-14 | Registro de cuentas como Dueño de Empresa | Como dueño o representante de empresa, quiero registrarme para tener una cuenta en la aplicación, para gestionar los componentes eléctricos de mis instalaciones comerciales. | 5 |
+| US-15 | Registro de cuentas para Técnicos | Como Técnico de componentes eléctricos yo servicios, quiero registrarme para tener una cuenta en la aplicación, para ofrecer mis productos y servicios a los usuarios. | 5 |
+| US-16 | Verificación de cuenta por correo electrónico | Como usuario, quiero verificar mi cuenta a través de un enlace enviado por correo electrónico para confirmar mi identidad. | 5 |
+| US-17 | Inicio de sesión de usuarios | Como usuario registrado, quiero iniciar sesión en la aplicación con mis credenciales para acceder a mi cuenta y utilizar las funcionalidades de la plataforma. | 5 |
+| US-21 | Recuperación de Contraseña | Como usuario registrado, quiero recuperar mi contraseña en caso de olvidarla, para volver a acceder a mi cuenta de manera segura. | 5 |
+| US-24 | Edición de Perfil de Propietario | Como propietario registrado, quiero editar mi información personal y preferencias, para mantener mi perfil actualizado y tener más control sobre este. | 5 |
+| US-25 | Visualización de Perfil de Técnico | Como Técnico registrado, quiero visualizar mi perfil profesional para revisar cómo se presenta mi información y servicios a los clientes potenciales. | 5 |
+| US-27 | Entrar a un dashboard Personalizado | Como usuario de la plataforma, quiero acceder a un dashboard personalizado al iniciar sesión, para visualizar de forma inmediata la información relevante según mi rol y actividad reciente. | 5 |
+| US-28 | Crear Portafolio Digital con Evidencias de Trabajo | Como Técnico de servicios eléctricos, quiero crear un portafolio digital dentro de mi perfil que incluya fotos, descripciones y referencias de trabajos anteriores, para mostrar mi experiencia y generar mayor confianza en potenciales clientes. | 5 |
+| US-29 | Configuración de Zona de Cobertura Geográfica | Como técnico registrado, quiero configurar mi zona de cobertura geográfica especificando radio de acción y ubicaciones donde ofrezco servicios, para recibir solicitudes solo de clientes dentro de mi área de trabajo. | 5 |
+| US-31 | Crear Componente Eléctrico | Como técnico, quiero registrar nuevos componentes eléctricos en mi inventario para mantener un inventario completo de mi infraestructura eléctrica. | 5 |
+| US-32 | Editar Componente Eléctrico | Como técnico, quiero modificar la información de los componentes eléctricos registrados para mantener actualizada la información técnica y de consumo. | 5 |
+| US-33 | Eliminar Componente Eléctrico | Como técnico, quiero eliminar componentes eléctricos de mi inventario para mantener actualizada mi configuración cuando retire o reemplace equipos. | 5 |
+
 ## 3.4. Impact Mapping
 En esta sección, el equipo presenta el Impact Mapping del proyecto, identificando cómo los objetivos del negocio se relacionan con los actores involucrados, los impactos esperados en su comportamiento y las funcionalidades necesarias para alcanzar dichos objetivos.
 
