@@ -12,7 +12,7 @@ Dueñas-Mendoza, A. S., & Zaldumbide-Peralvo, D. A. Estrategias de marketing dig
 # Anexos
 
 - Organización de Github: https://github.com/HampCoders-Experimentos
-- Landing Page: https://github.com/HampCoders-Experimentos/electrolink-landing-page
+- Landing Page: https://github.com/Hampcoders-Experimentos/electrolink-landingpage
 - Frontend Web Application: https://github.com/Hampcoders-Experimentos/electrolink-frontend
 - Cucumber: https://github.com/HampCoders-Experimentos/electrolink-cucumber
 - Karate: https://github.com/Hampcoders-Experimentos/electrolink-karate
