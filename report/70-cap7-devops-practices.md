@@ -1,5 +1,7 @@
 # Capítulo VII: DevOps Practices
 
+En este capítulo se describen las prácticas de DevOps implementadas en el proyecto ElectroLink, enfocándose en la integración continua (CI) y la entrega continua (CD). Se detallan las herramientas utilizadas, los flujos de trabajo establecidos y cómo estas prácticas han contribuido a garantizar la calidad, estabilidad y confiabilidad del software desarrollado. Además, se presentan los componentes clave del pipeline de CI/CD y las estrategias adoptadas para asegurar un proceso de desarrollo ágil y eficiente.
+
 ## 7.1. Continuous Integration (CI)
 La Integración Continua (CI) es la práctica de fusionar automáticamente los cambios de código en una rama compartida y centralizada de forma regular. Su objetivo es detectar y solucionar errores de integración de manera temprana, manteniendo la calidad y estabilidad del proyecto.
 
@@ -54,3 +56,5 @@ El objetivo de la Entrega Continua (CD) es automatizar la integración y pruebas
 * **Despliegue Semiautomático:** El *pipeline* prepara la aplicación y las imágenes de Docker/artefactos para el despliegue final, pero **no lo ejecuta**. La acción de desplegar a producción se dispara únicamente cuando un desarrollador o administrador **aprueba la *build* validada** en el entorno de *staging*.
 * **Aprobación Manual:** Es el punto clave del CD. Antes del despliegue en producción, el *pipeline* requiere una aprobación explícita (a menudo representada por un *Merge Request* a `main` y/o una acción manual en GitHub Actions/Trello) para **reducir el riesgo** de lanzar código no deseado.
 * **Rollback Manual:** Aunque la infraestructura de Render y Firebase puede facilitar *rollbacks* rápidos, la decisión y ejecución de un *rollback* en producción son **manuales y controladas** por el equipo, garantizando la supervisión total ante una incidencia.
+
+### 7.2.2. Stages Deployment Pipeline Components.
