@@ -168,3 +168,188 @@ Estas son las métricas de datos crudos (cuantitativas y cualitativas) que recop
 | --- | --- |
 | Q2: ¿Contratarán los propietarios basando su confianza en perfiles verificados y reseñas? | Cuantitativo: Clics en el botón "Solicitar Servicio" por variante. Tasa de Conversión (Visita a Perfil → Solicitud). Tasa de rebote en la página del perfil. Cualitativo: Respuestas a encuestas de salida ("¿Qué tan confiable le pareció este perfil?"). |
 | Q3: ¿Usarán los técnicos activamente las herramientas de agenda e inventario? | Cuantitativo: Clics en la pestaña "Dashboard de Métricas". Tiempo promedio de sesión dentro del dashboard. Clics en el botón "Cancelar Suscripción" (medición de churn). |
+
+
+### 8.2.3. Conditions.
+
+Esta sección define las condiciones experimentales y de control bajo las cuales se evaluarán las hipótesis planteadas, permitiendo identificar el impacto real de las variables introducidas en la plataforma ElectroLink.
+
+Dado que nuestras preguntas son de tipo **basadas en creencias (belief-based questions)**, se establecen dos escenarios: una **condición experimental**, donde se introduce la mejora propuesta para validar la hipótesis alternativa (H1), y una **condición de control**, donde se mantiene el estado actual del sistema bajo la hipótesis nula (H0).
+
+---
+
+#### **Condiciones para la Hipótesis 1 (Adopción del Cliente — Confianza)**
+
+- **Condición de Control (Variante A):**  
+Los usuarios (propietarios o administradores) visualizarán perfiles de técnicos eléctricos en su formato estándar, sin insignias de verificación ni reseñas destacadas. Esta condición asume que la confianza del usuario no se ve significativamente influenciada por elementos adicionales de validación.
+
+- **Condición Experimental (Variante B):**  
+Los usuarios visualizarán perfiles que incluyen una insignia de “Técnico Verificado” (basada en certificaciones comprobadas) y reseñas destacadas de clientes anteriores. Esta condición busca generar mayor confianza percibida, facilitando la toma de decisión y aumentando la probabilidad de solicitar un servicio.
+
+---
+
+#### **Condiciones para la Hipótesis 2 (Retención del Proveedor — Valor Percibido)**
+
+- **Condición de Control (Variante A):**  
+Los técnicos utilizarán la plataforma con las funcionalidades actuales, sin acceso a métricas avanzadas sobre oportunidades de trabajo o desempeño. Se asume que la percepción de valor de la plataforma se mantiene en su nivel base.
+
+- **Condición Experimental (Variante B):**  
+Los técnicos tendrán acceso a un dashboard con “Métricas de Oportunidad”, que incluye información como solicitudes perdidas en su zona, tasa de aceptación de trabajos y posibles ingresos no captados. Esta condición busca incrementar la percepción de valor de la plataforma, incentivando el uso continuo y reduciendo la tasa de abandono.
+
+
+### 8.2.4. Scale Calculations and Decisions.
+
+
+A continuación, se presenta una tabla con tres atributos: *Scale Calculation*, *Decision* y *Factor*. Estos atributos se relacionan con las hipótesis planteadas y sus respectivas métricas para medir el éxito de la propuesta.
+
+*Scale Calculation* se refiere a la hipótesis formulada.  
+*Decision* es la acción implementada para validar dicha hipótesis.  
+El *Factor* depende de la métrica definida para cada hipótesis.
+
+Se establece un **factor ideal** si se alcanza la métrica objetivo. El **factor aceptable** corresponde a un valor intermedio que indica progreso positivo. Si los resultados están por debajo de este rango, se considera un **factor desfavorable**, lo que implica la necesidad de revisar la hipótesis o la solución propuesta. Finalmente, el **factor excelente** representa un rendimiento superior al esperado.
+
+---
+
+| Scale Calculation | Decisión | Desfavorable | Aceptable | Ideal | Excelente |
+|------------------|----------|-------------|-----------|-------|-----------|
+| Creemos que la implementación de insignias de “Técnico Verificado” y reseñas destacadas aumentará la confianza de los usuarios, incrementando la tasa de conversión de visitas a solicitudes de servicio en la plataforma ElectroLink. | Implementar insignias de verificación basadas en certificaciones reales y mostrar reseñas destacadas en los perfiles de los técnicos. Sabremos que hemos tenido éxito al medir la tasa de conversión de visitas a solicitudes de servicio. | x < 10% | >= 10% | >= 25% | >= 40% |
+| Creemos que al proporcionar a los técnicos un dashboard con “Métricas de Oportunidad”, se incrementará la percepción de valor de la plataforma, reduciendo la tasa de abandono (churn) de los proveedores. | Implementar un dashboard con métricas como solicitudes perdidas, tasa de aceptación y oportunidades en su zona. Sabremos que hemos tenido éxito al medir la reducción del churn en un período de 30 días. | x < 5% | >= 5% | >= 20% | >= 30% |
+
+### 8.2.5. Methods Selection.
+
+Esta sección describe los métodos seleccionados para llevar a cabo la investigación, siguiendo el principio de **Simplest Useful Thing**, es decir, utilizar las herramientas más simples pero efectivas para alcanzar resultados válidos.
+
+Se diferencia claramente entre el **objeto de investigación** (las hipótesis H1 y H2) y los **métodos** (técnicas como pruebas A/B, análisis de comportamiento y encuestas). Además, se garantiza que no se ejecutarán experimentos simultáneos sobre el mismo grupo de usuarios que puedan afectar la validez de los resultados, respetando también principios éticos como no generar impactos negativos en la experiencia del usuario.
+
+---
+
+| Herramienta | Precio | Capacidad de Análisis | Ventajas | Documentación | Sencillez |
+|------------|--------|----------------------|----------|---------------|-----------|
+| Google Analytics | Plan gratuito / Créditos gratis | Análisis cuantitativo del comportamiento del usuario, tráfico y conversiones dentro de la plataforma | Ideal para medir KPIs como tasa de conversión (H1) y churn (H2). Integración sencilla con plataformas web | Extensa | Fácil para métricas básicas, complejidad media en análisis avanzado |
+| Optimizely | Basado en suscripción (Plan Starter) | Ejecución de experimentos A/B, pruebas multivariantes y feature flagging | Permite validar hipótesis directamente (H1 y H2) con control estadístico y segmentación de usuarios | Extensa y técnica | Requiere configuración inicial, pero interfaz intuitiva para experimentos |
+| Qualtrics | Plan gratuito básico / Suscripción | Recolección de datos cualitativos y cuantitativos mediante encuestas | Permite medir satisfacción, confianza percibida (clave para H1) y percepción de valor (H2) | Muy extensa y académica | Fácil para encuestas, complejidad en análisis avanzado |
+| Hotjar | Plan gratuito con limitaciones | Análisis cualitativo (mapas de calor, grabaciones de sesión, feedback visual) | Permite entender el comportamiento del usuario y el "por qué" detrás de la conversión o abandono | Buena | Muy intuitiva y fácil de implementar |
+
+---
+
+#### Consideraciones Metodológicas
+
+- Se utilizará **A/B Testing** como método principal para validar las hipótesis H1 y H2.
+- No se ejecutarán experimentos simultáneos sobre los mismos usuarios para evitar sesgos.
+- Se priorizará el uso de herramientas simples pero efectivas (**Simplest Useful Thing**).
+- Se combinarán métodos **cuantitativos (Analytics, Optimizely)** y **cualitativos (Hotjar, Qualtrics)** para obtener una visión completa.
+- Se garantizará que ninguna intervención afecte negativamente la experiencia del usuario o genere riesgos.
+
+
+### 8.2.5. Data Analytics: Goals, KPIs and Metrics Selection
+
+Esta sección define las metas analíticas, los KPIs y las métricas seleccionadas para evaluar el desempeño de las soluciones propuestas en ElectroLink. El objetivo es asegurar un seguimiento eficiente de datos, evitando métricas innecesarias y enfocándose en aquellas que permitan detectar cambios significativos en el comportamiento de los usuarios.
+
+---
+
+| Hipótesis | Goal (Meta) | KPI Principal | Métricas Secundarias | Método de Medición | Frecuencia | Criterio de Éxito |
+|----------|------------|---------------|----------------------|-------------------|------------|------------------|
+| H1: Adopción del Cliente (Confianza) | Incrementar la confianza del usuario en los perfiles de técnicos eléctricos | Tasa de conversión (visita a perfil → solicitud de servicio) | - Tiempo en perfil<br>- Número de clics en reseñas<br>- Interacción con insignias | Google Analytics / Eventos en la plataforma | Diario / 14 días | Incremento ≥ 25% en conversión |
+| H2: Retención del Proveedor (Valor Percibido) | Reducir la tasa de abandono de técnicos en la plataforma | Tasa de churn (abandono) | - Frecuencia de uso del dashboard<br>- Número de sesiones por técnico<br>- Interacción con métricas | Analytics interno / Tracking de usuarios | Semanal / 30 días | Reducción ≥ 20% del churn |
+
+---
+
+### Análisis Comparativo de Métricas
+
+| Tipo de Métrica | Enfoque | Ventaja | Limitación |
+|-----------------|--------|--------|------------|
+| KPI Principal | Resultado directo del experimento | Permite validar o rechazar hipótesis claramente | No explica el "por qué" del comportamiento |
+| Métricas Secundarias | Comportamiento del usuario | Ayudan a entender causas y optimizar la solución | Pueden generar ruido si no se filtran correctamente |
+| Métricas de Frecuencia | Uso de la plataforma | Indican nivel de engagement | No siempre reflejan conversión o valor real |
+| Métricas de Conversión | Acción clave del negocio | Directamente alineadas con ingresos | Requieren suficiente tráfico para ser confiables |
+
+---
+
+La selección de estas métricas permite un análisis balanceado entre resultados cuantitativos y comportamiento del usuario, asegurando precisión en la detección de cambios y optimización en la toma de decisiones.
+
+
+### 8.2.7. Web and Mobile Tracking Plan.
+
+Para ElectroLink, el objetivo es monitorear la plataforma web y móvil para validar si los cambios introducidos en los perfiles de técnicos (H1) y el dashboard de métricas (H2) generan la confianza y el valor percibido necesarios para sostener el modelo de negocio.
+
+Se establecerá un plan de seguimiento basado en **A/B Testing**, con el fin de evaluar el impacto causal de las mejoras implementadas.
+
+---
+
+### 1. Implementación Inicial
+
+Durante esta fase, se realizará el despliegue de las variantes experimentales y la recolección de datos segmentados para comparar los resultados frente a la línea base (grupo de control).
+
+- **Asignación de Grupos:**  
+Todos los usuarios serán asignados aleatoriamente a un grupo (**Control o Experimental**). Cada evento registrado incluirá un identificador de grupo para asegurar la correcta segmentación de los datos.
+
+- **Métricas de Confianza (H1):**  
+Se registrarán eventos como:
+  - `profile_view` (visualización de perfil)  
+  - `service_request_initiated` (inicio de solicitud de servicio)  
+Estos eventos permitirán calcular la **Tasa de Conversión (CCR)**.
+
+- **Métricas de Valor y Retención (H2):**  
+Se capturarán eventos como:
+  - `metrics_widget_interaction` (interacción con el dashboard)  
+  - `subscription_cancellation_attempt` (intento de cancelación)  
+Esto permitirá medir la adopción del dashboard y la **tasa de churn**.
+
+- **Feedback de Usuarios:**  
+Se implementarán encuestas post-interacción utilizando herramientas como Hotjar o Qualtrics para recoger información cualitativa sobre:
+  - Confianza en técnicos verificados (H1)  
+  - Valor percibido del dashboard (H2)
+
+---
+
+### 2. Seguimiento Continuo
+
+Una vez finalizada la fase inicial (aproximadamente 21 días), se implementará un monitoreo continuo para evaluar el rendimiento a largo plazo.
+
+- **Métricas en Tiempo Real:**  
+Se utilizarán herramientas como Google Analytics para monitorear el comportamiento de los usuarios en tiempo real en web y móvil.
+
+- **Segmentación de Usuarios:**  
+Los datos serán segmentados por:
+  - Tipo de usuario (propietarios / técnicos)  
+  - Nivel de suscripción  
+  - Ubicación geográfica  
+Esto permitirá identificar patrones de comportamiento específicos.
+
+- **Retención a Largo Plazo:**  
+Se medirá la **tasa de abandono de técnicos (Provider Churn Rate)** a lo largo del tiempo para evaluar la efectividad del dashboard en la retención de proveedores (H2).
+
+
+### 8.3. Experimentation
+
+### 8.3.1. To-Be User Stories.
+
+
+Las siguientes User Stories representan el estado futuro (To-Be) de la plataforma ElectroLink, enfocadas en las mejoras propuestas para validar las hipótesis H1 (Confianza) y H2 (Valor percibido).
+
+| Epic/User Story ID | Título | Descripción | Criterios de aceptación | Relacionado con (Epic ID) |
+|-------------------|--------|------------|--------------------------|----------------------------|
+| E1 / US_1 | Perfil Verificado | Como usuario, quiero visualizar un perfil verificado de los técnicos para sentir mayor confianza al solicitar un servicio. | • DADO que el usuario accede al perfil del técnico<br>• CUANDO visualiza el perfil<br>• ENTONCES observa indicadores de verificación (badges, reviews, certificaciones) | H1 |
+| E1 / US_2 | Solicitud de Servicio Mejorada | Como usuario, quiero un flujo claro para solicitar servicios desde perfiles verificados para aumentar mi confianza en la plataforma. | • DADO que el usuario está en el perfil<br>• CUANDO hace clic en "Solicitar Servicio"<br>• ENTONCES inicia el proceso de contratación | H1 |
+| E2 / US_3 | Dashboard de Técnicos | Como técnico, quiero visualizar métricas de rendimiento en un dashboard para entender el valor de la plataforma. | • DADO que el técnico accede al dashboard<br>• CUANDO visualiza la información<br>• ENTONCES observa métricas clave (ingresos, solicitudes, conversión) | H2 |
+| E2 / US_4 | Widget de Métricas | Como técnico, quiero interactuar con un widget de métricas para analizar mi desempeño en tiempo real. | • DADO que el técnico está en el dashboard<br>• CUANDO interactúa con el widget<br>• ENTONCES obtiene información detallada de su rendimiento | H2 |
+| E2 / US_5 | Gestión de Suscripción | Como técnico, quiero gestionar mi suscripción fácilmente para decidir si continuar usando la plataforma. | • DADO que el técnico accede a configuración<br>• CUANDO intenta cancelar<br>• ENTONCES se registra el evento de cancelación | H2 |
+
+### 8.3.2. To-Be Product Backlog
+
+El To-Be Product Backlog representa una versión priorizada y enfocada del backlog original, alineada con la validación de las hipótesis H1 (Confianza del usuario) y H2 (Valor percibido por técnicos). Solo se incluyen las historias necesarias para ejecutar los experimentos y medir su impacto.
+
+| Prioridad | Story ID | Título | Descripción | Story Points | Hipótesis |
+|----------|---------|--------|------------|--------------|-----------|
+| Alta | US-02 | Visualización de Testimonios | Como visitante, quiero ver testimonios para aumentar mi confianza en la plataforma | 3 | H1 |
+| Alta | TS-12 | Obtener Evaluaciones por Técnico | Endpoint para mostrar reviews en perfiles | 3 | H1 |
+| Alta | TS-22 | Gestión de Perfiles | Endpoints para visualizar perfiles mejorados | 3 | H1 |
+| Alta | US-43 | Descripción del Problema | Como usuario, quiero detallar mi problema para mejorar la confianza en el servicio | 3 | H1 |
+| Alta | US-47 | Historial de Servicios | Como usuario, quiero ver servicios previos para aumentar confianza | 3 | H1 |
+| Media | US-12 | Planes de Suscripción | Visualizar planes para entender valor del servicio | 3 | H2 |
+| Media | US-63 | Historial de Clientes | Como técnico, ver historial para evaluar valor de la plataforma | 3 | H2 |
+| Media | US-68 | Exportación de Datos | Como usuario, exportar datos para análisis | 3 | H2 |
+| Media | US-30 | Configuración de Notificaciones | Personalizar notificaciones para mejorar experiencia | 3 | H2 |
+| Media | TS-04 | Actualizar Stock | Endpoint para gestión de inventario técnico | 3 | H2 |
+| Baja | US-01 | Características y Beneficios | Información general del producto | 3 | Soporte |
+| Baja | US-03 | Adaptabilidad | Responsive design | 3 | Soporte |
