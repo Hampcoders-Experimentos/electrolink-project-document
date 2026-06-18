@@ -4,6 +4,9 @@
 **Enlace de la organización del proyecto**
 - [Organización GitHub: Hampcoders-Experimentos](https://github.com/Hampcoders-Fundamentos)
 - [Repositorio GitHub: Hampcoders-Experimentos-documento](https://github.com/Hampcoders-Fundamentos/project-document.git)
+- [Repositorio GitHub: Hampcoders-Experimentos-cucumber](https://github.com/Hampcoders-Experimentos/electrolink-cucumber)
+- [Repositorio GitHub: Hampcoders-Experimentos-karate](https://github.com/Hampcoders-Experimentos/electrolink-karate)
+
   
 **Insights del AV1**
 

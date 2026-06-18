@@ -1,5 +1,7 @@
 # Capítulo VII: DevOps Practices
 
+En este capítulo se describen las prácticas de DevOps implementadas en el proyecto ElectroLink, enfocándose en la integración continua (CI) y la entrega continua (CD). Se detallan las herramientas utilizadas, los flujos de trabajo establecidos y cómo estas prácticas han contribuido a garantizar la calidad, estabilidad y confiabilidad del software desarrollado. Además, se presentan los componentes clave del pipeline de CI/CD y las estrategias adoptadas para asegurar un proceso de desarrollo ágil y eficiente.
+
 ## 7.1. Continuous Integration (CI)
 La Integración Continua (CI) es la práctica de fusionar automáticamente los cambios de código en una rama compartida y centralizada de forma regular. Su objetivo es detectar y solucionar errores de integración de manera temprana, manteniendo la calidad y estabilidad del proyecto.
 
@@ -9,6 +11,7 @@ En nuestro proceso, la CI está impulsada por el desarrollo basado en la metodol
 
 | Herramienta | Tipo | Descripción | Propósito en el Proceso |
 | :--- | :--- | :--- | :--- |
+| **Docker** | Contenedorización | Plataforma de contenedores que permite empaquetar la aplicación *backend* Java junto con sus dependencias en un entorno aislado. | Garantizar la **consistencia del entorno** entre desarrollo, pruebas y producción, facilitando la ejecución de pruebas en condiciones controladas. |
 | **JUnit 5** | Pruebas Unitarias (TDD) | *Framework* estándar de Java para escribir y ejecutar pruebas que validan el comportamiento de pequeñas unidades de código (métodos, clases). | Asegurar la **calidad interna y funcional** de los componentes del *backend* Java. |
 | **Mockito** | Simulaciones (TDD) | Librería de *mocking* que permite crear *mocks* de dependencias externas (bases de datos, servicios, etc.). | Facilitar las pruebas unitarias **aislando la lógica de negocio** para ejecutarlas de forma rápida y confiable. |
 | **Karate** | Pruebas de Integración y E2E (BDD) | *Framework* que combina la sintaxis BDD (Gherkin) con pruebas API/Web. Se usa en archivos `.feature` para validar la **integración de *endpoints*** y flujos de negocio. | **Validar el comportamiento del API REST** contra casos de uso definidos en lenguaje Gherkin. |
@@ -21,15 +24,40 @@ Nuestra *pipeline* de CI está integrada en **GitHub Actions** y sigue un flujo 
 
 | Fase del Pipeline | Descripción | Herramientas Involucradas | Output / Criterio de Éxito |
 | :--- | :--- | :--- | :--- |
-| **1. Check-out** | Obtiene el código fuente del repositorio (rama `main` o `feature`). | GitHub | Código disponible en el entorno de CI. |
-| **2. Static Analysis** | Ejecuta herramientas de análisis estático. | **CheckStyle** (Java)  | **Fallo si** se detectan violaciones graves de estilo o convenciones. |
-| **3. Build** | Compila la aplicación *backend* (Java) y genera artefactos. | Maven (`./mvnw clean install`) | **Fallo si** la compilación falla (errores de sintaxis o dependencias). |
-| **4. Unit & Integration Tests** | Ejecuta las suites de pruebas. | **JUnit 5** y **Mockito** (Unitarias), **Karate** (Integración/API) | **Fallo si** una prueba unitaria o de integración falla, deteniendo el flujo CI. |
-| **5. Containerization** | Construye la imagen de Docker para la aplicación *backend*. | **Docker** | Generación exitosa de la imagen del contenedor, lista para ser desplegada. |
-| **6. Pipeline Validation** | Se ejecuta un pipeline utilizando Jenkins para ejecutar la aplicación del Backend | **Fallo si** el despliegue a staging falla o si las pruebas de validación en staging no pasan. |
+| **1. Check-out** | Obtiene el código fuente del repositorio (rama `master` o `feature`). | GitHub | Código disponible en el entorno de CI. |
+| **2. Declarative Tool Install** | Instala las herramientas necesarias (JDK, Maven, Docker CLI). | GitHub Actions (actions/setup-java, actions/setup-docker) | Herramientas instaladas y configuradas correctamente. |
+| **3. Compile Project** | Compila el proyecto Java para verificar que no hay errores de sintaxis. | Maven (`./mvnw compile`) | **Fallo si** la compilación falla, deteniendo el pipeline. |
+| **4. Valid Checkstyle** | Ejecuta CheckStyle para validar el estilo de código. | CheckStyle (Java) | **Fallo si** se detectan violaciones graves de estilo o convenciones. |
+| **5. Valid Unit Tests** | Ejecuta las suites de pruebas. | **JUnit 5** y **Mockito** (Unitarias), **Karate** (Integración/API) | **Fallo si** una prueba unitaria o de integración falla, deteniendo el flujo CI. |
+| **6. Valid Test Coverage** | Analiza la cobertura de código para asegurar que se cumplen los umbrales mínimos. | JaCoCo (Java) | **Fallo si** la cobertura de código es inferior al 80%, deteniendo el pipeline. |
+| **7. SonarQube Analysis** | Analiza la calidad del código, detectando vulnerabilidades, bugs y code smells. | SonarQube Scanner | **Fallo si** se detectan vulnerabilidades críticas o bloqueantes, deteniendo el pipeline. |
+| **8. Containerization** | Construye la imagen de Docker para la aplicación *backend*. | **Docker** | Generación exitosa de la imagen del contenedor, lista para ser desplegada. |
 
+
+Aqui se presenta el docker file utilizado para la construcción de la imagen del contenedor, que asegura un entorno consistente para el desarrollo, pruebas y producción, se utiliza la imagen 3.9.6-eclipse-temurin-21-alpine como base para compilar el proyecto Java 21 y luego se expone el puerto 8080 para la aplicación RESTful API. 
+
+![Dockerfile](assets/img/cap7/ci/dockerfile.png)
+
+\
+
+Con esta configuración, el pipeline de CI no solo valida la calidad del código y la funcionalidad, sino que también prepara el artefacto (imagen Docker) para su despliegue en entornos posteriores (Staging y Producción), asegurando una transición fluida y confiable a lo largo del ciclo de vida del desarrollo.
+
+![Jenkinsfile](assets/img/cap7/ci/jenkinsfile.png)
+
+\
 
 ![Ejecución del Pipeline con Jenkins](assets/img/cap7/ci/jenkins-build.png)
+
+\
+
+![Aprobación de SonarQube en Jenkins](assets/img/cap7/ci/sonarqube-approval.png)
+
+\
+
+Aquí se presenta una captura de pantalla para validad que se valido la contenerización del proyecto en Docker Desktop, asegurando que la imagen se construyó correctamente y está lista para ser desplegada en el entorno de staging o producción.
+
+![Docker Desktop](assets/img/cap7/ci/docker-desktop.png)
+
 
 ---
 
@@ -54,3 +82,5 @@ El objetivo de la Entrega Continua (CD) es automatizar la integración y pruebas
 * **Despliegue Semiautomático:** El *pipeline* prepara la aplicación y las imágenes de Docker/artefactos para el despliegue final, pero **no lo ejecuta**. La acción de desplegar a producción se dispara únicamente cuando un desarrollador o administrador **aprueba la *build* validada** en el entorno de *staging*.
 * **Aprobación Manual:** Es el punto clave del CD. Antes del despliegue en producción, el *pipeline* requiere una aprobación explícita (a menudo representada por un *Merge Request* a `main` y/o una acción manual en GitHub Actions/Trello) para **reducir el riesgo** de lanzar código no deseado.
 * **Rollback Manual:** Aunque la infraestructura de Render y Firebase puede facilitar *rollbacks* rápidos, la decisión y ejecución de un *rollback* en producción son **manuales y controladas** por el equipo, garantizando la supervisión total ante una incidencia.
+
+### 7.2.2. Stages Deployment Pipeline Components.
