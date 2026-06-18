@@ -116,7 +116,7 @@ A partir de nuestras Lean UX Assumptions (Capítulo 1) y de las Experiment-Ready
 
 *   **Hipótesis 1 (Adopción del Cliente — Confianza, basada en Q2):**
 
-    *   **Creemos que** al implementar un sistema de insignias de "Técnico Verificado" (basado en la validación de certificaciones) y mostrar las reseñas de forma prominente en el perfil del proveedor...
+    *   **Creemos que** al implementar un sistema de insignias de "Técnico Verificado" (basado en la validación de certificaciones) y mostrar las reseñas de forma prominente en el perfil del proveedor.
 
     *   **Resultará en** un incremento en la confianza percibida por los propietarios (Persona: Olivia Pérez), lo que aumentará la tasa de solicitudes de servicio.
 
