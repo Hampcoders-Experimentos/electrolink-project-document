@@ -324,3 +324,233 @@ Para aprobar y fusionar un Pull Request, deben cumplirse los siguientes requisit
 ### Frecuencia de las Revisiones
 
 Las revisiones de código se llevan a cabo de manera continua e incremental. Se prioriza mantener Pull Requests pequeños, realizando la revisión apenas el desarrollador finaliza una tarea y crea el PR. Este enfoque reduce la acumulación de cambios, facilita la detección temprana de errores y mantiene el repositorio en un estado de integración constante y estable.
+
+### 6.3.1. Diseño de Entrevistas.
+
+# Entrevistas por Segmento - Plataforma ElectroLink
+
+## Segmento: Clientes
+
+1. ¿Qué tan fácil te resultó registrarte y entender para qué servía ElectroLink como cliente?
+2. ¿Cómo fue tu experiencia al navegar desde el Home hasta encontrar un técnico?
+3. Al ver las cards de técnicos, ¿qué información fue clave para tomar una decisión (reseñas, distancia, disponibilidad)?
+4. ¿La sección de “Servicios activos” en el dashboard te ayudó a hacer seguimiento de lo que contrataste?
+5. ¿Pudiste identificar sin problemas en qué estado estaba tu solicitud o mantenimiento?
+6. ¿Sentiste que el diseño de la app era confiable y profesional desde el primer momento?
+7. ¿Qué tan útil te pareció el botón “Buscar técnico”? ¿Qué filtro usaste más?
+8. ¿La función de geolocalización y mapa te ayudó a elegir al mejor técnico cercano?
+9. ¿Te sentiste cómodo contratando a alguien por internet directamente desde la plataforma?
+10. ¿Te sirvió el módulo de notificaciones para saber cuándo ocurriría el mantenimiento?
+11. ¿Después de recibir el servicio, pudiste calificar al técnico fácilmente?
+12. ¿Qué cambiarías en la experiencia visual o funcional para que ElectroLink sea aún más clara o rápida de usar?
+
+---
+
+## Segmento: PYMEs
+
+1. ¿Tu empresa ya tenía una forma de gestionar proveedores eléctricos? ¿Qué cambió con ElectroLink?
+2. ¿El dashboard de “Gestión de agenda” te pareció fácil de entender para programar mantenimientos?
+3. ¿La opción de ver “Métricas y Rendimiento” fue útil para tomar decisiones de mejora?
+4. ¿Consideras valioso poder ver el “Historial de servicios” directamente en la plataforma?
+5. ¿ElectroLink te permite tener control sobre los días y horas en que recibes mantenimiento?
+6. ¿Qué tan clara te parece la visualización de técnicos preferidos? ¿Los volverías a contratar?
+7. ¿La interfaz de búsqueda por tipo de servicio eléctrico y ubicación te pareció ágil?
+8. ¿Usaste el sistema de reseñas para elegir a quién contratar? ¿Confiaste en él?
+9. ¿Crees que el diseño transmite formalidad y profesionalismo suficiente para una pyme?
+10. ¿Qué tan útil sería para ti recibir un reporte automático del mantenimiento realizado?
+11. ¿Te sirvió ver alertas de “Notificaciones” como recordatorio de mantenimientos?
+12. ¿Qué funcionalidades crees que le hacen falta a ElectroLink para facilitarte la gestión como empresa?
+
+---
+
+## Segmento: Proveedores
+
+1. ¿Fue fácil registrarte como proveedor y configurar tu perfil dentro de ElectroLink?
+2. ¿El dashboard de proveedor refleja claramente tu estado (disponible/no disponible, servicios en curso)?
+3. ¿Te sentiste representado profesionalmente con el diseño y datos de tu perfil?
+4. ¿Qué tan útil te parece tener un módulo específico para gestionar tus servicios activos?
+5. ¿La sección de “Inventario y Catálogo” fue fácil de actualizar con tus propios servicios?
+6. ¿Consideras útil tener tus “Métricas y Rendimiento” disponibles en tiempo real?
+7. ¿Las reseñas de los clientes te han servido para mejorar tu trabajo o conseguir más solicitudes?
+8. ¿Qué tan fácil fue para ti agregar un horario a la agenda y gestionar tu disponibilidad?
+9. ¿La función de ver tu perfil como los clientes lo ven te parece clara y justa?
+10. ¿Pudiste cargar bien tus certificaciones y ver cómo aparecen en la app?
+11. ¿Sentiste que la app te dio mayor visibilidad profesional que buscar clientes por tu cuenta?
+12. ¿Qué cosas le agregarías al panel de proveedor para sentirte más apoyado como técnico?
+---
+
+### 6.3.2. Registro de Entrevistas.
+1. Leonardo Prieto<br>
+
+    [![image.png](https://i.postimg.cc/LXrpwJhg/image.png)](https://postimg.cc/ftjp0TcM)
+
+    _Entrevista del Frontend Application a Leonardo Prieto_
+
+   Duración: 6:28 min<br>
+   Empieza: 00:00
+
+*Resumen de la opinión del entrevistado sobre la aplicación Electrolink*
+
+1. **Comprensión general de la plataforma**:
+
+* Leonardo comprendió rápidamente que **la aplicación conecta clientes con proveedores de servicios eléctricos**, lo cual indica que el objetivo principal está bien comunicado.
+
+2. **Experiencia de usuario (UX)**:
+
+* Destaca que **la interfaz le transmite confianza**, lo cual es clave para cualquier plataforma online. Aunque no profundiza en detalles visuales, su respuesta sugiere que la estructura y navegación iniciales son adecuadas.
+
+3. **Información clave para el usuario**:
+
+* Menciona que **la disponibilidad del técnico** es un factor determinante para tomar decisiones como cliente, lo que sugiere que este dato debería estar muy visible y actualizado en la interfaz.
+
+4. **Funcionalidad destacada**:
+
+* Encuentra **muy útil la opción de búsqueda por localización**, ya que permite identificar técnicos cercanos, algo esencial en servicios presenciales.
+
+5. **Sugerencias de mejora**:
+
+* Sugiere **implementar un sistema de chat en tiempo real** entre técnico y cliente. Esto permitiría una comunicación más fluida, resolver dudas previas al servicio y facilitar la coordinación.
+* Propone **añadir imágenes y más información visual** para hacer el apartado visual más atractivo y mejorar el diseño en general.
+
+---
+
+**Análisis general**
+
+Leonardo refleja el perfil de un **usuario potencialmente interesado** en usar la aplicación. Su retroalimentación valida que:
+
+* El **objetivo principal se comunica con claridad**.
+* Hay un **mínimo viable funcional** con buen potencial.
+* **La confianza en la plataforma es positiva**, aunque aún hay espacio para mejorar la presentación visual.
+
+Además, sus comentarios demuestran que valora:
+
+* La **usabilidad práctica (disponibilidad, localización)**.
+* La **comunicación directa (chat)**.
+* Una **presentación atractiva (imágenes e información enriquecida)**.
+
+---
+
+2. Piero Tenorio Medina <br>
+
+   [![image.png](https://i.postimg.cc/MGL2fn7L/image.png)](https://postimg.cc/B82wdQw5)
+   _Entrevista del Frontend Application a Piero Tenorio_
+
+   Enlace: https://youtu.be/Epc6R8F4hjE <br>
+   Duración: 7:53 min<br>
+   Empieza: 00:00<br>
+
+*Resumen de la opinión del entrevistado sobre la aplicación Electrolink*
+
+1. **Comprensión general de la plataforma**:
+
+* Piero comprendió rápidamente el proposito de la aplicación, lo cual es el punto deseado..
+
+2. **Experiencia de usuario (UX)**:
+
+* Destaca que la interfaz le transmite confianza, lo cual es clave para cualquier plataforma online. Aunque si reforzaria en lo que la organización visual de algunos elementos.
+
+3. **Información clave para el usuario**:
+
+* Menciona que las secciones para manejar sus componentes electricos son bastante buenas pero considera mejorar la paleta de colores.
+
+4. **Funcionalidad destacada**:
+
+* Encuentra muy útil la sección para agregar componetes a su inventario..
+
+5. **Sugerencias de mejora**:
+
+* Sugiere mejorar la organización visual para poder evitar la fatiga al momento de buscar entre secciones.Asimismo, piensa que es muy importante utilizar mostrar la vista de componentes mediante tablas.
+
+---
+
+**Análisis general**
+
+Leonardo refleja el perfil de un **usuario potencialmente interesado** en usar la aplicación. Su retroalimentación valida que:
+
+* El **objetivo principal se comunica con claridad**.
+* Hay un **mínimo viable funcional** con buen potencial.
+* **La confianza en la plataforma es positiva**, aunque aún hay espacio para mejorar la presentación visual.
+
+Además, sus comentarios demuestran que valora:
+
+* La **usabilidad práctica (disponibilidad, localización)**.
+* La **comunicación directa (chat)**.
+* Una **presentación atractiva (imágenes e información enriquecida)**.
+
+---
+
+### 6.3.3. Evaluaciones según heurísticas.
+
+En esta sección, el equipo presenta la evalución en base a las heuristicas de diseño y accesibilidad
+<hr>
+Evaluación Heurística de ElectroLink
+
+**Carrera:** Ingeniería de Software  
+**Curso:** Desarrollo de Aplicaciones Open Source  
+**Auditor:** ElectroLink  
+**Plataforma evaluada:** ElectroLink – Plataforma Web
+
+---
+
+## Tareas evaluadas
+
+- Comprender el propósito del sitio al ingresar
+- Navegar y entender la propuesta de valor tanto para propietarios como para proveedores
+- Visualizar e interactuar con el catálogo de servicios
+- Acceder a testimonios, valores, misión y visión de la empresa
+- Evaluar la visual jerárquica de acciones clave (registrarse, buscar técnicos, mostrar perfil)
+- Interacción de proveedores con sus servicios e inventario
+- Mostrar el trabajo realizado (visibilidad a clientes)
+- Comparar perfiles técnicos y ver reseñas
+- Reportar un servicio finalizado (cliente y proveedor)
+- Evaluar accesibilidad visual e inclusividad
+
+---
+
+## Tabla resumen de problemas detectados
+
+| #  | Problema detectado                                                                 | Severidad | Heurística/Principio violado                                       |
+|----|-------------------------------------------------------------------------------------|-----------|-------------------------------------------------------------------|
+| 1  | Falta un botón de regreso rápido al inicio en páginas extensas                     | 2         | Control del usuario                                               |
+| 2  | Íconos e imágenes no tienen descripciones accesibles (sin `alt`)                   | 3         | Inclusive Design – Experiencias comparables                      |
+| 3  | Jerarquía visual poco clara en botones de acción principal                         | 2         | Visibilidad y jerarquía visual                                    |
+| 4  | No hay diferenciación visual clara entre botones de cliente y proveedor            | 2         | Consistencia y estándares                                         |
+| 5  | No se explicita claramente el beneficio tangible de publicar un servicio           | 2         | Reconocer en lugar de recordar                                   |
+| 6  | En vistas de gestión, no se resalta lo más urgente (como “nuevas solicitudes”)     | 3         | Visibilidad del estado del sistema                               |
+| 7  | No hay retroalimentación visual luego de acciones (ej. guardar inventario)         | 3         | Visibilidad del estado del sistema                               |
+| 8  | No hay ayudas contextuales (tooltips o descripciones) en íconos de servicios       | 2         | Ayuda y documentación                                             |
+| 9  | No se destacan los beneficios diferenciales para PYMEs respecto a clientes comunes | 2         | Reconocer en lugar de recordar / Personalización del contenido    |
+| 10 | No se ofrecen opciones de configuración accesibles (contraste, tamaños)            | 3         | Diseño inclusivo                                                  |
+| 11 | La opción “Mostrar tu trabajo” no guía claramente cómo se verá al cliente          | 2         | Correspondencia entre sistema y el mundo real                     |
+| 12 | El flujo de registro y rol no se valida con confirmación clara al usuario          | 3         | Prevención de errores / Control del usuario                       |
+
+---
+
+## Descripción de problemas clave
+
+### Problema #2: Falta de etiquetas accesibles en íconos e imágenes
+**Severidad:** 3  
+**Heurística violada:** Inclusive Design  
+**Descripción:** Los íconos que representan funcionalidades como “servicio garantizado”, “componentes”, “perfiles”, etc., no tienen `alt` ni descripciones para lectores de pantalla.  
+**Recomendación:** Añadir `alt`, `aria-label` o tooltips en cada ícono o imagen decorativa relevante.
+
+---
+
+### Problema #6: No se resalta lo más urgente para el proveedor
+**Severidad:** 3  
+**Heurística violada:** Visibilidad del estado del sistema  
+**Descripción:** En el panel del proveedor, las nuevas solicitudes o acciones pendientes no están resaltadas con prioridad visual.  
+**Recomendación:** Usar badges, resaltado en rojo o secciones tipo “acciones recientes”.
+
+---
+
+### Problema #7: No hay retroalimentación visual tras acciones clave
+**Severidad:** 3  
+**Heurística violada:** Visibilidad del estado del sistema  
+**Descripción:** Al guardar componentes, aceptar solicitudes o subir fotos, el usuario no recibe un mensaje inmediato o animación de confirmación.  
+**Recomendación:** Mostrar mensajes toast, iconos animados de éxito o loaders donde aplique.
+
+
+<hr>
+
+<div style="page-break-after: always;"></div>
