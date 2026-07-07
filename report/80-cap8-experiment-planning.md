@@ -64,15 +64,19 @@ Basado en el Lean UX Process y en el análisis del problema, definimos el materi
 
 Transformamos las suposiciones y brechas de conocimiento en preguntas específicas que podemos responder mediante experimentos.
 
-- **Q1 [Viabilidad/Proveedor]:** ¿Pagarán los técnicos certificados una suscripción mensual por acceder a oportunidades de trabajo y herramientas de gestión dentro de ElectroLink?
+### 8.1.3. Experiment-Ready Questions
 
-- **Q2 [Viabilidad/Cliente]:** ¿Contratarán los propietarios de viviendas y las PYMES servicios eléctricos a través de la plataforma basándose en perfiles verificados y reseñas de otros usuarios?
+A partir de los principales supuestos identificados durante la etapa de *Experiment Planning*, se formularon las siguientes *Experiment-Ready Questions*. Estas preguntas representan las principales incertidumbres del modelo de negocio de ElectroLink y servirán como base para el diseño de los experimentos de validación.
 
-- **Q3 [Valor/Retención Proveedor]:** ¿Utilizarán los técnicos activamente las herramientas de gestión disponibles para administrar sus servicios?
+| **ID** | **Experiment-Ready Question** |
+|:------:|-------------------------------|
+| **Q1** | ¿Pagarán los técnicos certificados una suscripción mensual por acceder a oportunidades de trabajo y herramientas de gestión dentro de ElectroLink? |
+| **Q2** | ¿Contratarán los propietarios de viviendas y las pequeñas y medianas empresas (PYMES) servicios eléctricos a través de ElectroLink basándose en perfiles verificados y reseñas de otros usuarios? |
+| **Q3** | ¿Utilizarán los técnicos certificados las herramientas de gestión disponibles en ElectroLink para administrar sus servicios de forma frecuente y eficiente? |
+| **Q4** | ¿Qué canal de marketing digital permitirá captar nuevos usuarios para ElectroLink con el menor costo de adquisición y la mayor tasa de conversión? |
+| **Q5** | ¿Estarán los usuarios dispuestos a adquirir un plan Premium que ofrezca funcionalidades adicionales y beneficios exclusivos dentro de ElectroLink? |
 
-- **Q4 [Adquisición/Cliente]:** ¿Qué canal de marketing digital genera registros de usuarios al menor costo de adquisición?
 
-- **Q5 [Crecimiento/Cliente]:** ¿Estarán los usuarios dispuestos a pagar por funcionalidades adicionales incluidas en un plan premium?
 
 ### 8.1.4. Question Backlog
 
@@ -88,23 +92,37 @@ Priorizamos las preguntas anteriores para enfocar los primeros esfuerzos de vali
 
 ### 8.1.5. Experiment Cards
 
-Basados en las preguntas de mayor prioridad (Q2 y Q1), diseñamos los siguientes experimentos:
+Basados en las preguntas de mayor prioridad, diseñamos los siguientes experimentos:
 
-| Elemento | Experiment Card #1: Validación de Confianza del Cliente |
-| -------- | ------------------------------------------------------- |
-| **Hypothesis** | *(Basándonos en Q2)* |
-| **Experiment** | Creemos que los propietarios de viviendas y representantes de PYMES contratarán servicios eléctricos a través de ElectroLink.<br><br>Porque una de sus principales dificultades es identificar técnicos confiables dentro de un mercado altamente informal, y la plataforma busca resolver este problema mediante perfiles verificados y reseñas visibles.<br><br>Para verificarlo, realizaremos una prueba de usabilidad utilizando un prototipo de alta fidelidad del flujo de búsqueda y contratación de técnicos.<br><br>Presentaremos a 10 usuarios dos perfiles de técnicos: uno con certificaciones verificadas y reseñas positivas, y otro sin dichas características, solicitándoles seleccionar al profesional que contratarían. |
-| **Metrics** | Mediremos el porcentaje de usuarios que seleccionan al técnico verificado y el nivel de confianza reportado en una escala del 1 al 5. |
-| **Success Criteria** | Sabremos que estamos en lo correcto si al menos el 80% de los participantes elige al técnico verificado y reporta un nivel de confianza igual o superior a 4. |
+| **Question** | ¿Contratarán los propietarios de viviendas y las pequeñas y medianas empresas (PYMES) servicios eléctricos a través de ElectroLink basándose en perfiles verificados y reseñas de otros usuarios? |
+|--------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **WHAT** | Implementar perfiles de técnicos que incluyan certificaciones verificadas, experiencia profesional y reseñas de clientes anteriores para validar si estos elementos incrementan la confianza de los usuarios durante el proceso de contratación. |
+| **WHY** | El objetivo es reducir la incertidumbre que experimentan los clientes al momento de contratar un técnico eléctrico, proporcionando información confiable que facilite la toma de decisiones y aumente la probabilidad de contratación mediante la plataforma. |
+| **HYPOTHESES** | Creemos que, si los perfiles de los técnicos muestran certificaciones verificadas, experiencia profesional y reseñas de clientes anteriores, entonces los propietarios de viviendas y las PYMES confiarán más en los profesionales registrados, incrementando la intención de contratación y aumentando la tasa de conversión de solicitudes de servicio en al menos un 25%. |
 
-| Elemento | Experiment Card #2: Validación del Modelo de Negocio (Suscripción para Técnicos) |
-| -------- | ------------------------------------------------------------------------------- |
-| **Hypothesis** | *(Basándonos en Q1)* |
-| **Experiment** | Creemos que los técnicos certificados estarán dispuestos a pagar una suscripción mensual para utilizar ElectroLink.<br><br>Porque la plataforma les permitirá aumentar su visibilidad profesional, acceder a nuevas oportunidades de trabajo y gestionar mejor sus servicios.<br><br>Para verificarlo, realizaremos entrevistas de validación con 15 técnicos certificados que trabajen de manera independiente.<br><br>Se les presentará el prototipo de la plataforma junto con diferentes escenarios de precio para evaluar su intención de pago y percepción de valor. |
-| **Metrics** | Mediremos el porcentaje de técnicos que expresan una alta intención de pago y el rango de precios considerado aceptable. |
-| **Success Criteria** | Sabremos que estamos en lo correcto si al menos el 60% de los participantes indica que probablemente o definitivamente pagaría una suscripción mensual para utilizar la plataforma. |
+<br>
 
-<hr>
+| **Question** | ¿Utilizarán los técnicos certificados las herramientas de gestión disponibles en ElectroLink para administrar sus servicios de forma frecuente y eficiente? |
+|--------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **WHAT** | Implementar un panel de gestión que permita a los técnicos administrar solicitudes, programar servicios, consultar su historial de trabajos y monitorear su desempeño dentro de la plataforma para evaluar el nivel de adopción de estas funcionalidades. |
+| **WHY** | El objetivo es validar que las herramientas de gestión representan un valor agregado para los técnicos certificados, facilitando la organización de sus actividades y promoviendo un uso continuo de la plataforma como parte de su trabajo diario. |
+| **HYPOTHESES** | Creemos que, si ElectroLink proporciona herramientas que permitan administrar solicitudes, organizar servicios y realizar el seguimiento de su desempeño profesional, entonces los técnicos certificados utilizarán estas funcionalidades de manera frecuente, logrando que al menos el 70% de ellos acceda semanalmente al panel de gestión durante el periodo de evaluación. |
+
+<br>
+
+| **Question** | ¿Qué canal de marketing digital permitirá captar nuevos usuarios para ElectroLink con el menor costo de adquisición y la mayor tasa de conversión? |
+|--------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **WHAT** | Desarrollar campañas piloto en Facebook, Instagram y Google Ads utilizando el mismo presupuesto y mensajes publicitarios para comparar el rendimiento de cada canal mediante indicadores de adquisición y conversión de usuarios. |
+| **WHY** | El objetivo es identificar el canal de marketing digital más eficiente para optimizar la inversión publicitaria, reducir el costo de adquisición de nuevos usuarios y maximizar el crecimiento inicial de la plataforma. |
+| **HYPOTHESES** | Creemos que, si ElectroLink implementa campañas segmentadas en redes sociales y motores de búsqueda, entonces será posible identificar un canal con un costo de adquisición menor y una tasa de conversión superior al 10%, permitiendo captar nuevos usuarios de manera más eficiente. |
+
+<br>
+
+| **Question** | ¿Estarán los usuarios dispuestos a adquirir un plan Premium que ofrezca funcionalidades adicionales y beneficios exclusivos dentro de ElectroLink? |
+|--------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **WHAT** | Presentar un prototipo del plan Premium que incluya beneficios exclusivos, como mayor visibilidad para técnicos, estadísticas avanzadas, soporte prioritario y funcionalidades adicionales, con el propósito de evaluar la intención de compra y la percepción del valor de esta propuesta. |
+| **WHY** | El objetivo es determinar si las funcionalidades Premium representan una propuesta de valor suficientemente atractiva para los usuarios, permitiendo validar un modelo de monetización complementario que contribuya a la sostenibilidad financiera de ElectroLink. |
+| **HYPOTHESES** | Creemos que, si ElectroLink ofrece funcionalidades Premium que proporcionen beneficios claramente diferenciados respecto al servicio gratuito, entonces una proporción significativa de los usuarios estará dispuesta a adquirir el plan Premium, alcanzando una intención positiva de compra de al menos el 40% de los participantes. |
 
 ## 8.2. Experiment Design
 
