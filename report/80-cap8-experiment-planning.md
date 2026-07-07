@@ -130,108 +130,119 @@ En esta fase se detalla el diseño técnico de los experimentos identificados a 
 
 ### 8.2.1. Hypotheses
 
-A partir de nuestras Lean UX Assumptions (Capítulo 1) y de las Experiment-Ready Questions priorizadas como Alta y Media (Q2, Q1 y Q3), hemos refinado las hipótesis de negocio en hipótesis de experimento medibles, falsificables y testeables.
+A partir de nuestras Lean UX Assumptions (Capítulo 1) y de las Experiment-Ready Questions priorizadas como Alta y Media, hemos refinado las hipótesis de negocio en hipótesis de experimento medibles, falsificables y testeables.
+## 8.2.1. Hypotheses
 
-*   **Hipótesis 1 (Adopción del Cliente — Confianza, basada en Q2):**
+### Hypothesis 1
 
-    *   **Creemos que** al implementar un sistema de insignias de "Técnico Verificado" (basado en la validación de certificaciones) y mostrar las reseñas de forma prominente en el perfil del proveedor...
+| **Question** | ¿Pagarán los técnicos certificados una suscripción mensual por acceder a oportunidades de trabajo y herramientas de gestión dentro de ElectroLink? |
+|---------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **BELIEF** | Los técnicos certificados percibirán que ElectroLink les brinda mayor visibilidad profesional, acceso a nuevas oportunidades laborales y herramientas para gestionar sus servicios, por lo que estarán dispuestos a pagar una suscripción mensual. |
+| **HYPOTHESIS** | Creemos que, si ElectroLink ofrece beneficios como una mayor visibilidad profesional, acceso a oportunidades laborales y herramientas para la gestión de servicios, entonces veremos una intención positiva de pago por parte de los técnicos certificados, validando el modelo de suscripción y alcanzando una aceptación de al menos el 60% de los participantes. |
+| **NULL HYPOTHESIS** | Creemos que, si ElectroLink ofrece beneficios como una mayor visibilidad profesional, acceso a oportunidades laborales y herramientas para la gestión de servicios, entonces no veremos una intención positiva de pago por parte de los técnicos certificados, impidiendo validar el modelo de suscripción y obteniendo una aceptación inferior al 60% de los participantes. |
 
-    *   **Resultará en** un incremento en la confianza percibida por los propietarios (Persona: Olivia Pérez), lo que aumentará la tasa de solicitudes de servicio.
+### Hypothesis 2
 
-    *   **Sabremos que esto es cierto si** la Variante B (con insignias y reseñas destacadas) logra una tasa de conversión de "visita a perfil" a "solicitud de servicio" al menos un 25% mayor que la Variante A (perfil estándar), en un período de 14 días.
+| **Question** | ¿Contratarán los propietarios de viviendas y las pequeñas y medianas empresas (PYMES) servicios eléctricos a través de ElectroLink basándose en perfiles verificados y reseñas de otros usuarios? |
+|---------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **BELIEF** | Los clientes confiarán más en los técnicos cuyos perfiles incluyan certificaciones verificadas, experiencia profesional y reseñas de otros usuarios, facilitando la decisión de contratación. |
+| **HYPOTHESIS** | Creemos que, si los perfiles de los técnicos incluyen certificaciones verificadas, experiencia profesional y reseñas de clientes anteriores, entonces veremos un incremento en la confianza de los usuarios, aumentando la intención de contratación y la tasa de conversión de solicitudes de servicio en al menos un 25%. |
+| **NULL HYPOTHESIS** | Creemos que, si los perfiles de los técnicos incluyen certificaciones verificadas, experiencia profesional y reseñas de clientes anteriores, entonces no veremos un incremento en la confianza de los usuarios, manteniéndose o disminuyendo la intención de contratación y la tasa de conversión de solicitudes de servicio. |
 
-*   **Hipótesis 2 (Retención del Proveedor — Valor Percibido, basada en Q3):**
+### Hypothesis 3
 
-    *   **Creemos que** al proporcionar a los técnicos (Persona: Alejandro López) un dashboard con "Métricas de Oportunidad" (que muestre solicitudes perdidas en su zona y su tasa de aceptación)...
+| **Question** | ¿Utilizarán los técnicos certificados las herramientas de gestión disponibles en ElectroLink para administrar sus servicios de forma frecuente y eficiente? |
+|---------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **BELIEF** | Los técnicos utilizarán con frecuencia las herramientas de gestión porque les permitirán organizar mejor sus servicios, optimizar su tiempo y mejorar el seguimiento de sus trabajos. |
+| **HYPOTHESIS** | Creemos que, si ElectroLink proporciona herramientas para administrar solicitudes, gestionar servicios y monitorear el desempeño profesional, entonces veremos un incremento en el uso recurrente de la plataforma por parte de los técnicos certificados, logrando que al menos el 70% utilice estas funcionalidades semanalmente. |
+| **NULL HYPOTHESIS** | Creemos que, si ElectroLink proporciona herramientas para administrar solicitudes, gestionar servicios y monitorear el desempeño profesional, entonces no veremos un incremento en el uso recurrente de la plataforma por parte de los técnicos certificados, registrándose una utilización inferior al 70% durante el período de evaluación. |
 
-    *   **Resultará en** una mayor percepción del valor de las herramientas de gestión de la plataforma, lo que reducirá su intención de abandonar la suscripción.
+### Hypothesis 4
 
-    *   **Sabremos que esto es cierto si** los técnicos expuestos al nuevo dashboard (Variante B) tienen una tasa de abandono (churn) un 20% menor que el grupo de control (Variante A) después de 30 días de uso.
+| **Question** | ¿Qué canal de marketing digital permitirá captar nuevos usuarios para ElectroLink con el menor costo de adquisición y la mayor tasa de conversión? |
+|---------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **BELIEF** | Las campañas digitales segmentadas permitirán atraer nuevos usuarios de manera más eficiente que otros canales de difusión tradicionales. |
+| **HYPOTHESIS** | Creemos que, si ElectroLink implementa campañas segmentadas en Facebook, Instagram y Google Ads, entonces veremos un incremento en el número de usuarios registrados, identificando un canal con una tasa de conversión superior al 10% y un menor costo de adquisición. |
+| **NULL HYPOTHESIS** | Creemos que, si ElectroLink implementa campañas segmentadas en Facebook, Instagram y Google Ads, entonces no veremos un incremento significativo en el número de usuarios registrados, manteniéndose bajas tasas de conversión y altos costos de adquisición. |
 
-| Hipótesis | Pregunta | Belief (Creencia) | Hypothesis (H1) | Null Hypothesis (H0) |
-| --- | --- | --- | --- | --- |
-| H1 (Adopción Cliente - Confianza) | Q2 | La implementación de insignias de "Técnico Verificado" y reseñas destacadas aumentará la confianza de los propietarios. | La Tasa de Conversión a solicitud de servicio aumentará al menos un 25% con insignias y reseñas destacadas. | La implementación de insignias y reseñas destacadas no aumentará la Tasa de Conversión a solicitud de servicio en un 25% (o más). |
-| H2 (Retención Proveedor - Valor Percibido) | Q3 | Proporcionar un dashboard con "Métricas de Oportunidad" incrementará la percepción del valor de las herramientas de gestión y reducirá el abandono. | Los técnicos expuestos al nuevo dashboard tendrán una tasa de abandono (churn) un 20% menor después de 30 días de uso. | El nuevo dashboard de Métricas de Oportunidad no reducirá la tasa de abandono (churn) en un 20% (o más). |
+### Hypothesis 5
 
-### 8.2.2. Domain Business Metrics
-
-Estas son las métricas de alto nivel (OKRs) que el negocio (ElectroLink) utiliza para medir el éxito general, y que nuestros experimentos buscan impactar. Todas las Experiment Cards y Measures definidas en este documento hacen referencia únicamente a las métricas descritas en esta sección.
-
-| Métrica | Fórmula de cálculo | Técnica de recolección | Meta deseada |
-| --- | --- | --- | --- |
-| Tasa de Conversión de Clientes (CCR — Client Conversion Rate) | (Número de servicios contratados / Número de visitantes únicos al perfil de técnico) × 100% | Eventos de analítica web/móvil (vista de perfil → clic en "Solicitar Servicio" → confirmación de contratación) | Incrementar la CCR en al menos 25% respecto a la línea base (Variante A) en los primeros 14 días posteriores al lanzamiento de la funcionalidad de verificación. |
-| Tasa de Abandono de Proveedores (Provider Churn Rate) | (Número de técnicos que cancelan su suscripción paga en el mes / Número total de técnicos suscritos al inicio del mes) × 100% | Registro de eventos de cancelación de suscripción en el backend | Reducir el churn mensual en al menos 20% en los técnicos expuestos al dashboard de Métricas de Oportunidad frente al grupo de control, dentro de los 30 días posteriores al lanzamiento. |
-| Tasa de Adopción de Funcionalidades (FAR — Feature Adoption Rate) | (Número de usuarios activos que utilizan una funcionalidad clave al menos una vez por semana / Número total de usuarios activos) × 100% | Eventos de uso registrados por funcionalidad (p. ej. apertura del Dashboard de Métricas) | Alcanzar un FAR de al menos 40% para el dashboard de Métricas de Oportunidad dentro de los primeros 30 días de uso. |
-| Puntuación Neta del Promotor (NPS) | % Promotores (calificación 9-10) − % Detractores (calificación 0-6), sobre la pregunta "¿Qué tan probable es que recomiende ElectroLink?" | Encuesta in-app/post-servicio, aplicada tanto a propietarios como a técnicos | Alcanzar un NPS igual o mayor a 30 puntos en cada segmento (propietarios y técnicos) al cierre del periodo de experimentación. |
-
-### 8.2.3. Measures
-
-Estas son las métricas de datos crudos (cuantitativas y cualitativas) que recopilaremos directamente durante el experimento para evaluar cada hipótesis.
-
-*   **Para Hipótesis 1 (Confianza):**
-
-    *   Clics en el botón "Solicitar Servicio" (por variante).
-    *   Número de impresiones (vistas) del perfil del técnico.
-    *   Tasa de rebote en la página del perfil.
-    *   _Cualitativo:_ Respuestas a encuestas de salida ("¿Qué tan confiable le pareció este perfil?").
-
-*   **Para Hipótesis 2 (Retención):**
-
-    *   Número de clics en la pestaña "Dashboard de Métricas".
-    *   Tiempo promedio de sesión dentro del dashboard de métricas.
-    *   Clics en el botón "Cancelar Suscripción".
-    *   Número de servicios aceptados por el técnico (post-visualización del dashboard).
-
-| Question | Measure |
-| --- | --- |
-| Q2: ¿Contratarán los propietarios basando su confianza en perfiles verificados y reseñas? | Cuantitativo: Clics en el botón "Solicitar Servicio" por variante. Tasa de Conversión (Visita a Perfil → Solicitud). Tasa de rebote en la página del perfil. Cualitativo: Respuestas a encuestas de salida ("¿Qué tan confiable le pareció este perfil?"). |
-| Q3: ¿Usarán los técnicos activamente las herramientas de agenda e inventario? | Cuantitativo: Clics en la pestaña "Dashboard de Métricas". Tiempo promedio de sesión dentro del dashboard. Clics en el botón "Cancelar Suscripción" (medición de churn). |
+| **Question** | ¿Estarán los usuarios dispuestos a adquirir un plan Premium que ofrezca funcionalidades adicionales y beneficios exclusivos dentro de ElectroLink? |
+|---------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **BELIEF** | Los usuarios percibirán que las funcionalidades Premium aportan beneficios suficientes para justificar el pago de una suscripción adicional. |
+| **HYPOTHESIS** | Creemos que, si ElectroLink ofrece funcionalidades Premium como mayor visibilidad, estadísticas avanzadas y soporte prioritario, entonces veremos una intención positiva de compra por parte de los usuarios, alcanzando una aceptación de al menos el 40% de los participantes. |
+| **NULL HYPOTHESIS** | Creemos que, si ElectroLink ofrece funcionalidades Premium como mayor visibilidad, estadísticas avanzadas y soporte prioritario, entonces no veremos una intención positiva de compra por parte de los usuarios, obteniendo una aceptación inferior al 40% de los participantes. |
 
 
-### 8.2.3. Conditions.
+## 8.2.2. Measures
 
-Esta sección define las condiciones experimentales y de control bajo las cuales se evaluarán las hipótesis planteadas, permitiendo identificar el impacto real de las variables introducidas en la plataforma ElectroLink.
+En esta sección se definen las métricas de negocio que permitirán analizar los resultados obtenidos durante la fase de experimentación. Los indicadores seleccionados se caracterizan por ser representativos de los objetivos del proyecto, cuantificables y proporcionales al impacto esperado de cada experimento.
 
-Dado que nuestras preguntas son de tipo **basadas en creencias (belief-based questions)**, se establecen dos escenarios: una **condición experimental**, donde se introduce la mejora propuesta para validar la hipótesis alternativa (H1), y una **condición de control**, donde se mantiene el estado actual del sistema bajo la hipótesis nula (H0).
+| **Pregunta** | ¿Pagarán los técnicos certificados una suscripción mensual por acceder a oportunidades de trabajo y herramientas de gestión dentro de ElectroLink? |
+|---------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Medida** | Cantidad de técnicos certificados que manifiestan intención de adquirir una suscripción mensual durante el período de evaluación en comparación con el período anterior. |
 
----
+| **Pregunta** | ¿Contratarán los propietarios de viviendas y las pequeñas y medianas empresas (PYMES) servicios eléctricos a través de ElectroLink basándose en perfiles verificados y reseñas de otros usuarios? |
+|---------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Medida** | Cantidad de solicitudes de contratación realizadas mediante perfiles verificados durante el último período de evaluación en comparación con el período anterior. |
 
-#### **Condiciones para la Hipótesis 1 (Adopción del Cliente — Confianza)**
+| **Pregunta** | ¿Utilizarán los técnicos certificados las herramientas de gestión disponibles en ElectroLink para administrar sus servicios de forma frecuente y eficiente? |
+|---------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Medida** | Cantidad de accesos al panel de gestión realizados por los técnicos certificados durante la última semana en comparación con la semana anterior. |
 
-- **Condición de Control (Variante A):**  
-Los usuarios (propietarios o administradores) visualizarán perfiles de técnicos eléctricos en su formato estándar, sin insignias de verificación ni reseñas destacadas. Esta condición asume que la confianza del usuario no se ve significativamente influenciada por elementos adicionales de validación.
+| **Pregunta** | ¿Qué canal de marketing digital permitirá captar nuevos usuarios para ElectroLink con el menor costo de adquisición y la mayor tasa de conversión? |
+|---------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Medida** | Cantidad de nuevos usuarios registrados por cada canal de marketing durante el último mes en comparación con el mes anterior. |
 
-- **Condición Experimental (Variante B):**  
-Los usuarios visualizarán perfiles que incluyen una insignia de “Técnico Verificado” (basada en certificaciones comprobadas) y reseñas destacadas de clientes anteriores. Esta condición busca generar mayor confianza percibida, facilitando la toma de decisión y aumentando la probabilidad de solicitar un servicio.
-
----
-
-#### **Condiciones para la Hipótesis 2 (Retención del Proveedor — Valor Percibido)**
-
-- **Condición de Control (Variante A):**  
-Los técnicos utilizarán la plataforma con las funcionalidades actuales, sin acceso a métricas avanzadas sobre oportunidades de trabajo o desempeño. Se asume que la percepción de valor de la plataforma se mantiene en su nivel base.
-
-- **Condición Experimental (Variante B):**  
-Los técnicos tendrán acceso a un dashboard con “Métricas de Oportunidad”, que incluye información como solicitudes perdidas en su zona, tasa de aceptación de trabajos y posibles ingresos no captados. Esta condición busca incrementar la percepción de valor de la plataforma, incentivando el uso continuo y reduciendo la tasa de abandono.
+| **Pregunta** | ¿Estarán los usuarios dispuestos a adquirir un plan Premium que ofrezca funcionalidades adicionales y beneficios exclusivos dentro de ElectroLink? |
+|---------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Medida** | Cantidad de usuarios que manifiestan intención de adquirir el plan Premium durante el período de evaluación en comparación con el período anterior. |
 
 
-### 8.2.4. Scale Calculations and Decisions.
+## 8.2.3. Conditions
+
+| **Pregunta** | ¿Pagarán los técnicos certificados una suscripción mensual por acceder a oportunidades de trabajo y herramientas de gestión dentro de ElectroLink? |
+|---------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Condición experimental** | La cantidad de técnicos certificados con intención positiva de adquirir la suscripción mensual aumenta al menos un 60% durante el período de evaluación en comparación con el período anterior. |
+| **Condición de control** | La cantidad de técnicos certificados con intención positiva de adquirir la suscripción mensual es inferior al 60% durante el período de evaluación. |
+
+| **Pregunta** | ¿Contratarán los propietarios de viviendas y las pequeñas y medianas empresas (PYMES) servicios eléctricos a través de ElectroLink basándose en perfiles verificados y reseñas de otros usuarios? |
+|---------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Condición experimental** | La cantidad de contrataciones realizadas mediante perfiles verificados aumenta al menos un 25% en comparación con perfiles sin certificaciones verificadas. |
+| **Condición de control** | La cantidad de contrataciones realizadas mediante perfiles verificados no presenta un incremento del 25% respecto al escenario de comparación. |
+
+| **Pregunta** | ¿Utilizarán los técnicos certificados las herramientas de gestión disponibles en ElectroLink para administrar sus servicios de forma frecuente y eficiente? |
+|---------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Condición experimental** | La cantidad de accesos al panel de gestión realizados por los técnicos certificados aumenta al menos un 70% durante la última semana en comparación con la semana anterior. |
+| **Condición de control** | La cantidad de accesos al panel de gestión realizados por los técnicos certificados es inferior al 70% durante el período de evaluación. |
+
+| **Pregunta** | ¿Qué canal de marketing digital permitirá captar nuevos usuarios para ElectroLink con el menor costo de adquisición y la mayor tasa de conversión? |
+|---------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Condición experimental** | La cantidad de nuevos usuarios registrados mediante el canal seleccionado aumenta al menos un 10% respecto al período anterior y presenta el menor costo de adquisición. |
+| **Condición de control** | La cantidad de nuevos usuarios registrados mediante el canal seleccionado no alcanza un incremento del 10% respecto al período anterior. |
+
+| **Pregunta** | ¿Estarán los usuarios dispuestos a adquirir un plan Premium que ofrezca funcionalidades adicionales y beneficios exclusivos dentro de ElectroLink? |
+|---------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Condición experimental** | La cantidad de usuarios con intención positiva de adquirir el plan Premium aumenta al menos un 40% durante el período de evaluación. |
+| **Condición de control** | La cantidad de usuarios con intención positiva de adquirir el plan Premium es inferior al 40% durante el período de evaluación. |
 
 
-A continuación, se presenta una tabla con tres atributos: *Scale Calculation*, *Decision* y *Factor*. Estos atributos se relacionan con las hipótesis planteadas y sus respectivas métricas para medir el éxito de la propuesta.
+### 8.2.4. Scale Calculations and Decisions
 
-*Scale Calculation* se refiere a la hipótesis formulada.  
-*Decision* es la acción implementada para validar dicha hipótesis.  
-El *Factor* depende de la métrica definida para cada hipótesis.
+A continuación, se presenta una tabla con los atributos **Scale Calculation**, **Decision** y **Factor**, los cuales permiten evaluar el éxito de cada una de las hipótesis planteadas para ElectroLink.
 
-Se establece un **factor ideal** si se alcanza la métrica objetivo. El **factor aceptable** corresponde a un valor intermedio que indica progreso positivo. Si los resultados están por debajo de este rango, se considera un **factor desfavorable**, lo que implica la necesidad de revisar la hipótesis o la solución propuesta. Finalmente, el **factor excelente** representa un rendimiento superior al esperado.
+**Scale Calculation** corresponde a la hipótesis que se desea validar. **Decision** representa la acción implementada para comprobar dicha hipótesis. Finalmente, el **Factor** establece los rangos que permitirán determinar si los resultados obtenidos son desfavorables, aceptables, ideales o excelentes.
 
----
+Cuando los resultados alcancen el **factor ideal**, se considerará que la hipótesis ha sido validada. Si los resultados corresponden al **factor aceptable**, se continuará monitoreando el experimento para obtener mayor evidencia. En caso de obtener un **factor desfavorable**, será necesario revisar la hipótesis o la solución propuesta. Finalmente, el **factor excelente** representa un rendimiento superior al esperado.
 
-| Scale Calculation | Decisión | Desfavorable | Aceptable | Ideal | Excelente |
-|------------------|----------|-------------|-----------|-------|-----------|
-| Creemos que la implementación de insignias de “Técnico Verificado” y reseñas destacadas aumentará la confianza de los usuarios, incrementando la tasa de conversión de visitas a solicitudes de servicio en la plataforma ElectroLink. | Implementar insignias de verificación basadas en certificaciones reales y mostrar reseñas destacadas en los perfiles de los técnicos. Sabremos que hemos tenido éxito al medir la tasa de conversión de visitas a solicitudes de servicio. | x < 10% | >= 10% | >= 25% | >= 40% |
-| Creemos que al proporcionar a los técnicos un dashboard con “Métricas de Oportunidad”, se incrementará la percepción de valor de la plataforma, reduciendo la tasa de abandono (churn) de los proveedores. | Implementar un dashboard con métricas como solicitudes perdidas, tasa de aceptación y oportunidades en su zona. Sabremos que hemos tenido éxito al medir la reducción del churn en un período de 30 días. | x < 5% | >= 5% | >= 20% | >= 30% |
+| **Scale Calculation** | **Decision** | **Desfavorable** | **Aceptable** | **Ideal** | **Excelente** |
+|----------------------|--------------|:---------------:|:-------------:|:---------:|:-------------:|
+| Creemos que los técnicos certificados estarán dispuestos a pagar una suscripción mensual si ElectroLink les ofrece mayor visibilidad, oportunidades laborales y herramientas de gestión. | Implementar un modelo de suscripción para técnicos certificados y medir la intención de pago. Sabremos que hemos tenido éxito al evaluar el porcentaje de técnicos que aceptan la suscripción. | <30% | ≥30% | ≥60% | ≥80% |
+| Creemos que los perfiles verificados incrementarán la confianza de los clientes al contratar un servicio eléctrico. | Implementar certificaciones verificadas y reseñas visibles en los perfiles de los técnicos. Sabremos que hemos tenido éxito al medir la tasa de conversión de visitas a solicitudes de servicio. | <10% | ≥10% | ≥25% | ≥40% |
+| Creemos que las herramientas de gestión incrementarán el uso recurrente de la plataforma por parte de los técnicos. | Implementar un dashboard de gestión con seguimiento de servicios y desempeño profesional. Sabremos que hemos tenido éxito al medir la frecuencia semanal de uso del dashboard. | <40% | ≥40% | ≥70% | ≥85% |
+| Creemos que las campañas segmentadas permitirán captar nuevos usuarios con un menor costo de adquisición. | Ejecutar campañas en Facebook, Instagram y Google Ads para comparar su rendimiento. Sabremos que hemos tenido éxito al identificar el canal con mayor conversión y menor CAC. | <5% | ≥5% | ≥10% | ≥15% |
+| Creemos que los usuarios estarán dispuestos a adquirir un plan Premium si este ofrece beneficios diferenciados. | Presentar un prototipo del plan Premium y medir la intención de compra. Sabremos que hemos tenido éxito al evaluar el porcentaje de usuarios interesados en contratarlo. | <20% | ≥20% | ≥40% | ≥60% |
+
 
 ### 8.2.5. Methods Selection.
 
@@ -259,18 +270,20 @@ Se diferencia claramente entre el **objeto de investigación** (las hipótesis H
 - Se garantizará que ninguna intervención afecte negativamente la experiencia del usuario o genere riesgos.
 
 
-### 8.2.5. Data Analytics: Goals, KPIs and Metrics Selection
+### 8.2.6. Data Analytics: Goals, KPIs and Metrics Selection
 
 Esta sección define las metas analíticas, los KPIs y las métricas seleccionadas para evaluar el desempeño de las soluciones propuestas en ElectroLink. El objetivo es asegurar un seguimiento eficiente de datos, evitando métricas innecesarias y enfocándose en aquellas que permitan detectar cambios significativos en el comportamiento de los usuarios.
 
----
+- **Adopción de la suscripción mensual (H1):** Se medirá el porcentaje de técnicos certificados que manifiestan intención de adquirir una suscripción mensual. El objetivo será alcanzar una aceptación igual o superior al **60%**.
 
-| Hipótesis | Goal (Meta) | KPI Principal | Métricas Secundarias | Método de Medición | Frecuencia | Criterio de Éxito |
-|----------|------------|---------------|----------------------|-------------------|------------|------------------|
-| H1: Adopción del Cliente (Confianza) | Incrementar la confianza del usuario en los perfiles de técnicos eléctricos | Tasa de conversión (visita a perfil → solicitud de servicio) | - Tiempo en perfil<br>- Número de clics en reseñas<br>- Interacción con insignias | Google Analytics / Eventos en la plataforma | Diario / 14 días | Incremento ≥ 25% en conversión |
-| H2: Retención del Proveedor (Valor Percibido) | Reducir la tasa de abandono de técnicos en la plataforma | Tasa de churn (abandono) | - Frecuencia de uso del dashboard<br>- Número de sesiones por técnico<br>- Interacción con métricas | Analytics interno / Tracking de usuarios | Semanal / 30 días | Reducción ≥ 20% del churn |
+- **Confianza en perfiles verificados (H2):** Se registrará la tasa de conversión entre la visualización de perfiles verificados y la solicitud de un servicio. El objetivo será incrementar dicha conversión en al menos un **25%**.
 
----
+- **Uso de herramientas de gestión (H3):** Se medirá la frecuencia semanal de acceso al panel de gestión por parte de los técnicos certificados. El objetivo será que al menos el **70%** de los técnicos utilice estas funcionalidades de manera recurrente.
+
+- **Adquisición de nuevos usuarios (H4):** Se analizará la cantidad de registros obtenidos por cada canal de marketing, así como el costo de adquisición y la tasa de conversión. El objetivo será identificar un canal con una conversión igual o superior al **10%**.
+
+- **Conversión al plan Premium (H5):** Se medirá el porcentaje de usuarios que manifiestan interés en contratar el plan Premium. El objetivo será alcanzar una intención de compra igual o superior al **40%**.
+
 
 ### Análisis Comparativo de Métricas
 
@@ -288,54 +301,22 @@ La selección de estas métricas permite un análisis balanceado entre resultado
 
 ### 8.2.7. Web and Mobile Tracking Plan.
 
-Para ElectroLink, el objetivo es monitorear la plataforma web y móvil para validar si los cambios introducidos en los perfiles de técnicos (H1) y el dashboard de métricas (H2) generan la confianza y el valor percibido necesarios para sostener el modelo de negocio.
+## 8.2.7. Web and Mobile Tracking Plan
 
-Se establecerá un plan de seguimiento basado en **A/B Testing**, con el fin de evaluar el impacto causal de las mejoras implementadas.
+Para validar las hipótesis planteadas en ElectroLink se implementará un plan de seguimiento tanto para la plataforma web como para la aplicación móvil. Este plan permitirá registrar los eventos generados por los usuarios durante la interacción con el sistema y analizar los resultados obtenidos en cada experimento.
 
----
+Los principales eventos que serán monitoreados son los siguientes:
 
-### 1. Implementación Inicial
+| **Hipótesis** | **Evento** | **Métrica registrada** |
+|---------------|------------|-------------------------|
+| **H1** | Inicio del proceso de suscripción | Intención de pago, plan seleccionado y tasa de conversión |
+| **H2** | Visualización de perfil y solicitud de servicio | Conversión de visitas a solicitudes de servicio |
+| **H3** | Acceso al dashboard de gestión | Frecuencia de uso, tiempo de permanencia y funcionalidades utilizadas |
+| **H4** | Registro de nuevos usuarios | Canal de adquisición, costo por adquisición (CAC) y tasa de conversión |
+| **H5** | Visualización y selección del plan Premium | Intención de compra, clics y conversiones al plan Premium |
 
-Durante esta fase, se realizará el despliegue de las variantes experimentales y la recolección de datos segmentados para comparar los resultados frente a la línea base (grupo de control).
+La información recopilada será utilizada para comparar los resultados obtenidos entre los grupos de control y experimentales, permitiendo validar o rechazar las hipótesis planteadas y tomar decisiones sobre futuras mejoras de la plataforma.
 
-- **Asignación de Grupos:**  
-Todos los usuarios serán asignados aleatoriamente a un grupo (**Control o Experimental**). Cada evento registrado incluirá un identificador de grupo para asegurar la correcta segmentación de los datos.
-
-- **Métricas de Confianza (H1):**  
-Se registrarán eventos como:
-  - `profile_view` (visualización de perfil)  
-  - `service_request_initiated` (inicio de solicitud de servicio)  
-Estos eventos permitirán calcular la **Tasa de Conversión (CCR)**.
-
-- **Métricas de Valor y Retención (H2):**  
-Se capturarán eventos como:
-  - `metrics_widget_interaction` (interacción con el dashboard)  
-  - `subscription_cancellation_attempt` (intento de cancelación)  
-Esto permitirá medir la adopción del dashboard y la **tasa de churn**.
-
-- **Feedback de Usuarios:**  
-Se implementarán encuestas post-interacción utilizando herramientas como Hotjar o Qualtrics para recoger información cualitativa sobre:
-  - Confianza en técnicos verificados (H1)  
-  - Valor percibido del dashboard (H2)
-
----
-
-### 2. Seguimiento Continuo
-
-Una vez finalizada la fase inicial (aproximadamente 21 días), se implementará un monitoreo continuo para evaluar el rendimiento a largo plazo.
-
-- **Métricas en Tiempo Real:**  
-Se utilizarán herramientas como Google Analytics para monitorear el comportamiento de los usuarios en tiempo real en web y móvil.
-
-- **Segmentación de Usuarios:**  
-Los datos serán segmentados por:
-  - Tipo de usuario (propietarios / técnicos)  
-  - Nivel de suscripción  
-  - Ubicación geográfica  
-Esto permitirá identificar patrones de comportamiento específicos.
-
-- **Retención a Largo Plazo:**  
-Se medirá la **tasa de abandono de técnicos (Provider Churn Rate)** a lo largo del tiempo para evaluar la efectividad del dashboard en la retención de proveedores (H2).
 
 
 ### 8.3. Experimentation
