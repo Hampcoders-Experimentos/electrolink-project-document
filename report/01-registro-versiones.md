@@ -33,6 +33,20 @@
 | **TP1** | 14/05/2026 | **Cesar Arostegui Alzamora** | Configuración de CheckStyle y verificación de Coding Standards |
 | **TP1** | 14/05/2026 | **Cesar Arostegui Alzamora** | Elaboración del apartado Code Quality & Code Security |
 | **TP1** | 14/05/2026 | **Cesar Arostegui Alzamora** | Revisión de calidad de código y análisis de mantenibilidad del proyecto |
+| **TF**  | 9/07/2026 | **Italo Ludwing Sanchez Manrique**   | Desarrollo de To-Be User Stories y actualización del Product Backlog basado en experimentos |
+| **TF**  | 9/07/2026 | **Ethan Matias Aliaga Aguirre**      | Definición del Pipeline-supported, Experiment-Driven Software Platform Lifecycle            |
+| **TF**  | 9/07/2026 | **Italo Ludwing Sanchez Manrique**   | Elaboración de To-Be Sprint Backlogs y planificación iterativa basada en hipótesis          |
+| **TF**  | 9/07/2026| **Alessandra Nicole Becerra Tejeda** | Implementación y evidencias de To-Be Landing Page                                           |
+| **TF**  | 9/07/2026 | **Alessandra Nicole Becerra Tejeda** | Implementación y evidencias de To-Be Frontend-Web Application                               |
+| **TF**  | 9/07/2026 | **Italo Ludwing Sanchez Manrique**   | Implementación y evidencias de To-Be Native-Mobile Application                              |
+| **TF**  | 9/07/2026 | **Italo Ludwing Sanchez Manrique**   | Implementación y evidencias de To-Be RESTful API y Backend                                  |
+| **TF**  | 9/07/2026| **Ethan Matias Aliaga Aguirre**      | Elaboración de Team Collaboration Insights en contexto de experimentación                   |
+| **TF**  | 9/07/2026| **Cesar Arostegui Alzamora**         | Diseño de entrevistas de validación (To-Be Validation Interviews)                           |
+| **TF**  | 9/07/2026 | **José Mateo Cabanillas**            | Registro y documentación de entrevistas de validación                                       |
+| **TF**  | 9/07/2026 | **Cesar Arostegui Alzamora**         | Análisis e interpretación de resultados de experimentos                                     |
+| **TF**  | 9/07/2026 | **Ethan Matias Aliaga Aguirre**      | Re-priorización del Question Backlog basado en resultados obtenidos                         |
+| **TF**  | 9/07/2026 | **Todos los integrantes**            | Desarrollo de Continuous Learning y Shareback Session Artifacts         |
+
 
 \newpage
 

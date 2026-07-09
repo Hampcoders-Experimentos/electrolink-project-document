@@ -55,12 +55,3 @@ Se sugiere documentar y socializar en el equipo las prácticas de DevOps impleme
 ### Integración Continuada de Mejora
 
 Se enfatiza mantener el uso de metodologías ágiles y enfoques centrados en el usuario como eje transversal del proyecto, integrándolos sistemáticamente con prácticas sólidas de arquitectura de software (DDD, ADD) y DevOps (CI/CD, testing automatizado). Esto permitirá desarrollar una solución adaptable, escalable y alineada a las necesidades dinámicas del mercado, mientras se garantiza la calidad técnica y la confiabilidad operacional del sistema en producción.
-
-# Anexos
-
-- Organización de Github: https://github.com/HampCoders-Experimentos
-- Landing Page: https://github.com/HampCoders-Experimentos/electrolink-landing-page
-- Frontend Web Application: https://github.com/Hampcoders-Experimentos/electrolink-frontend
-- Cucumber: https://github.com/HampCoders-Experimentos/electrolink-cucumber
-- Karate: https://github.com/Hampcoders-Experimentos/electrolink-karate
-- Web Services: https://github.com/Hampcoders-Experimentos/electrolink-backend-api
