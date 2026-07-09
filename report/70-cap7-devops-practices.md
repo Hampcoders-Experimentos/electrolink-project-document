@@ -84,3 +84,74 @@ El objetivo de la Entrega Continua (CD) es automatizar la integración y pruebas
 * **Rollback Manual:** Aunque la infraestructura de Render y Firebase puede facilitar *rollbacks* rápidos, la decisión y ejecución de un *rollback* en producción son **manuales y controladas** por el equipo, garantizando la supervisión total ante una incidencia.
 
 ### 7.2.2. Stages Deployment Pipeline Components.
+
+El *pipeline* de CD se estructura en varias etapas, cada una con un propósito específico para garantizar la calidad y estabilidad del software antes de su despliegue final.
+
+\
+
+![Ejecución del Pipeline de Despliegue a Producción](assets/img/cap7/cd/jenkins-deploy-production.png)
+
+## 7.3. Continuous deployment 
+
+Con la práctica de Despliegue Continuo, el objetivo es automatizar completamente el proceso de despliegue a producción, eliminando la necesidad de aprobaciones manuales. Esto permite que cada cambio que pasa las pruebas de CI/CD se despliegue automáticamente en el entorno de producción, asegurando una entrega rápida y confiable de nuevas funcionalidades y correcciones.
+
+### 7.3.1. Tools and Practices. 
+
+Con el último Stage del Pipeline de Jenkins, se automatiza un despliegue a Docker Hub, donde se construye la imagen del contenedor y se sube al repositorio de Docker Hub, para luego ser desplegada en el entorno de producción de Render. 
+
+Docker Hub actúa como un registro centralizado de imágenes de contenedores, permitiendo que el equipo de desarrollo y operaciones acceda a la imagen más reciente del *backend* Java para su despliegue en producción.
+
+Podremos obtener la imagen del contenedor también Docker Desktop, donde se puede validar que la imagen fue construida correctamente.
+
+### 7.3.2. Production Deployment Pipeline Components.
+
+Se presenta a continuación una captura de pantalla del *pipeline* de Jenkins ejecutando el despliegue a producción, mostrando la etapa final donde se construye y sube la imagen del contenedor a Docker Hub, y posteriormente se despliega en el entorno de producción de Render.
+
+Continuando con la validación del despliegue a producción, se muestra una captura de Docker Desktop donde se puede observar la imagen del contenedor desplegada en el entorno de producción, confirmando que la aplicación está corriendo correctamente.
+
+![Captura de Docker Desktop con la imagen desplegada en producción](assets/img/cap7/cd/docker-desktop-production.png)
+
+\
+
+Finalizando la validación del despliegue a producción, se presenta una captura de Docker Hub donde se puede observar la imagen del contenedor que fue construida y subida al repositorio, confirmando que la versión desplegada en producción está disponible para su uso.
+
+![Captura de Docker Hub con la imagen del contenedor desplegada en producción](assets/img/cap7/cd/docker-hub-production.png)
+
+## 7.4. Continuous Monitoring 
+
+Para garantizar la estabilidad y confiabilidad del sistema en producción, se implementa un proceso de **Monitoreo Continuo** que permite detectar y responder a incidentes de manera proactiva. Este proceso incluye la supervisión de métricas clave, la configuración de alertas y notificaciones, y la integración con herramientas de monitoreo y gestión de incidentes.
+
+### 7.4.1. Tools and Practices
+
+Se va utilizando las herramientas de monitoreo **Prometheus** y **Grafana** para recopilar métricas del sistema y visualizarlas en paneles de control. Además, se configuran alertas automáticas para notificar al equipo de desarrollo y operaciones sobre cualquier anomalía o degradación del servicio.
+
+Desde el Web Security Configuration del Backend se va exponer el endpoint `/actuator/**` para que Prometheus pueda monitorear el estado de la aplicación y generar alertas en caso de fallos o problemas de rendimiento.
+
+![Captura del Web Security Configuration del Backend](assets/img/cap7/monitoring/web-security-configuration.png)
+
+Y También desde el application.properties del Backend se expone los endpoints de Actuator (especialmente el de Prometheus)
+
+![Captura del application.properties del Backend](assets/img/cap7/monitoring/application-properties.png)
+
+### 7.4.2. Monitoring Pipeline Components
+
+Desde el **Prometheus** se configura un *scrape job* para recopilar métricas del endpoint `/actuator/prometheus` del *backend* Java, permitiendo la visualización de métricas en **Grafana** y la configuración de alertas basadas en umbrales definidos por el equipo.
+
+![Captura de la configuración del *scrape job* en Prometheus](assets/img/cap7/monitoring/prometheus-scrape-job.png)
+
+También en **Grafana** se configuran paneles de control para visualizar métricas clave del sistema, como el uso de CPU, memoria, tiempos de respuesta y tasas de error, facilitando la identificación de problemas y la toma de decisiones informadas.
+
+![Captura de la configuración de paneles en Grafana](assets/img/cap7/monitoring/grafana-dashboard.png)
+
+### 7.4.3. Alerting Pipeline Components 
+
+Continuando con la configuración de alertas, se establece un *alerting rule* en Grafana para notificar al equipo de desarrollo y operaciones sobre cualquier incidente o degradación del servicio, permitiendo una respuesta rápida y efectiva ante problemas en producción.
+
+![Captura de la configuración de alertas en Grafana](assets/img/cap7/monitoring/grafana-alerting.png)
+
+
+### 7.4.4. Notification Pipeline Components.
+
+Finalizando la configuración de notificaciones, se integran las alertas de Prometheus con Grafana y se configuran canales de notificación para que el equipo reciba alertas en tiempo real sobre cualquier incidente o degradación del servicio.
+
+![Captura de la configuración de notificaciones en Grafana](assets/img/cap7/monitoring/grafana-notifications.png)
