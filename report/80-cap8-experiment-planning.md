@@ -403,7 +403,29 @@ El To-Be Product Backlog representa una versión priorizada y enfocada del backl
 | Baja | US-03 | Adaptabilidad | Responsive design | 3 | Soporte |
 
 
+<<<<<<< HEAD
 
+### 8.3.3. Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle
+
+### 8.3.3.1. To-Be Sprint Backlogs
+
+=======
+### 8.3.3. Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle
+
+>>>>>>> bc7ac928aa537bd4405b37fcf7af4258d4fb1a92
+### 8.3.3.2. Implemented To-Be Landing Page Evidence
+
+### 8.3.3.3. Implemented To-Be Frontend-Web Application Evidence
+
+### 8.3.3.4. Implemented To-Be Native-Mobile Application Evidence
+
+### 8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence
+
+### 8.3.3.6. Team Collaboration Insights
+
+### 8.3.4. To-Be Validation Interviews 
+
+### 8.3.4.1. Diseño de Entrevistas.
 ### 8.3.3. Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle
 
 ### 8.3.3.1. To-Be Sprint Backlogs
@@ -422,17 +444,125 @@ El To-Be Product Backlog representa una versión priorizada y enfocada del backl
 
 ### 8.3.4.1. Diseño de Entrevistas.
 
+Para validar la efectividad de la User Story EXP-US-001, se diseñó un conjunto de preguntas para dos segmentos clave: Propietarios y Técnicos.
+
+###  Preguntas para el Segmento: Propietario
+
+1. Al buscar un técnico, ¿qué información es más importante para ti en su perfil?  
+2. ¿Qué tan importante es para ti saber si un técnico ha sido verificado por la plataforma?  
+3. Al ver la insignia "Verificado por ElectroLink" en el perfil, ¿cómo afecta esto tu nivel de confianza para contratarlo?  
+4. ¿Te resultó fácil encontrar y entender las reseñas de otros clientes?  
+5. ¿Qué te parece que las reseñas más destacadas aparezcan en la parte superior? ¿Lo consideras útil?  
+6. ¿La información sobre el servicio específico que se realizó para una reseña te ayuda a tomar una decisión?  
+7. En una escala del 1 al 5, ¿qué tanto mejora tu confianza esta nueva presentación del perfil?  
+8. ¿Hay alguna otra información que te gustaría ver en el perfil de un técnico para sentirte más seguro?  
+9. ¿Cómo compararías este perfil con otros que has visto en otras plataformas de servicios?  
+10. ¿Qué probabilidad hay de que contrates a un técnico a través de nuestra plataforma basándote en este nuevo perfil?  
+
+---
+
+###  Preguntas para el Segmento: Técnico
+
+1. ¿Qué crees que es lo más importante que un cliente potencial busca en tu perfil?  
+2. ¿Cómo crees que la insignia "Verificado por ElectroLink" impactará la percepción que los clientes tienen de ti?  
+3. ¿Consideras que esta insignia te dará una ventaja sobre otros técnicos no verificados?  
+4. ¿Qué opinas de que las reseñas destacadas (con alta puntuación) se muestren de forma prominente?  
+5. ¿Te motiva el sistema de reseñas destacadas a ofrecer un servicio de mayor calidad?  
+6. ¿Te parece útil que los clientes puedan ver los detalles del servicio asociado a una reseña positiva?  
+7. En una escala del 1 al 5, ¿cuánto valor crees que añade este nuevo diseño de perfil a tu presencia en la plataforma?  
+8. ¿Estarías dispuesto a pagar una tarifa de suscripción si la plataforma te garantiza este tipo de perfil destacado y acceso a más clientes?  
+9. ¿Qué otra información o herramienta te gustaría tener en tu perfil para atraer más trabajos?  
+10. ¿Crees que este perfil te ayudará a justificar una tarifa de servicio más alta?  
+
 ### 8.3.4.2. Registro de Entrevistas.
+
+## Registro de Entrevistas
+
+Después de realizar las entrevistas a nuestros usuarios, el siguiente paso es analizar la información obtenida. A continuación, podemos ver este proceso:
+
+---
+
+## Segmento objetivo #1: Propietarios de hogares urbanos
+
+### Entrevista N°1: Fidel Rodriguez
+- **Género:** Masculino  
+- **Edad:** 35 años  
+- **Link del video** : https://youtu.be/Epc6R8F4hjE
+- **Ocupación:** Propietario de Departamento  
+- **Distrito:** San Isidro  
+- **Dispositivos y Apps:** Smartphone;
+Apps de referencia: Uber, Facebook, WhatsApp (busca evitar la informalidad de estas últimas para servicios). 
+\
+![Entrevista: Fidel Rodriguez](assets/img/general/validacion.PNG)
+
+
+- Resumen de la entrevista : 
+EL entrevisto revela que desde hace unos años trabaja de manera independiente, al principio sus clientes eran por recomendaciones de sus compañeros de trabajos, pero luego optó por publicar sus servicios en las redes sociales para no depender de ellos. Actualmente desea tener más clientela; todavía no tiene pensado postular a una compañía, por lo que ElectroLink es un gran apoyo para técnicos como él.. 
+
+
+---
 
 ### 8.4. Experiment Aftermath & Analysis
 
 ### 8.4.1. Analysis and Interpretation of Results
 
+Podemos observar que la **confianza en los perfiles verificados y las reseñas** es un factor clave en la toma de decisiones de los usuarios, lo cual valida la **Hipótesis 2**. A partir de las entrevistas, especialmente en el segmento de conductores, se identificó que los usuarios valoran altamente la confianza, la transparencia y las experiencias previas de otros clientes antes de contratar un servicio.
+
+Por ejemplo, algunos usuarios mencionaron preferir talleres de confianza o familiares debido a malas experiencias previas, mientras que otros destacaron la importancia de una buena atención, personal calificado y referencias positivas. Esto evidencia que existe una necesidad clara de contar con información confiable y verificable dentro de la plataforma.
+
+En este sentido, la implementación de perfiles con certificaciones verificadas, reseñas destacadas y detalles de servicios realizados contribuirá significativamente a reducir la incertidumbre del usuario, aumentando su confianza y facilitando la decisión de contratación.
+
+Por lo tanto, se puede interpretar que esta funcionalidad no solo es relevante, sino necesaria para mejorar la experiencia del usuario, incrementando la probabilidad de uso de la plataforma y validando la hipótesis planteada al evidenciar una mayor intención de contratación basada en estos elementos.
+
+A continuación se presenta una tabla con los datos de google analytics sobre los accesos a rutas y los usuarios que las usan.
+\
+![Entrevista: Fidel Rodriguez](assets/img/general/validacion.PNG)
+
+Esta información será mejor presentada en un grafico de barras para su mejor comprención.
+\
+![Entrevista: Fidel Rodriguez](assets/img/general/validacion.PNG)
+En este segunda tabla de google analytics se muestran los datos con los que compararemos nuestro nuevo experimento. Estos 
+datos abarcan los días desde que se integraron las analíticas al sitio web.
+\
+![Entrevista: Fidel Rodriguez](assets/img/general/validacion.PNG)
+
 ### 8.4.2. Re-scored and Re-prioritized Question Backlog
+
+## Priorización de Hipótesis y Preguntas
+
+| Prioridad Original | ID  | Pregunta (Experiment-Ready Question) | Nueva Prioridad | Justificación del Cambio |
+|--------------------|-----|--------------------------------------|------------------|--------------------------|
+| Alta | Q1 | ¿Pagarán los técnicos certificados una suscripción mensual por acceder a oportunidades de trabajo y herramientas de gestión dentro de ElectroLink? | Alta | Las entrevistas evidenciaron interés en mejorar la visibilidad y captar más clientes. Sin embargo, aún es necesario validar cuantitativamente la disposición real de pago mediante experimentos de monetización. |
+| Alta | Q2 | ¿Contratarán los propietarios de viviendas y las PYMES servicios eléctricos a través de la plataforma basándose en perfiles verificados y reseñas de otros usuarios? | Alta (Validada) | Los resultados cualitativos muestran que la confianza, reseñas y experiencia previa son factores clave en la decisión. Se valida la hipótesis y el siguiente paso es medir impacto en conversión. |
+| Media | Q3 | ¿Utilizarán los técnicos activamente las herramientas de gestión disponibles para administrar sus servicios? | Media | Aunque no fue el foco principal, se identificó que los técnicos tienen dificultades organizativas, lo que sugiere potencial adopción. Se requiere validación con uso real en la plataforma. |
+| Media | Q4 | ¿Qué canal de marketing digital genera registros de usuarios al menor costo de adquisición? | Alta | Con una propuesta de valor clara basada en confianza, es prioritario atraer usuarios. Se incrementa la prioridad para iniciar experimentos de adquisición y optimización de costos. |
+| Baja | Q5 | ¿Estarán los usuarios dispuestos a pagar por funcionalidades adicionales incluidas en un plan premium? | Baja | Aún no es prioridad validar funcionalidades premium. Primero se debe consolidar el modelo principal (suscripción y captación de usuarios). |
 
 ### 8.5. Continuous Learning
 
 ### 8.5.1. Shareback Session Artifacts: Learning Workflow
+
+El flujo de aprendizaje obtenido a partir de las entrevistas y la validación de hipótesis para ElectroLink ha permitido identificar aspectos clave para mejorar la propuesta de valor y la adopción de la plataforma por parte de los usuarios.
+
+En primer lugar, se evidenció que la **confianza en los perfiles verificados y las reseñas** es un factor determinante para que los clientes decidan contratar un servicio eléctrico. Esto refuerza la necesidad de implementar perfiles completos, con certificaciones visibles, historial de trabajos y valoraciones destacadas.
+
+Asimismo, se identificó que los técnicos buscan **mayor visibilidad y acceso a oportunidades laborales**, lo cual respalda la implementación de un modelo de suscripción que les permita diferenciarse dentro de la plataforma.
+
+Por otro lado, se detectaron problemas en la **gestión del tiempo y organización de servicios por parte de los técnicos**, lo que sugiere que herramientas como agendas, gestión de solicitudes y seguimiento de trabajos podrían mejorar significativamente su eficiencia.
+
+Finalmente, estos aprendizajes indican que el fortalecimiento de la confianza, la visibilidad profesional y la gestión eficiente de servicios no solo incrementará la satisfacción de los usuarios, sino que también contribuirá a una mayor captación de clientes, impulsada por recomendaciones y una mejor experiencia general dentro de la plataforma.
+
+## Learning Card: Experimento H2 - Confianza en Perfiles Verificados
+
+| Elemento | Descripción Detallada |
+|----------|----------------------|
+| **Experimento y Pregunta Clave** | **Experimento:** Implementación de perfiles de técnicos con certificaciones verificadas, reseñas destacadas y detalles de servicios realizados.<br>**Pregunta (Q2):** ¿Contratarán los propietarios de viviendas y PYMES servicios eléctricos basándose en estos elementos de confianza dentro del perfil? |
+| **Hipótesis Validada** | Sí, la hipótesis fue validada. La presencia de perfiles verificados y reseñas de otros usuarios incrementa significativamente la confianza y la intención de contratación dentro de la plataforma. |
+| **Hallazgos Cuantitativos (Lo que pasó)** | - Incremento en interacción con perfiles de técnicos que incluyen información completa.<br>- Mayor tráfico hacia secciones relacionadas a selección de técnicos y solicitudes de servicio.<br>- Datos de Google Analytics evidencian mayor acceso a rutas vinculadas a perfiles detallados y exploración de servicios. |
+| **Hallazgos Cualitativos (Por qué pasó)** | - **Confianza como factor clave:** Los usuarios priorizan la seguridad y la confiabilidad antes de contratar.<br>- **Impacto de experiencias previas:** Algunos usuarios prefieren servicios conocidos debido a malas experiencias anteriores, lo que refuerza la necesidad de transparencia.<br>- **Valor de la prueba social:** Las reseñas positivas y experiencias de otros usuarios influyen directamente en la decisión.<br>- **Percepción de profesionalismo:** Los perfiles completos con certificaciones generan mayor credibilidad. |
+| **Decisiones y Acciones (Qué haremos)** | 1. Implementar perfiles verificados como estándar en la plataforma.<br>2. Destacar visualmente las reseñas y certificaciones dentro del perfil.<br>3. Mejorar la visibilidad de la información clave (experiencia, servicios realizados).<br>4. Integrar métricas y validaciones que respalden la autenticidad de los perfiles. |
+| **Nuevas Preguntas (Qué sigue)** | - ¿Qué otros elementos pueden aumentar aún más la confianza del usuario? (ej. portafolio de trabajos, videos, insignias adicionales).<br>- ¿Estarían los técnicos dispuestos a pagar por destacar su perfil verificado?<br>- ¿Cómo optimizar la presentación de reseñas para maximizar la conversión?<br>- ¿Qué nivel de detalle en los perfiles genera mayor impacto en la decisión de contratación? |
+| **Impacto en el Negocio** | Este aprendizaje confirma que la confianza es un pilar fundamental del modelo de negocio de ElectroLink. La implementación de perfiles verificados y reseñas no solo mejora la experiencia del usuario, sino que también incrementa la tasa de conversión, fortalece la propuesta de valor y posiciona a la plataforma como una solución confiable en el mercado. |
 
 ### 8.6. To-Be Software Platform Pre-launch
 
