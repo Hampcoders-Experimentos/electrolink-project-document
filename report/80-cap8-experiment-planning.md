@@ -443,15 +443,15 @@ Por lo tanto, se puede interpretar que esta funcionalidad no solo es relevante, 
 
 A continuación se presenta una tabla con los datos de google analytics sobre los accesos a rutas y los usuarios que las usan.
 \
-![Entrevista: Fidel Rodriguez](assets/img/general/validacion.PNG)
+![Google analytics](assets/img/general/Analysis-Interpretation-1.PNG)
 
 Esta información será mejor presentada en un grafico de barras para su mejor comprención.
 \
-![Entrevista: Fidel Rodriguez](assets/img/general/validacion.PNG)
+![grafico de barra](assets/img/general/Analysis-Interpretation-2.PNG)
 En este segunda tabla de google analytics se muestran los datos con los que compararemos nuestro nuevo experimento. Estos 
 datos abarcan los días desde que se integraron las analíticas al sitio web.
 \
-![Entrevista: Fidel Rodriguez](assets/img/general/validacion.PNG)
+![Analíticas al sitio web](assets/img/general/Analysis-nterpretation-3.PNG)
 
 ### 8.4.2. Re-scored and Re-prioritized Question Backlog
 
