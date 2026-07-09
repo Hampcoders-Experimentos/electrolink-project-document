@@ -403,29 +403,6 @@ El To-Be Product Backlog representa una versión priorizada y enfocada del backl
 | Baja | US-03 | Adaptabilidad | Responsive design | 3 | Soporte |
 
 
-<<<<<<< HEAD
-
-### 8.3.3. Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle
-
-### 8.3.3.1. To-Be Sprint Backlogs
-
-=======
-### 8.3.3. Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle
-
->>>>>>> bc7ac928aa537bd4405b37fcf7af4258d4fb1a92
-### 8.3.3.2. Implemented To-Be Landing Page Evidence
-
-### 8.3.3.3. Implemented To-Be Frontend-Web Application Evidence
-
-### 8.3.3.4. Implemented To-Be Native-Mobile Application Evidence
-
-### 8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence
-
-### 8.3.3.6. Team Collaboration Insights
-
-### 8.3.4. To-Be Validation Interviews 
-
-### 8.3.4.1. Diseño de Entrevistas.
 ### 8.3.3. Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle
 
 ### 8.3.3.1. To-Be Sprint Backlogs
