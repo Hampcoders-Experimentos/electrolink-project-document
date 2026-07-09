@@ -12,8 +12,7 @@
 
 \textbf{Criterio específico} &
 \textbf{Acciones realizadas} &
-\textbf{Conclusiones}
-\ \hline
+\textbf{Conclusiones} \\ \hline
 
 \textbf{4.c.1 Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software}
 &
@@ -59,7 +58,7 @@
 El equipo evidenció responsabilidad ética y profesional mediante la aplicación de buenas prácticas de desarrollo, validación continua, experimentación con usuarios reales y toma de decisiones basada en evidencia.
 
 Se priorizó la confiabilidad, mantenibilidad, seguridad y la construcción de una solución alineada a necesidades reales del usuario.
-\ \hline
+\\ \hline
 
 \textbf{4.c.2 Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales}
 &
@@ -105,7 +104,7 @@ Se priorizó la confiabilidad, mantenibilidad, seguridad y la construcción de u
 El equipo logró emitir juicios informados basados en datos reales obtenidos de experimentación, comprendiendo el impacto de las decisiones en la confianza del usuario, la viabilidad económica del modelo y la sostenibilidad del sistema.
 
 Se fortaleció el enfoque en desarrollo centrado en el usuario y toma de decisiones basada en evidencia.
-\ \hline
+\\ \hline
 
 \end{tabular}
 
