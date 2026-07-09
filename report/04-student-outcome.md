@@ -46,13 +46,23 @@
 
 \vspace{0.2cm}
 
-\textbf{Italo Ludwing Ethan Matias Aliaga Aguirre}
+\textbf{Italo Sánchez}
 
-\textbf{TP:} Configuró herramientas de análisis estático como SonarQube y CheckStyle para verificar calidad y mantenibilidad del código.
+\textbf{TP:} Configuró herramientas de análisis estático como SonarQube y CheckStyle para evaluar la calidad, mantenibilidad y cumplimiento de estándares del código.
 
-\textbf{TP:} Supervisó métricas de calidad y detección de vulnerabilidades para asegurar estándares profesionales de desarrollo.
+\textbf{TB2:} Supervisó métricas de calidad y detectó vulnerabilidades para asegurar el cumplimiento de buenas prácticas de ingeniería de software.
 
-\textbf{TF:} Implementó y adaptó funcionalidades del sistema (mobile, backend y APIs) en base a hipótesis validadas, priorizando decisiones basadas en evidencia y asegurando responsabilidad en la evolución del producto.
+\textbf{TF:} Participó en la revisión técnica del código y en la verificación de la calidad de los entregables, promoviendo un desarrollo responsable y alineado con estándares profesionales.
+
+\vspace{0.2cm}
+
+\textbf{Ethan Aliaga}
+
+\textbf{TP:} Implementó funcionalidades en el backend y desarrolló APIs siguiendo principios de arquitectura limpia y buenas prácticas de desarrollo.
+
+\textbf{TB2:} Integró componentes entre backend y aplicación móvil, validando el correcto funcionamiento de los servicios implementados.
+
+\textbf{TF:} Adaptó funcionalidades del sistema a partir de los resultados obtenidos en la experimentación con usuarios, priorizando decisiones sustentadas en evidencia y mejorando la experiencia del usuario.
 
 &
 El equipo evidenció responsabilidad ética y profesional mediante la aplicación de buenas prácticas de desarrollo, validación continua, experimentación con usuarios reales y toma de decisiones basada en evidencia.
@@ -92,14 +102,23 @@ Se priorizó la confiabilidad, mantenibilidad, seguridad y la construcción de u
 
 \vspace{0.2cm}
 
-\textbf{Italo Ludwing Ethan Matias Aliaga Aguirre}
+\textbf{Italo Sánchez}
 
-\textbf{TP:} Implementó herramientas de monitoreo y análisis estático para mejorar la calidad y mantenibilidad del software.
+\textbf{TP:} Implementó herramientas de monitoreo y análisis estático para evaluar la calidad del software y apoyar la toma de decisiones técnicas.
 
-\textbf{TP:} Evaluó métricas de calidad y seguridad considerando impacto técnico y sostenibilidad del proyecto a largo plazo.
+\textbf{TB2:} Analizó métricas de mantenibilidad y seguridad para identificar oportunidades de mejora y reducir riesgos durante el desarrollo.
 
-\textbf{TF:} Re-priorizó el backlog y ajustó la evolución del sistema en base a resultados experimentales, considerando impacto técnico, económico y experiencia del usuario.
+\textbf{TF:} Evaluó los resultados obtenidos mediante indicadores de calidad para proponer mejoras orientadas a la sostenibilidad técnica del proyecto.
 
+\vspace{0.2cm}
+
+\textbf{Ethan Aliaga}
+
+\textbf{TP:} Desarrolló funcionalidades del backend y APIs considerando criterios de escalabilidad, mantenibilidad e integración con la aplicación móvil.
+
+\textbf{TB2:} Analizó el impacto de las decisiones de arquitectura e integración sobre el rendimiento y la experiencia del usuario.
+
+\textbf{TF:} Re-priorizó el backlog y ajustó la evolución del sistema a partir de los resultados de la experimentación, considerando el impacto técnico, económico y la satisfacción de los usuarios.
 &
 El equipo logró emitir juicios informados basados en datos reales obtenidos de experimentación, comprendiendo el impacto de las decisiones en la confianza del usuario, la viabilidad económica del modelo y la sostenibilidad del sistema.
 
