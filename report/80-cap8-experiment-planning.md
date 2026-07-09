@@ -437,6 +437,32 @@ Demostración visual del uso de la plataforma, mostrando el perfil del técnico 
 
 ### 8.3.3.3. Implemented To-Be Frontend-Web Application Evidence
 
+A continuación, se presentan las evidencias visuales de la implementación frontend-web relacionada con los experimentos de validación definidos en este capítulo.
+
+**1. Perfil de Técnico con Insignia de Verificado y Reseñas (H1)**
+
+Se implementó el perfil del técnico mostrando la insignia "Verificado por ElectroLink" junto al nombre, las certificaciones profesionales y una sección de reseñas destacadas con calificaciones de clientes anteriores. Este componente busca incrementar la confianza del propietario durante el proceso de contratación.
+
+![Perfil de Técnico Verificado](assets/img/cap4/mockups/prototype.png)
+
+**2. Solicitud de Servicio desde Perfil Verificado (H1)**
+
+Se habilitó un flujo de solicitud de servicio directamente desde el perfil del técnico, permitiendo al usuario describir su problema y enviar una solicitud de cotización. El flujo incluye la clasificación del servicio como urgente o planificada (alineado con H6).
+
+![Solicitud de Servicio](assets/img/cap4/mockups/servicerequestMockup.png)
+
+**3. Dashboard del Técnico con Métricas de Rendimiento (H2)**
+
+Se desarrolló un panel de gestión para técnicos certificados que muestra métricas clave como ingresos, solicitudes recibidas, tasa de conversión y servicios completados. Este dashboard busca validar el valor percibido de la plataforma por parte de los técnicos.
+
+![Dashboard del Técnico](assets/img/cap4/wireframes/AnalyticsDashboardWireframe.png)
+
+**4. Gestión de Suscripción (H2)**
+
+Se implementó una vista para que el técnico pueda gestionar su plan de suscripción, visualizar el historial de pagos y, si lo desea, cancelar su suscripción. Esta funcionalidad permite medir la intención de pago y la retención de técnicos en la plataforma.
+
+![Gestión de Suscripción](assets/img/cap4/mockups/subscriptionsMockup.png)
+
 ### 8.3.3.4. Implemented To-Be Native-Mobile Application Evidence
 
 ### 8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence
