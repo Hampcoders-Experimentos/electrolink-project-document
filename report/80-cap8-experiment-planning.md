@@ -60,41 +60,61 @@ Basado en el Lean UX Process y en el análisis del problema, definimos el materi
 
 - El modelo de negocio basado en suscripción para proveedores será viable y sostenible.
 
-### 8.1.3. Experiment Ready-Questions
-
-Transformamos las suposiciones y brechas de conocimiento en preguntas específicas que podemos responder mediante experimentos.
-
 ### 8.1.3. Experiment-Ready Questions
 
-A partir de los principales supuestos identificados durante la etapa de *Experiment Planning*, se formularon las siguientes *Experiment-Ready Questions*. Estas preguntas representan las principales incertidumbres del modelo de negocio de ElectroLink y servirán como base para el diseño de los experimentos de validación.
+En este apartado se formulan las preguntas para el desarrollo del experimento, usando el método de las **5W y 1H**. Estas preguntas representan las principales incertidumbres del modelo de negocio de ElectroLink y servirán como base para el diseño de los experimentos de validación.
 
-| **ID** | **Experiment-Ready Question** |
-|:------:|-------------------------------|
-| **Q1** | ¿Pagarán los técnicos certificados una suscripción mensual por acceder a oportunidades de trabajo y herramientas de gestión dentro de ElectroLink? |
-| **Q2** | ¿Contratarán los propietarios de viviendas y las pequeñas y medianas empresas (PYMES) servicios eléctricos a través de ElectroLink basándose en perfiles verificados y reseñas de otros usuarios? |
-| **Q3** | ¿Utilizarán los técnicos certificados las herramientas de gestión disponibles en ElectroLink para administrar sus servicios de forma frecuente y eficiente? |
-| **Q4** | ¿Qué canal de marketing digital permitirá captar nuevos usuarios para ElectroLink con el menor costo de adquisición y la mayor tasa de conversión? |
-| **Q5** | ¿Estarán los usuarios dispuestos a adquirir un plan Premium que ofrezca funcionalidades adicionales y beneficios exclusivos dentro de ElectroLink? |
+**Who?**
 
+¿Qué usuarios estarán dispuestos a adquirir un plan Premium que ofrezca funcionalidades adicionales y beneficios exclusivos dentro de ElectroLink?
 
+**What?**
+
+¿Qué tanto estarán dispuestos a pagar los técnicos certificados por una suscripción mensual que les brinde acceso a oportunidades de trabajo y herramientas de gestión dentro de ElectroLink?
+
+**Where?**
+
+¿A través de qué canal de marketing digital se podrá captar nuevos usuarios para ElectroLink con el menor costo de adquisición y la mayor tasa de conversión?
+
+**When?**
+
+¿En qué momento del proceso de decisión los propietarios de viviendas y las PYMES determinan contratar un servicio eléctrico: de manera urgente, ante una falla, o de forma planificada, como mantenimiento preventivo?
+
+**Why?**
+
+¿Por qué los propietarios de viviendas y las pequeñas y medianas empresas (PYMES) confiarán en contratar servicios eléctricos a través de ElectroLink basándose en perfiles verificados y reseñas de otros usuarios?
+
+**How?**
+
+¿Cómo utilizarán los técnicos certificados las herramientas de gestión disponibles en ElectroLink para administrar sus servicios de forma frecuente y eficiente?
+
+| **Question** | **Confidence** | **Risk** | **Impact** | **Interest** | **Total Score** |
+|---------------|:---------------:|:--------:|:----------:|:------------:|:----------------:|
+| ¿Qué tanto estarán dispuestos a pagar los técnicos certificados por una suscripción mensual que les brinde acceso a oportunidades de trabajo y herramientas de gestión dentro de ElectroLink? | 8 | 7 | 9 | 8 | **32** |
+| ¿Por qué los propietarios de viviendas y las pequeñas y medianas empresas (PYMES) confiarán en contratar servicios eléctricos a través de ElectroLink basándose en perfiles verificados y reseñas de otros usuarios? | 8 | 7 | 9 | 8 | **32** |
+| ¿A través de qué canal de marketing digital se podrá captar nuevos usuarios para ElectroLink con el menor costo de adquisición y la mayor tasa de conversión? | 7 | 6 | 8 | 7 | **28** |
+| ¿Cómo utilizarán los técnicos certificados las herramientas de gestión disponibles en ElectroLink para administrar sus servicios de forma frecuente y eficiente? | 7 | 6 | 7 | 7 | **27** |
+| ¿En qué momento del proceso de decisión los propietarios de viviendas y las PYMES determinan contratar un servicio eléctrico: de manera urgente, ante una falla, o de forma planificada, como mantenimiento preventivo? | 7 | 6 | 7 | 6 | **26** |
+| ¿Qué usuarios estarán dispuestos a adquirir un plan Premium que ofrezca funcionalidades adicionales y beneficios exclusivos dentro de ElectroLink? | 6 | 5 | 6 | 6 | **23** |
 
 ### 8.1.4. Question Backlog
 
-Priorizamos las preguntas anteriores para enfocar los primeros esfuerzos de validación en los aspectos más riesgosos e importantes para la viabilidad del proyecto.
+Priorizamos las preguntas anteriores para enfocar los primeros esfuerzos de validación en los aspectos más riesgosos e importantes para la viabilidad del proyecto, según el Total Score obtenido en la tabla anterior.
 
-| Prioridad | ID | Pregunta (Experiment-Ready Question) |
-| --------- | -- | ------------------------------------ |
-| **Alta** | *Q1* | ¿Pagarán los técnicos certificados una suscripción mensual por acceder a oportunidades de trabajo y herramientas de gestión dentro de ElectroLink? |
-| **Alta** | *Q2* | ¿Contratarán los propietarios de viviendas y las PYMES servicios eléctricos a través de la plataforma basándose en perfiles verificados y reseñas de otros usuarios? |
-| **Media** | *Q3* | ¿Utilizarán los técnicos activamente las herramientas de gestión disponibles para administrar sus servicios? |
-| **Media** | *Q4* | ¿Qué canal de marketing digital genera registros de usuarios al menor costo de adquisición? |
-| **Baja** | *Q5* | ¿Estarán los usuarios dispuestos a pagar por funcionalidades adicionales incluidas en un plan premium? |
+| Prioridad | Pregunta |
+| :-------: | -------- |
+| 1 | ¿Qué tanto estarán dispuestos a pagar los técnicos certificados por una suscripción mensual que les brinde acceso a oportunidades de trabajo y herramientas de gestión dentro de ElectroLink? |
+| 1 | ¿Por qué los propietarios de viviendas y las PYMES confiarán en contratar servicios eléctricos a través de la plataforma basándose en perfiles verificados y reseñas de otros usuarios? |
+| 3 | ¿A través de qué canal de marketing digital se generan registros de usuarios al menor costo de adquisición? |
+| 4 | ¿Cómo utilizarán los técnicos activamente las herramientas de gestión disponibles para administrar sus servicios? |
+| 5 | ¿En qué momento los clientes deciden contratar un servicio eléctrico: de forma urgente o planificada? |
+| 6 | ¿Qué usuarios estarán dispuestos a pagar por funcionalidades adicionales incluidas en un plan premium? |
 
 ### 8.1.5. Experiment Cards
 
 Basados en las preguntas de mayor prioridad, diseñamos los siguientes experimentos:
 
-| **Question** | ¿Contratarán los propietarios de viviendas y las pequeñas y medianas empresas (PYMES) servicios eléctricos a través de ElectroLink basándose en perfiles verificados y reseñas de otros usuarios? |
+| **Question** | ¿Por qué los propietarios de viviendas y las pequeñas y medianas empresas (PYMES) confiarán en contratar servicios eléctricos a través de ElectroLink basándose en perfiles verificados y reseñas de otros usuarios? |
 |--------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **WHAT** | Implementar perfiles de técnicos que incluyan certificaciones verificadas, experiencia profesional y reseñas de clientes anteriores para validar si estos elementos incrementan la confianza de los usuarios durante el proceso de contratación. |
 | **WHY** | El objetivo es reducir la incertidumbre que experimentan los clientes al momento de contratar un técnico eléctrico, proporcionando información confiable que facilite la toma de decisiones y aumente la probabilidad de contratación mediante la plataforma. |
@@ -102,7 +122,7 @@ Basados en las preguntas de mayor prioridad, diseñamos los siguientes experimen
 
 <br>
 
-| **Question** | ¿Utilizarán los técnicos certificados las herramientas de gestión disponibles en ElectroLink para administrar sus servicios de forma frecuente y eficiente? |
+| **Question** | ¿Cómo utilizarán los técnicos certificados las herramientas de gestión disponibles en ElectroLink para administrar sus servicios de forma frecuente y eficiente? |
 |--------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **WHAT** | Implementar un panel de gestión que permita a los técnicos administrar solicitudes, programar servicios, consultar su historial de trabajos y monitorear su desempeño dentro de la plataforma para evaluar el nivel de adopción de estas funcionalidades. |
 | **WHY** | El objetivo es validar que las herramientas de gestión representan un valor agregado para los técnicos certificados, facilitando la organización de sus actividades y promoviendo un uso continuo de la plataforma como parte de su trabajo diario. |
@@ -110,7 +130,7 @@ Basados en las preguntas de mayor prioridad, diseñamos los siguientes experimen
 
 <br>
 
-| **Question** | ¿Qué canal de marketing digital permitirá captar nuevos usuarios para ElectroLink con el menor costo de adquisición y la mayor tasa de conversión? |
+| **Question** | ¿A través de qué canal de marketing digital se podrá captar nuevos usuarios para ElectroLink con el menor costo de adquisición y la mayor tasa de conversión? |
 |--------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **WHAT** | Desarrollar campañas piloto en Facebook, Instagram y Google Ads utilizando el mismo presupuesto y mensajes publicitarios para comparar el rendimiento de cada canal mediante indicadores de adquisición y conversión de usuarios. |
 | **WHY** | El objetivo es identificar el canal de marketing digital más eficiente para optimizar la inversión publicitaria, reducir el costo de adquisición de nuevos usuarios y maximizar el crecimiento inicial de la plataforma. |
@@ -118,11 +138,19 @@ Basados en las preguntas de mayor prioridad, diseñamos los siguientes experimen
 
 <br>
 
-| **Question** | ¿Estarán los usuarios dispuestos a adquirir un plan Premium que ofrezca funcionalidades adicionales y beneficios exclusivos dentro de ElectroLink? |
+| **Question** | ¿Qué usuarios estarán dispuestos a adquirir un plan Premium que ofrezca funcionalidades adicionales y beneficios exclusivos dentro de ElectroLink? |
 |--------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **WHAT** | Presentar un prototipo del plan Premium que incluya beneficios exclusivos, como mayor visibilidad para técnicos, estadísticas avanzadas, soporte prioritario y funcionalidades adicionales, con el propósito de evaluar la intención de compra y la percepción del valor de esta propuesta. |
 | **WHY** | El objetivo es determinar si las funcionalidades Premium representan una propuesta de valor suficientemente atractiva para los usuarios, permitiendo validar un modelo de monetización complementario que contribuya a la sostenibilidad financiera de ElectroLink. |
 | **HYPOTHESES** | Creemos que, si ElectroLink ofrece funcionalidades Premium que proporcionen beneficios claramente diferenciados respecto al servicio gratuito, entonces una proporción significativa de los usuarios estará dispuesta a adquirir el plan Premium, alcanzando una intención positiva de compra de al menos el 40% de los participantes. |
+
+<br>
+
+| **Question** | ¿En qué momento del proceso de decisión los propietarios de viviendas y las PYMES determinan contratar un servicio eléctrico: de manera urgente, ante una falla, o de forma planificada, como mantenimiento preventivo? |
+|--------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **WHAT** | Incorporar en el formulario de solicitud de servicio un campo que permita clasificar la solicitud como urgente o planificada, con el propósito de identificar en qué momento y bajo qué circunstancia los usuarios deciden contratar a un técnico a través de ElectroLink. |
+| **WHY** | El objetivo es entender el momento de decisión de compra de los clientes para adaptar la oferta de la plataforma (tiempos de respuesta, disponibilidad de técnicos y comunicación) según la naturaleza de la solicitud, mejorando la tasa de conversión y la satisfacción del usuario. |
+| **HYPOTHESES** | Creemos que, si ElectroLink permite distinguir entre solicitudes urgentes y planificadas, entonces identificaremos el momento predominante de contratación, permitiendo priorizar la disponibilidad de técnicos certificados y logrando que al menos el 60% de las solicitudes registradas correspondan a necesidades urgentes. |
 
 ## 8.2. Experiment Design
 
@@ -135,7 +163,7 @@ A partir de nuestras Lean UX Assumptions (Capítulo 1) y de las Experiment-Ready
 
 ### Hypothesis 1
 
-| **Question** | ¿Pagarán los técnicos certificados una suscripción mensual por acceder a oportunidades de trabajo y herramientas de gestión dentro de ElectroLink? |
+| **Question** | ¿Qué tanto estarán dispuestos a pagar los técnicos certificados por una suscripción mensual que les brinde acceso a oportunidades de trabajo y herramientas de gestión dentro de ElectroLink? |
 |---------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **BELIEF** | Los técnicos certificados percibirán que ElectroLink les brinda mayor visibilidad profesional, acceso a nuevas oportunidades laborales y herramientas para gestionar sus servicios, por lo que estarán dispuestos a pagar una suscripción mensual. |
 | **HYPOTHESIS** | Creemos que, si ElectroLink ofrece beneficios como una mayor visibilidad profesional, acceso a oportunidades laborales y herramientas para la gestión de servicios, entonces veremos una intención positiva de pago por parte de los técnicos certificados, validando el modelo de suscripción y alcanzando una aceptación de al menos el 60% de los participantes. |
@@ -143,15 +171,15 @@ A partir de nuestras Lean UX Assumptions (Capítulo 1) y de las Experiment-Ready
 
 ### Hypothesis 2
 
-| **Question** | ¿Contratarán los propietarios de viviendas y las pequeñas y medianas empresas (PYMES) servicios eléctricos a través de ElectroLink basándose en perfiles verificados y reseñas de otros usuarios? |
+| **Question** | ¿Por qué los propietarios de viviendas y las pequeñas y medianas empresas (PYMES) confiarán en contratar servicios eléctricos a través de ElectroLink basándose en perfiles verificados y reseñas de otros usuarios? |
 |---------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **BELIEF** | Los clientes confiarán más en los técnicos cuyos perfiles incluyan certificaciones verificadas, experiencia profesional y reseñas de otros usuarios, facilitando la decisión de contratación. |
 | **HYPOTHESIS** | Creemos que, si los perfiles de los técnicos incluyen certificaciones verificadas, experiencia profesional y reseñas de clientes anteriores, entonces veremos un incremento en la confianza de los usuarios, aumentando la intención de contratación y la tasa de conversión de solicitudes de servicio en al menos un 25%. |
-| **NULL HYPOTHESIS** | Creemos que, si los perfiles de los técnicos incluyen certificaciones verificadas, experiencia profesional y reseñas de clientes anteriores, entonces no veremos un incremento en la confianza de los usuarios, manteniéndose o disminuyendo la intención de contratación y la tasa de conversión de solicitudes de servicio. |
+| **NULL HYPOTHESIS** | Creemos que, si los perfiles de los técnicos incluyen certificaciones verificadas, experiencia profesional y reseñas de clientes anteriores, entonces no veremos un incremento en la confianza de los usuarios, manteniéndose o disminuyendo la intención de contratación y obteniendo una tasa de conversión de solicitudes de servicio inferior al 25%. |
 
 ### Hypothesis 3
 
-| **Question** | ¿Utilizarán los técnicos certificados las herramientas de gestión disponibles en ElectroLink para administrar sus servicios de forma frecuente y eficiente? |
+| **Question** | ¿Cómo utilizarán los técnicos certificados las herramientas de gestión disponibles en ElectroLink para administrar sus servicios de forma frecuente y eficiente? |
 |---------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **BELIEF** | Los técnicos utilizarán con frecuencia las herramientas de gestión porque les permitirán organizar mejor sus servicios, optimizar su tiempo y mejorar el seguimiento de sus trabajos. |
 | **HYPOTHESIS** | Creemos que, si ElectroLink proporciona herramientas para administrar solicitudes, gestionar servicios y monitorear el desempeño profesional, entonces veremos un incremento en el uso recurrente de la plataforma por parte de los técnicos certificados, logrando que al menos el 70% utilice estas funcionalidades semanalmente. |
@@ -159,72 +187,89 @@ A partir de nuestras Lean UX Assumptions (Capítulo 1) y de las Experiment-Ready
 
 ### Hypothesis 4
 
-| **Question** | ¿Qué canal de marketing digital permitirá captar nuevos usuarios para ElectroLink con el menor costo de adquisición y la mayor tasa de conversión? |
+| **Question** | ¿A través de qué canal de marketing digital se podrá captar nuevos usuarios para ElectroLink con el menor costo de adquisición y la mayor tasa de conversión? |
 |---------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **BELIEF** | Las campañas digitales segmentadas permitirán atraer nuevos usuarios de manera más eficiente que otros canales de difusión tradicionales. |
 | **HYPOTHESIS** | Creemos que, si ElectroLink implementa campañas segmentadas en Facebook, Instagram y Google Ads, entonces veremos un incremento en el número de usuarios registrados, identificando un canal con una tasa de conversión superior al 10% y un menor costo de adquisición. |
-| **NULL HYPOTHESIS** | Creemos que, si ElectroLink implementa campañas segmentadas en Facebook, Instagram y Google Ads, entonces no veremos un incremento significativo en el número de usuarios registrados, manteniéndose bajas tasas de conversión y altos costos de adquisición. |
+| **NULL HYPOTHESIS** | Creemos que, si ElectroLink implementa campañas segmentadas en Facebook, Instagram y Google Ads, entonces no veremos un incremento significativo en el número de usuarios registrados, obteniendo un canal con una tasa de conversión inferior al 10% y un mayor costo de adquisición. |
 
 ### Hypothesis 5
 
-| **Question** | ¿Estarán los usuarios dispuestos a adquirir un plan Premium que ofrezca funcionalidades adicionales y beneficios exclusivos dentro de ElectroLink? |
+| **Question** | ¿Qué usuarios estarán dispuestos a adquirir un plan Premium que ofrezca funcionalidades adicionales y beneficios exclusivos dentro de ElectroLink? |
 |---------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **BELIEF** | Los usuarios percibirán que las funcionalidades Premium aportan beneficios suficientes para justificar el pago de una suscripción adicional. |
 | **HYPOTHESIS** | Creemos que, si ElectroLink ofrece funcionalidades Premium como mayor visibilidad, estadísticas avanzadas y soporte prioritario, entonces veremos una intención positiva de compra por parte de los usuarios, alcanzando una aceptación de al menos el 40% de los participantes. |
 | **NULL HYPOTHESIS** | Creemos que, si ElectroLink ofrece funcionalidades Premium como mayor visibilidad, estadísticas avanzadas y soporte prioritario, entonces no veremos una intención positiva de compra por parte de los usuarios, obteniendo una aceptación inferior al 40% de los participantes. |
+
+### Hypothesis 6
+
+| **Question** | ¿En qué momento del proceso de decisión los propietarios de viviendas y las PYMES determinan contratar un servicio eléctrico: de manera urgente, ante una falla, o de forma planificada, como mantenimiento preventivo? |
+|---------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **BELIEF** | Los clientes contratarán mayoritariamente servicios eléctricos de manera urgente, ante una falla o emergencia, más que de forma planificada como mantenimiento preventivo. |
+| **HYPOTHESIS** | Creemos que, si se identifica el momento en que los usuarios generan sus solicitudes de servicio, entonces veremos que al menos el 60% de las solicitudes se realizan de manera urgente, lo cual permitirá priorizar la disponibilidad de técnicos certificados en tiempo real. |
+| **NULL HYPOTHESIS** | Creemos que, si se identifica el momento en que los usuarios generan sus solicitudes de servicio, entonces no veremos una proporción significativa de solicitudes urgentes, encontrándose una distribución similar o mayoritariamente planificada, por debajo del 60%. |
 
 
 ## 8.2.2. Measures
 
 En esta sección se definen las métricas de negocio que permitirán analizar los resultados obtenidos durante la fase de experimentación. Los indicadores seleccionados se caracterizan por ser representativos de los objetivos del proyecto, cuantificables y proporcionales al impacto esperado de cada experimento.
 
-| **Pregunta** | ¿Pagarán los técnicos certificados una suscripción mensual por acceder a oportunidades de trabajo y herramientas de gestión dentro de ElectroLink? |
+| **Pregunta** | ¿Qué tanto estarán dispuestos a pagar los técnicos certificados por una suscripción mensual que les brinde acceso a oportunidades de trabajo y herramientas de gestión dentro de ElectroLink? |
 |---------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Medida** | Cantidad de técnicos certificados que manifiestan intención de adquirir una suscripción mensual durante el período de evaluación en comparación con el período anterior. |
 
-| **Pregunta** | ¿Contratarán los propietarios de viviendas y las pequeñas y medianas empresas (PYMES) servicios eléctricos a través de ElectroLink basándose en perfiles verificados y reseñas de otros usuarios? |
+| **Pregunta** | ¿Por qué los propietarios de viviendas y las pequeñas y medianas empresas (PYMES) confiarán en contratar servicios eléctricos a través de ElectroLink basándose en perfiles verificados y reseñas de otros usuarios? |
 |---------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Medida** | Cantidad de solicitudes de contratación realizadas mediante perfiles verificados durante el último período de evaluación en comparación con el período anterior. |
 
-| **Pregunta** | ¿Utilizarán los técnicos certificados las herramientas de gestión disponibles en ElectroLink para administrar sus servicios de forma frecuente y eficiente? |
+| **Pregunta** | ¿Cómo utilizarán los técnicos certificados las herramientas de gestión disponibles en ElectroLink para administrar sus servicios de forma frecuente y eficiente? |
 |---------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Medida** | Cantidad de accesos al panel de gestión realizados por los técnicos certificados durante la última semana en comparación con la semana anterior. |
 
-| **Pregunta** | ¿Qué canal de marketing digital permitirá captar nuevos usuarios para ElectroLink con el menor costo de adquisición y la mayor tasa de conversión? |
+| **Pregunta** | ¿A través de qué canal de marketing digital se podrá captar nuevos usuarios para ElectroLink con el menor costo de adquisición y la mayor tasa de conversión? |
 |---------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Medida** | Cantidad de nuevos usuarios registrados por cada canal de marketing durante el último mes en comparación con el mes anterior. |
 
-| **Pregunta** | ¿Estarán los usuarios dispuestos a adquirir un plan Premium que ofrezca funcionalidades adicionales y beneficios exclusivos dentro de ElectroLink? |
+| **Pregunta** | ¿Qué usuarios estarán dispuestos a adquirir un plan Premium que ofrezca funcionalidades adicionales y beneficios exclusivos dentro de ElectroLink? |
 |---------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Medida** | Cantidad de usuarios que manifiestan intención de adquirir el plan Premium durante el período de evaluación en comparación con el período anterior. |
+
+| **Pregunta** | ¿En qué momento del proceso de decisión los propietarios de viviendas y las PYMES determinan contratar un servicio eléctrico: de manera urgente, ante una falla, o de forma planificada, como mantenimiento preventivo? |
+|---------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Medida** | Cantidad de solicitudes de servicio clasificadas como urgentes en comparación con las clasificadas como planificadas, durante el período de evaluación. |
 
 
 ## 8.2.3. Conditions
 
-| **Pregunta** | ¿Pagarán los técnicos certificados una suscripción mensual por acceder a oportunidades de trabajo y herramientas de gestión dentro de ElectroLink? |
+| **Pregunta** | ¿Qué tanto estarán dispuestos a pagar los técnicos certificados por una suscripción mensual que les brinde acceso a oportunidades de trabajo y herramientas de gestión dentro de ElectroLink? |
 |---------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Condición experimental** | La cantidad de técnicos certificados con intención positiva de adquirir la suscripción mensual aumenta al menos un 60% durante el período de evaluación en comparación con el período anterior. |
 | **Condición de control** | La cantidad de técnicos certificados con intención positiva de adquirir la suscripción mensual es inferior al 60% durante el período de evaluación. |
 
-| **Pregunta** | ¿Contratarán los propietarios de viviendas y las pequeñas y medianas empresas (PYMES) servicios eléctricos a través de ElectroLink basándose en perfiles verificados y reseñas de otros usuarios? |
+| **Pregunta** | ¿Por qué los propietarios de viviendas y las pequeñas y medianas empresas (PYMES) confiarán en contratar servicios eléctricos a través de ElectroLink basándose en perfiles verificados y reseñas de otros usuarios? |
 |---------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Condición experimental** | La cantidad de contrataciones realizadas mediante perfiles verificados aumenta al menos un 25% en comparación con perfiles sin certificaciones verificadas. |
 | **Condición de control** | La cantidad de contrataciones realizadas mediante perfiles verificados no presenta un incremento del 25% respecto al escenario de comparación. |
 
-| **Pregunta** | ¿Utilizarán los técnicos certificados las herramientas de gestión disponibles en ElectroLink para administrar sus servicios de forma frecuente y eficiente? |
+| **Pregunta** | ¿Cómo utilizarán los técnicos certificados las herramientas de gestión disponibles en ElectroLink para administrar sus servicios de forma frecuente y eficiente? |
 |---------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Condición experimental** | La cantidad de accesos al panel de gestión realizados por los técnicos certificados aumenta al menos un 70% durante la última semana en comparación con la semana anterior. |
 | **Condición de control** | La cantidad de accesos al panel de gestión realizados por los técnicos certificados es inferior al 70% durante el período de evaluación. |
 
-| **Pregunta** | ¿Qué canal de marketing digital permitirá captar nuevos usuarios para ElectroLink con el menor costo de adquisición y la mayor tasa de conversión? |
+| **Pregunta** | ¿A través de qué canal de marketing digital se podrá captar nuevos usuarios para ElectroLink con el menor costo de adquisición y la mayor tasa de conversión? |
 |---------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Condición experimental** | La cantidad de nuevos usuarios registrados mediante el canal seleccionado aumenta al menos un 10% respecto al período anterior y presenta el menor costo de adquisición. |
 | **Condición de control** | La cantidad de nuevos usuarios registrados mediante el canal seleccionado no alcanza un incremento del 10% respecto al período anterior. |
 
-| **Pregunta** | ¿Estarán los usuarios dispuestos a adquirir un plan Premium que ofrezca funcionalidades adicionales y beneficios exclusivos dentro de ElectroLink? |
+| **Pregunta** | ¿Qué usuarios estarán dispuestos a adquirir un plan Premium que ofrezca funcionalidades adicionales y beneficios exclusivos dentro de ElectroLink? |
 |---------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Condición experimental** | La cantidad de usuarios con intención positiva de adquirir el plan Premium aumenta al menos un 40% durante el período de evaluación. |
 | **Condición de control** | La cantidad de usuarios con intención positiva de adquirir el plan Premium es inferior al 40% durante el período de evaluación. |
+
+| **Pregunta** | ¿En qué momento del proceso de decisión los propietarios de viviendas y las PYMES determinan contratar un servicio eléctrico: de manera urgente, ante una falla, o de forma planificada, como mantenimiento preventivo? |
+|---------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Condición experimental** | La proporción de solicitudes clasificadas como urgentes es mayor o igual al 60% del total de solicitudes registradas durante el período de evaluación. |
+| **Condición de control** | La proporción de solicitudes clasificadas como urgentes es menor al 60% del total de solicitudes registradas durante el período de evaluación. |
 
 
 ### 8.2.4. Scale Calculations and Decisions
@@ -242,6 +287,7 @@ Cuando los resultados alcancen el **factor ideal**, se considerará que la hipó
 | Creemos que las herramientas de gestión incrementarán el uso recurrente de la plataforma por parte de los técnicos. | Implementar un dashboard de gestión con seguimiento de servicios y desempeño profesional. Sabremos que hemos tenido éxito al medir la frecuencia semanal de uso del dashboard. | <40% | ≥40% | ≥70% | ≥85% |
 | Creemos que las campañas segmentadas permitirán captar nuevos usuarios con un menor costo de adquisición. | Ejecutar campañas en Facebook, Instagram y Google Ads para comparar su rendimiento. Sabremos que hemos tenido éxito al identificar el canal con mayor conversión y menor CAC. | <5% | ≥5% | ≥10% | ≥15% |
 | Creemos que los usuarios estarán dispuestos a adquirir un plan Premium si este ofrece beneficios diferenciados. | Presentar un prototipo del plan Premium y medir la intención de compra. Sabremos que hemos tenido éxito al evaluar el porcentaje de usuarios interesados en contratarlo. | <20% | ≥20% | ≥40% | ≥60% |
+| Creemos que los clientes contratarán mayoritariamente servicios eléctricos de manera urgente, ante una falla, más que de forma planificada. | Incorporar un campo de clasificación de urgencia en el formulario de solicitud y medir la proporción de solicitudes urgentes frente a las planificadas. Sabremos que hemos tenido éxito al identificar el momento predominante de contratación. | <30% | ≥30% | ≥60% | ≥75% |
 
 
 ### 8.2.5. Methods Selection.
@@ -284,6 +330,8 @@ Esta sección define las metas analíticas, los KPIs y las métricas seleccionad
 
 - **Conversión al plan Premium (H5):** Se medirá el porcentaje de usuarios que manifiestan interés en contratar el plan Premium. El objetivo será alcanzar una intención de compra igual o superior al **40%**.
 
+- **Momento de decisión de contratación (H6):** Se medirá la proporción de solicitudes de servicio clasificadas como urgentes frente a las planificadas. El objetivo será identificar que al menos el **60%** de las solicitudes correspondan a necesidades urgentes.
+
 
 ### Análisis Comparativo de Métricas
 
@@ -314,12 +362,13 @@ Los principales eventos que serán monitoreados son los siguientes:
 | **H3** | Acceso al dashboard de gestión | Frecuencia de uso, tiempo de permanencia y funcionalidades utilizadas |
 | **H4** | Registro de nuevos usuarios | Canal de adquisición, costo por adquisición (CAC) y tasa de conversión |
 | **H5** | Visualización y selección del plan Premium | Intención de compra, clics y conversiones al plan Premium |
+| **H6** | Clasificación de la solicitud de servicio | Tipo de solicitud (urgente o planificada) y proporción entre ambas |
 
 La información recopilada será utilizada para comparar los resultados obtenidos entre los grupos de control y experimentales, permitiendo validar o rechazar las hipótesis planteadas y tomar decisiones sobre futuras mejoras de la plataforma.
 
 
 
-### 8.3. Experimentation
+## 8.3. Experimentation
 
 ### 8.3.1. To-Be User Stories.
 
