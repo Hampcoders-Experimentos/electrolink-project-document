@@ -7,7 +7,7 @@
 \small
 \renewcommand{\arraystretch}{1.4}
 
-\begin{tabular}{|p{4.5cm}|p{8cm}|p{4.5cm}|}
+\begin{tabular}{|p{3.8cm}|p{7.9cm}|p{3.8cm}|}
 \hline
 
 \textbf{Criterio específico} &
