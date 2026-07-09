@@ -415,6 +415,14 @@ El To-Be Product Backlog representa una versión priorizada y enfocada del backl
 
 ### 8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence
 
+Aquí se presenta evidencia de la implementación del backend RESTful y/o serverless que soporta las funcionalidades de la plataforma ElectroLink, incluyendo endpoints para gestión de perfiles, solicitudes de servicio, suscripciones y métricas de rendimiento. Desplegado en Render, el backend permite la integración con el frontend web , asegurando una experiencia de usuario consistente y confiable.
+
+![Implementación del Backend](assets/img/cap8/implementation/backend-implementation.png)
+
+\
+
+![RESTful API Swagger desplegado con URL pública](assets/img/cap8/implementation/swagger-api.png)
+
 ### 8.3.3.6. Team Collaboration Insights
 
 ### 8.3.4. To-Be Validation Interviews 
