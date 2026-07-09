@@ -12,8 +12,7 @@
 
 \textbf{Criterio específico} &
 \textbf{Acciones realizadas} &
-\textbf{Conclusiones}
-\\ \hline
+\textbf{Conclusiones} \\ \hline
 
 \textbf{4.c.1 Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software}
 &
@@ -23,6 +22,8 @@
 
 \textbf{TP:} Aplicó buenas prácticas de validación y documentación de pruebas para garantizar calidad y confiabilidad del sistema.
 
+\textbf{TF:} Implementó mejoras en la interfaz y experiencia de usuario en base a resultados de experimentación, asegurando que la solución sea clara, accesible y genere confianza en los usuarios.
+
 \vspace{0.2cm}
 
 \textbf{César Arostegui}
@@ -30,6 +31,8 @@
 \textbf{TP:} Desarrolló pruebas relacionadas con autenticación, restricciones de acceso y validación de planes del sistema.
 
 \textbf{TB2:} Aplicó criterios de seguridad y control de errores en APIs RESTful.
+
+\textbf{TF:} Diseñó y ejecutó entrevistas de validación, asegurando que la recolección de datos se realice de manera ética y representativa, considerando la opinión real de los usuarios.
 
 \vspace{0.2cm}
 
@@ -39,6 +42,8 @@
 
 \textbf{TP:} Participó en la organización y control de calidad de endpoints y documentación técnica.
 
+\textbf{TF:} Registró y analizó resultados de entrevistas, garantizando la trazabilidad de la información y la correcta interpretación de los datos obtenidos.
+
 \vspace{0.2cm}
 
 \textbf{Italo Ludwing Ethan Matias Aliaga Aguirre}
@@ -46,10 +51,13 @@
 \textbf{TP:} Configuró herramientas de análisis estático como SonarQube y CheckStyle para verificar calidad y mantenibilidad del código.
 
 \textbf{TP:} Supervisó métricas de calidad y detección de vulnerabilidades para asegurar estándares profesionales de desarrollo.
-&
-El equipo evidenció responsabilidad ética y profesional mediante la aplicación de buenas prácticas de desarrollo, testing automatizado, control de calidad y validación continua del sistema.
 
-Se priorizó la confiabilidad, mantenibilidad y seguridad de la solución backend desarrollada.
+\textbf{TF:} Implementó y adaptó funcionalidades del sistema (mobile, backend y APIs) en base a hipótesis validadas, priorizando decisiones basadas en evidencia y asegurando responsabilidad en la evolución del producto.
+
+&
+El equipo evidenció responsabilidad ética y profesional mediante la aplicación de buenas prácticas de desarrollo, validación continua, experimentación con usuarios reales y toma de decisiones basada en evidencia.
+
+Se priorizó la confiabilidad, mantenibilidad, seguridad y la construcción de una solución alineada a necesidades reales del usuario.
 \\ \hline
 
 \textbf{4.c.2 Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales}
@@ -60,6 +68,8 @@ Se priorizó la confiabilidad, mantenibilidad y seguridad de la solución backen
 
 \textbf{TP:} Consideró el impacto de la calidad del software en la experiencia y confianza de los usuarios.
 
+\textbf{TF:} Evaluó cómo los cambios en el diseño de la plataforma (como perfiles verificados) impactan directamente en la confianza del usuario y en la adopción del sistema.
+
 \vspace{0.2cm}
 
 \textbf{César Arostegui}
@@ -67,6 +77,8 @@ Se priorizó la confiabilidad, mantenibilidad y seguridad de la solución backen
 \textbf{TP:} Evaluó mecanismos de autenticación y restricciones de acceso para proteger información sensible del sistema.
 
 \textbf{TP:} Aplicó criterios de seguridad y validación considerando riesgos asociados al uso incorrecto de la plataforma.
+
+\textbf{TF:} Analizó los resultados de experimentos para identificar oportunidades de mejora en el modelo de negocio, considerando el impacto económico y la viabilidad del sistema.
 
 \vspace{0.2cm}
 
@@ -76,6 +88,8 @@ Se priorizó la confiabilidad, mantenibilidad y seguridad de la solución backen
 
 \textbf{TP:} Reconoció la importancia de APIs confiables y escalables para garantizar sostenibilidad tecnológica.
 
+\textbf{TF:} Interpretó métricas obtenidas de pruebas y entrevistas para evaluar el comportamiento del sistema y su impacto en los usuarios.
+
 \vspace{0.2cm}
 
 \textbf{Italo Ludwing Ethan Matias Aliaga Aguirre}
@@ -83,8 +97,13 @@ Se priorizó la confiabilidad, mantenibilidad y seguridad de la solución backen
 \textbf{TP:} Implementó herramientas de monitoreo y análisis estático para mejorar la calidad y mantenibilidad del software.
 
 \textbf{TP:} Evaluó métricas de calidad y seguridad considerando impacto técnico y sostenibilidad del proyecto a largo plazo.
+
+\textbf{TF:} Re-priorizó el backlog y ajustó la evolución del sistema en base a resultados experimentales, considerando impacto técnico, económico y experiencia del usuario.
+
 &
-El equipo logró emitir juicios informados relacionados con calidad, seguridad y sostenibilidad del software, comprendiendo el impacto que las decisiones técnicas tienen en la experiencia de usuario, la confiabilidad del sistema y el desarrollo responsable de soluciones tecnológicas.
+El equipo logró emitir juicios informados basados en datos reales obtenidos de experimentación, comprendiendo el impacto de las decisiones en la confianza del usuario, la viabilidad económica del modelo y la sostenibilidad del sistema.
+
+Se fortaleció el enfoque en desarrollo centrado en el usuario y toma de decisiones basada en evidencia.
 \\ \hline
 
 \end{tabular}
