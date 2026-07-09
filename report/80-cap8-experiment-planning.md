@@ -415,25 +415,13 @@ A continuación, se presentan las evidencias visuales de la Landing Page diseña
 
 Se muestra el mensaje principal de la plataforma, destacando la conexión entre propietarios y técnicos certificados. El diseño transmite confianza y profesionalismo desde el primer impacto visual, en línea con la Hipótesis H1 (confianza en perfiles verificados).
 
-![Landing Page Mockup 1](assets/img/cap4/landing/landingpagemockup-1.png)
+![Landing Page Sección 1 y 2](assets/img/cap8/implementation/seccion-landing.png)
 
-**2. Sección "¿Cómo Funciona?"**
+**2. Sección de Beneficios y "ElectroLink en Acción"**
 
-Se explica de forma clara y visual el flujo de uso de la plataforma: buscar técnico, ver perfil verificado, solicitar servicio y calificar. Esta sección refuerza la transparencia del proceso, abordando directamente la incertidumbre identificada en el análisis As-Is.
+Se presentan los beneficios tanto para propietarios (técnicos verificados, reseñas reales) como para técnicos (visibilidad, oportunidades laborales, herramientas de gestión), alineándose con las hipótesis H1 y H2 del experimento. Además, se muestra la demostración visual del uso de la plataforma, incluyendo el perfil del técnico con insignia de verificado, reseñas destacadas y el proceso de solicitud de servicio.
 
-![Landing Page Sección 2](assets/img/cap4/landing/landingpage-seccion2.png)
-
-**3. Sección de Beneficios y Valor**
-
-Se presentan los beneficios tanto para propietarios (técnicos verificados, reseñas reales) como para técnicos (visibilidad, oportunidades laborales, herramientas de gestión), alineándose con las hipótesis H1 y H2 del experimento.
-
-![Landing Page Sección 3](assets/img/cap4/landing/landingpage-seccion3.png)
-
-**4. Sección "ElectroLink en Acción"**
-
-Demostración visual del uso de la plataforma, mostrando el perfil del técnico con insignia de verificado, reseñas destacadas y el proceso de solicitud de servicio. Esto permite al visitante comprender rápidamente la experiencia de usuario antes de registrarse.
-
-![Landing Page Sección 4](assets/img/cap4/landing/landingpage-seccion4.png)
+![Landing Page Sección 3 y 4](assets/img/cap8/implementation/seccion-landing-2.png)
 
 ### 8.3.3.3. Implemented To-Be Frontend-Web Application Evidence
 
@@ -466,6 +454,29 @@ Se implementó una vista para que el técnico pueda gestionar su plan de suscrip
 ### 8.3.3.4. Implemented To-Be Native-Mobile Application Evidence
 
 ### 8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence
+
+Para dar soporte a la funcionalidad de perfiles de técnico verificados y reseñas destacadas implementada en el frontend (EXP-US-001), se realizaron las siguientes modificaciones y adiciones clave en el backend. A continuación, se detallan los endpoints y cambios en el modelo de datos que habilitan esta experiencia de usuario.
+
+1. Modificación del Modelo de Datos del Perfil
+
+Se actualizó la entidad Profile en la base de datos y en el modelo de dominio para incluir el campo booleano isVerified. Este campo es fundamental para que el sistema pueda identificar a los técnicos que han completado el proceso de validación de documentos.
+
+![Back](assets/img/cap8/implementation/seccion-back.png)
+
+2. Endpoint para Obtener Reseñas Destacadas
+
+Se implementó un endpoint específico para obtener únicamente las reseñas más relevantes de un técnico. Esto evita que el frontend tenga que cargar todas las reseñas y filtrarlas, optimizando el rendimiento. El backend se encarga de la lógica de negocio para determinar qué reseñas son "destacadas" (p. ej., aquellas con score = 5 o marcadas manualmente como isFeatured = true).
+
+Endpoint: GET /api/v1/ratings/technicians/{id}/featured
+Descripción: Devuelve una lista de las reseñas destacadas para un técnico específico.
+
+
+![Back 1](assets/img/cap8/implementation/seccion-back-2.png)
+
+
+![Back 2](assets/img/cap8/implementation/seccion-back-3.png)
+
+Estos componentes del backend fueron diseñados para ser eficientes y específicos, asegurando que el frontend solo reciba la información necesaria para construir la interfaz de usuario, optimizando así los tiempos de carga y la experiencia general.
 
 ### 8.3.3.6. Team Collaboration Insights
 
@@ -619,4 +630,6 @@ Finalmente, estos aprendizajes indican que el fortalecimiento de la confianza, l
 
 ### 8.6.1. About-the-Product Intro Video
 
-Video about the team: https://youtu.be/Wx4268KKm6M
+URL: [https://youtu.be/QwZblS3XT_g]
+
+

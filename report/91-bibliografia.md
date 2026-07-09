@@ -8,6 +8,8 @@ Cobos Guillén, C. G. (2023). Azuay Café: propuesta de una escuela cafetería e
 
 Dueñas-Mendoza, A. S., & Zaldumbide-Peralvo, D. A. Estrategias de marketing digital para cafeterías-restaurantes en Esmeraldas, Ecuador. Obtenido de, 593. https://www.academia.edu/download/117711219/2011.pdf/
 
+# Video about the team
+https://youtu.be/Wx4268KKm6M
 
 # Anexos
 
