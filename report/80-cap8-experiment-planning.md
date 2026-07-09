@@ -409,21 +409,60 @@ El To-Be Product Backlog representa una versión priorizada y enfocada del backl
 
 ### 8.3.3.2. Implemented To-Be Landing Page Evidence
 
+A continuación, se presentan las evidencias visuales de la Landing Page diseñada para comunicar la propuesta de valor alineada con los experimentos definidos en el capítulo.
+
+**1. Sección Hero – Conectando con Técnicos Verificados**
+
+Se muestra el mensaje principal de la plataforma, destacando la conexión entre propietarios y técnicos certificados. El diseño transmite confianza y profesionalismo desde el primer impacto visual, en línea con la Hipótesis H1 (confianza en perfiles verificados).
+
+![Landing Page Mockup 1](assets/img/cap4/landing/landingpagemockup-1.png)
+
+**2. Sección "¿Cómo Funciona?"**
+
+Se explica de forma clara y visual el flujo de uso de la plataforma: buscar técnico, ver perfil verificado, solicitar servicio y calificar. Esta sección refuerza la transparencia del proceso, abordando directamente la incertidumbre identificada en el análisis As-Is.
+
+![Landing Page Sección 2](assets/img/cap4/landing/landingpage-seccion2.png)
+
+**3. Sección de Beneficios y Valor**
+
+Se presentan los beneficios tanto para propietarios (técnicos verificados, reseñas reales) como para técnicos (visibilidad, oportunidades laborales, herramientas de gestión), alineándose con las hipótesis H1 y H2 del experimento.
+
+![Landing Page Sección 3](assets/img/cap4/landing/landingpage-seccion3.png)
+
+**4. Sección "ElectroLink en Acción"**
+
+Demostración visual del uso de la plataforma, mostrando el perfil del técnico con insignia de verificado, reseñas destacadas y el proceso de solicitud de servicio. Esto permite al visitante comprender rápidamente la experiencia de usuario antes de registrarse.
+
+![Landing Page Sección 4](assets/img/cap4/landing/landingpage-seccion4.png)
+
 ### 8.3.3.3. Implemented To-Be Frontend-Web Application Evidence
 
 ### 8.3.3.4. Implemented To-Be Native-Mobile Application Evidence
 
 ### 8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence
 
-Aquí se presenta evidencia de la implementación del backend RESTful y/o serverless que soporta las funcionalidades de la plataforma ElectroLink, incluyendo endpoints para gestión de perfiles, solicitudes de servicio, suscripciones y métricas de rendimiento. Desplegado en Render, el backend permite la integración con el frontend web , asegurando una experiencia de usuario consistente y confiable.
-
-![Implementación del Backend](assets/img/cap8/implementation/backend-implementation.png)
-
-\
-
-![RESTful API Swagger desplegado con URL pública](assets/img/cap8/implementation/swagger-api.png)
-
 ### 8.3.3.6. Team Collaboration Insights
+
+Para la planificación y diseño de los experimentos descritos en este capítulo, el equipo de ElectroLink trabajó de manera colaborativa aplicando la metodología Lean UX. A continuación, se presentan las evidencias del trabajo en equipo relacionadas con la Landing Page y la aplicación web frontend.
+
+**1. Sesiones de Planificación de Experimentos**
+
+El equipo sostuvo reuniones de sincronización para definir las Experiment-Ready Questions, priorizar las hipótesis según su impacto y riesgo, y diseñar las Experiment Cards. Durante estas sesiones se utilizó la técnica de las 5W y 1H para formular las preguntas clave de validación, enfocándose en la experiencia de usuario de la landing page y los perfiles verificados.
+
+**2. Diseño Colaborativo de la Landing Page**
+
+La estructura y el contenido de la Landing Page fueron definidos en conjunto por el equipo, asegurando que cada sección (Hero, Cómo Funciona, Beneficios, ElectroLink en Acción) comunicara claramente la propuesta de valor y los elementos de confianza que se buscaban validar en los experimentos.
+
+**3. Elaboración del Guion de Entrevistas de Validación**
+
+Las preguntas para los segmentos de Propietarios (10 preguntas) y Técnicos (10 preguntas) en la sección 8.3.4.1 fueron revisadas y ajustadas por todo el equipo para garantizar que cubrieran los aspectos clave de la interfaz web: la insignia de verificado, la presentación de reseñas destacadas y la facilidad de uso del perfil del técnico.
+
+**4. Ejecución y Análisis de Entrevistas**
+
+Se realizaron entrevistas de validación con usuarios reales, como la entrevista a Fidel Rodriguez (segmento propietario). Los hallazgos fueron analizados colectivamente, permitiendo rescorear y re-priorizar el Question Backlog en la sección 8.4.2 y documentar los aprendizajes en la Learning Card de la sección 8.5, todos centrados en la experiencia del frontend web.
+
+![Insights](assets/img/cap8/implementation/foto.png)
+
 
 ### 8.3.4. To-Be Validation Interviews 
 
@@ -553,3 +592,5 @@ Finalmente, estos aprendizajes indican que el fortalecimiento de la confianza, l
 ### 8.6. To-Be Software Platform Pre-launch
 
 ### 8.6.1. About-the-Product Intro Video
+
+Video about the team: https://youtu.be/Wx4268KKm6M
